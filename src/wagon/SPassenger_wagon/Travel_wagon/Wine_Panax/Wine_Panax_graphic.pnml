@@ -1,0 +1,37 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_wine_Panax_1wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/Wine_Panax/wine_Panax.png") {
+    DTS_temp(80, 0)
+}
+
+spriteset(set_wine_Panax_2wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/Wine_Panax/wine_Panax.png") {
+    DTS_temp(80, 27)
+}
+
+spriteset(set_wine_Panax_3wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/Wine_Panax/wine_Panax.png"){
+    DTS_temp(80, 54)
+}
+
+spriteset(set_wine_Panax_4wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/Wine_Panax/wine_Panax.png") {
+    DTS_temp(80, 81)
+}
+
+spriteset(set_wine_Panax_5wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/Wine_Panax/wine_Panax.png") {
+    DTS_temp(80, 108)
+}
+
+spriteset(set_wine_Panax_6wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/Wine_Panax/wine_Panax.png") {
+    DTS_temp(80, 135)
+}
+
+spriteset(set_wine_Panax_7wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/Wine_Panax/wine_Panax.png") {
+    DTS_temp(80, 162)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+spriteset(set_wine_Panax_wagon_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/wagon/SPassenger_wagon/Travel_wagon/Wine_Panax/wine_Panax.png"){
+    tmpl_wagon_purchase(0, 0)
+}

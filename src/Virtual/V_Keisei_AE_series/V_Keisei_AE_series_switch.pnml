@@ -1,0 +1,20 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch (FEAT_TRAINS, SELF, sw_Kse2_10car, position_in_vehid_chain % 10) {
+    1:set_Kse2_2car_wagon;
+    2:set_Kse2_3car_wagon;
+    3:set_Kse2_4car_wagon;
+    4:set_Kse2_5car_wagon;
+    5:set_Kse2_4car_wagon;
+    6:set_Kse2_5car_wagon;
+    7:set_Kse2_2car_wagon;
+    8:set_Kse2_3car_wagon;
+    9:set_Kse2_engineT;
+    set_Kse2_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_Kse2_10car, extra_callback_info1) {
+    1..9: Keisei_AE_series_10Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }

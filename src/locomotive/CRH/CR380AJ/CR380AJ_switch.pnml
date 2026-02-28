@@ -1,0 +1,31 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_CRH380AJ_8car,
+VEH_KEY_SUB_POS_MODE(cargo_subtype, position_in_vehid_chain, sw_common_mode_flipped())) {
+    /* default: CRH380AJ */
+    VEH_KEY_SUB_POS_MODE(0,0,0): set_CRH380AJ_engineH;
+    VEH_KEY_SUB_POS_MODE(0,1,0): set_CRH380AJ_wagon;
+    VEH_KEY_SUB_POS_MODE(0,2,0): set_CRH380AJ_wagon;
+    VEH_KEY_SUB_POS_MODE(0,3,0): set_CRH380AJ_panto_wagon;
+    VEH_KEY_SUB_POS_MODE(0,4,0): set_CRH380AJ_wagon;
+    VEH_KEY_SUB_POS_MODE(0,5,0): set_CRH380AJ_panto_wagon;
+    VEH_KEY_SUB_POS_MODE(0,6,0): set_CRH380AJ_wagon;
+    VEH_KEY_SUB_POS_MODE(0,7,0): set_CRH380AJ_engineT;
+
+    VEH_KEY_SUB_POS_MODE(0,0,1): set_CRH380AJ_engineT_r;
+    VEH_KEY_SUB_POS_MODE(0,1,1): set_CRH380AJ_wagon;
+    VEH_KEY_SUB_POS_MODE(0,2,1): set_CRH380AJ_panto_wagon;
+    VEH_KEY_SUB_POS_MODE(0,3,1): set_CRH380AJ_wagon;
+    VEH_KEY_SUB_POS_MODE(0,4,1): set_CRH380AJ_panto_wagon;
+    VEH_KEY_SUB_POS_MODE(0,5,1): set_CRH380AJ_wagon;
+    VEH_KEY_SUB_POS_MODE(0,6,1): set_CRH380AJ_wagon;
+    VEH_KEY_SUB_POS_MODE(0,7,1): set_CRH380AJ_engineH_r;
+  
+    return set_CRH380AJ_engineH;
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_CRH380AJ_8car, extra_callback_info1) {
+    1..7: CRH380AJ_8Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }

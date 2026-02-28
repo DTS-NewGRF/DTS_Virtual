@@ -1,0 +1,18 @@
+/*--------------------------------------------------------------------
+스위치
+충북국악와인열차 사용
+--------------------------------------------------------------------*/
+switch (FEAT_TRAINS, SELF, sw_Asean_Korea_wagon, position_in_vehid_chain % 7) {
+    1:set_CY_GW_6Car_1wagon;
+    2:set_CY_GW_6Car_2wagon;
+    3:set_CY_GW_6Car_3wagon;
+    4:set_CY_GW_6Car_4wagon;
+    5:set_CY_GW_6Car_5wagon;
+    6:set_CY_GW_6Car_6wagon;
+    set_Asean_Korea_wagon; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_Asean_Korea_7car, extra_callback_info1) {
+    1..6: Asean_Korea;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }

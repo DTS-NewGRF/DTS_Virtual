@@ -1,0 +1,246 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+// 도색명
+switch(FEAT_TRAINS, SELF, sw_CDC_3Car_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_CDC_New);
+    2: return string(STR_REFIT_LIVERY_CDC_Flower_Garden); // 꽃동산 도색
+    3: return string(STR_REFIT_LIVERY_CDC_Baekje_Crown);  // 백제왕관 도색
+    4: return string(STR_REFIT_LIVERY_CDC_Sea_Old);       // 바다열차 구도색
+    5: return string(STR_REFIT_LIVERY_CDC_DMZ);           // DMZ
+    return string(STR_REFIT_LIVERY_CDC_Old);
+}
+
+switch(FEAT_TRAINS, SELF, sw_CDC_4Car_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_CDC_New);
+    2: return string(STR_REFIT_LIVERY_CDC_Flower_Garden); // 꽃동산 도색
+    3: return string(STR_REFIT_LIVERY_CDC_Baekje_Crown);  // 백제왕관 도색
+    4: return string(STR_REFIT_LIVERY_CDC_Sea_New);       // 바다열차 신도색
+    return string(STR_REFIT_LIVERY_CDC_Old);
+}
+
+switch(FEAT_TRAINS, SELF, sw_CDC_5Car_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_CDC_New);
+    2: return string(STR_REFIT_LIVERY_CDC_Flower_Garden); // 꽃동산 도색
+    3: return string(STR_REFIT_LIVERY_CDC_Beach);         // 해변도색
+    4: return string(STR_REFIT_LIVERY_CDC_Baekje_Crown);  // 백제왕관 도색
+    return string(STR_REFIT_LIVERY_CDC_Old);
+}
+
+// 3량
+switch(FEAT_TRAINS, SELF, sw_CDC_3car_reversed,
+VEH_KEY_SUB_POS_MODE(cargo_subtype, position_in_vehid_chain, sw_common_mode_reversed())) {
+    /* default: Old */
+    VEH_KEY_SUB_POS_MODE(0,0,0): set_CDC_Old_engineH;
+    VEH_KEY_SUB_POS_MODE(0,1,0): set_CDC_Old_wagon;
+    VEH_KEY_SUB_POS_MODE(0,2,0): set_CDC_Old_engineT;
+
+    VEH_KEY_SUB_POS_MODE(0,0,1): set_CDC_Old_engineT_r;
+    VEH_KEY_SUB_POS_MODE(0,1,1): set_CDC_Old_wagon_r;
+    VEH_KEY_SUB_POS_MODE(0,2,1): set_CDC_Old_engineH_r;
+    
+    /* subtype 1: New */
+    VEH_KEY_SUB_POS_MODE(1,0,0): set_CDC_New_engineH;
+    VEH_KEY_SUB_POS_MODE(1,1,0): set_CDC_New_wagon;
+    VEH_KEY_SUB_POS_MODE(1,2,0): set_CDC_New_engineT;
+
+    VEH_KEY_SUB_POS_MODE(1,0,1): set_CDC_New_engineT_r;
+    VEH_KEY_SUB_POS_MODE(1,1,1): set_CDC_New_wagon_r;
+    VEH_KEY_SUB_POS_MODE(1,2,1): set_CDC_New_engineH_r;
+
+    /* subtype 2: Flower_Garden */
+    VEH_KEY_SUB_POS_MODE(2,0,0): set_CDC_Flower_Garden_engineH;
+    VEH_KEY_SUB_POS_MODE(2,1,0): set_CDC_Flower_Garden_wagon;
+    VEH_KEY_SUB_POS_MODE(2,2,0): set_CDC_Flower_Garden_engineT;
+
+    VEH_KEY_SUB_POS_MODE(2,0,1): set_CDC_Flower_Garden_engineT_r;
+    VEH_KEY_SUB_POS_MODE(2,1,1): set_CDC_Flower_Garden_wagon_r;
+    VEH_KEY_SUB_POS_MODE(2,2,1): set_CDC_Flower_Garden_engineH_r;
+
+    /* subtype 3: Baekje_Crown */
+    VEH_KEY_SUB_POS_MODE(3,0,0): set_CDC_Baekje_Crown_engineH;
+    VEH_KEY_SUB_POS_MODE(3,1,0): set_CDC_Baekje_Crown_wagon;
+    VEH_KEY_SUB_POS_MODE(3,2,0): set_CDC_Baekje_Crown_engineT;
+
+    VEH_KEY_SUB_POS_MODE(3,0,1): set_CDC_Baekje_Crown_engineT_r;
+    VEH_KEY_SUB_POS_MODE(3,1,1): set_CDC_Baekje_Crown_wagon_r;
+    VEH_KEY_SUB_POS_MODE(3,2,1): set_CDC_Baekje_Crown_engineH_r;
+
+    /* ===== subtype 4: Sea_Old ===== */
+    VEH_KEY_SUB_POS_MODE(4,0,0): set_CDC_Sea_Old_engineH;
+    VEH_KEY_SUB_POS_MODE(4,1,0): set_CDC_Sea_Old_wagon;
+    VEH_KEY_SUB_POS_MODE(4,2,0): set_CDC_Sea_Old_engineT;
+
+    VEH_KEY_SUB_POS_MODE(4,0,1): set_CDC_Sea_Old_engineT_r;
+    VEH_KEY_SUB_POS_MODE(4,1,1): set_CDC_Sea_Old_wagon_r;
+    VEH_KEY_SUB_POS_MODE(4,2,1): set_CDC_Sea_Old_engineH_r;
+
+    /* ===== subtype 1: DMZ ===== */
+    VEH_KEY_SUB_POS_MODE(5,0,0): set_CDC_DMZ_engineH;
+    VEH_KEY_SUB_POS_MODE(5,1,0): set_CDC_DMZ_wagon;
+    VEH_KEY_SUB_POS_MODE(5,2,0): set_CDC_DMZ_engineT;
+
+    VEH_KEY_SUB_POS_MODE(5,0,1): set_CDC_DMZ_engineT_r;
+    VEH_KEY_SUB_POS_MODE(5,1,1): set_CDC_DMZ_wagon_r;
+    VEH_KEY_SUB_POS_MODE(5,2,1): set_CDC_DMZ_engineH_r;
+    
+    return set_CDC_Old_engineH;
+    }
+
+// 4량
+switch(FEAT_TRAINS, SELF, sw_CDC_4car_reversed,
+VEH_KEY_SUB_POS_MODE(cargo_subtype, position_in_vehid_chain, sw_common_mode_reversed())) {
+    /* ===== default: Old ===== */
+    VEH_KEY_SUB_POS_MODE(0,0,0): set_CDC_Old_engineH;
+    VEH_KEY_SUB_POS_MODE(0,1,0): set_CDC_Old_wagon;
+    VEH_KEY_SUB_POS_MODE(0,2,0): set_CDC_Old_wagon;
+    VEH_KEY_SUB_POS_MODE(0,3,0): set_CDC_Old_engineT;
+
+    VEH_KEY_SUB_POS_MODE(0,0,1): set_CDC_Old_engineT_r;
+    VEH_KEY_SUB_POS_MODE(0,1,1): set_CDC_Old_wagon_r;
+    VEH_KEY_SUB_POS_MODE(0,2,1): set_CDC_Old_wagon_r;
+    VEH_KEY_SUB_POS_MODE(0,3,1): set_CDC_Old_engineH_r;
+
+    /* ===== subtype 1: New ===== */
+    VEH_KEY_SUB_POS_MODE(1,0,0): set_CDC_New_engineH;
+    VEH_KEY_SUB_POS_MODE(1,1,0): set_CDC_New_wagon;
+    VEH_KEY_SUB_POS_MODE(1,2,0): set_CDC_New_wagon;
+    VEH_KEY_SUB_POS_MODE(1,3,0): set_CDC_New_engineT;
+
+    VEH_KEY_SUB_POS_MODE(1,0,1): set_CDC_New_engineT_r;
+    VEH_KEY_SUB_POS_MODE(1,1,1): set_CDC_New_wagon_r;
+    VEH_KEY_SUB_POS_MODE(1,2,1): set_CDC_New_wagon_r;
+    VEH_KEY_SUB_POS_MODE(1,3,1): set_CDC_New_engineH_r;
+
+    /* subtype 2: Flower_Garden */
+    VEH_KEY_SUB_POS_MODE(2,0,0): set_CDC_Flower_Garden_engineH;
+    VEH_KEY_SUB_POS_MODE(2,1,0): set_CDC_Flower_Garden_wagon;
+    VEH_KEY_SUB_POS_MODE(2,2,0): set_CDC_Flower_Garden_wagon;
+    VEH_KEY_SUB_POS_MODE(2,3,0): set_CDC_Flower_Garden_engineT;
+
+    VEH_KEY_SUB_POS_MODE(2,0,1): set_CDC_Flower_Garden_engineT_r;
+    VEH_KEY_SUB_POS_MODE(2,1,1): set_CDC_Flower_Garden_wagon_r;
+    VEH_KEY_SUB_POS_MODE(2,2,1): set_CDC_Flower_Garden_wagon_r;
+    VEH_KEY_SUB_POS_MODE(2,3,1): set_CDC_Flower_Garden_engineH_r;
+
+    /* subtype 3: Baekje_Crown */
+    VEH_KEY_SUB_POS_MODE(3,0,0): set_CDC_Baekje_Crown_engineH;
+    VEH_KEY_SUB_POS_MODE(3,1,0): set_CDC_Baekje_Crown_wagon;
+    VEH_KEY_SUB_POS_MODE(3,2,0): set_CDC_Baekje_Crown_wagon;
+    VEH_KEY_SUB_POS_MODE(3,3,0): set_CDC_Baekje_Crown_engineT;
+
+    VEH_KEY_SUB_POS_MODE(3,0,1): set_CDC_Baekje_Crown_engineT_r;
+    VEH_KEY_SUB_POS_MODE(3,1,1): set_CDC_Baekje_Crown_wagon_r;
+    VEH_KEY_SUB_POS_MODE(3,2,1): set_CDC_Baekje_Crown_wagon_r;
+    VEH_KEY_SUB_POS_MODE(3,3,1): set_CDC_Baekje_Crown_engineH_r;
+
+    /* subtype 4: Sea_New */
+    VEH_KEY_SUB_POS_MODE(4,0,0): set_CDC_Sea_New_engineH;
+    VEH_KEY_SUB_POS_MODE(4,1,0): set_CDC_Sea_New_wagon_M1;
+    VEH_KEY_SUB_POS_MODE(4,2,0): set_CDC_Sea_New_wagon_M2;
+    VEH_KEY_SUB_POS_MODE(4,3,0): set_CDC_Sea_New_engineT;
+
+    VEH_KEY_SUB_POS_MODE(4,0,1): set_CDC_Sea_New_engineT_r;
+    VEH_KEY_SUB_POS_MODE(4,1,1): set_CDC_Sea_New_wagon_M2_r;
+    VEH_KEY_SUB_POS_MODE(4,2,1): set_CDC_Sea_New_wagon_M1_r;
+    VEH_KEY_SUB_POS_MODE(4,3,1): set_CDC_Sea_New_engineH_r;
+
+    return set_CDC_Old_engineH;
+    }
+
+// 5량
+switch(FEAT_TRAINS, SELF, sw_CDC_5car_reversed,
+VEH_KEY_SUB_POS_MODE(cargo_subtype, position_in_vehid_chain, sw_common_mode_reversed())) {
+    /* default: Old */
+    VEH_KEY_SUB_POS_MODE(0,0,0): set_CDC_Old_engineH;
+    VEH_KEY_SUB_POS_MODE(0,1,0): set_CDC_Old_wagon;
+    VEH_KEY_SUB_POS_MODE(0,2,0): set_CDC_Old_wagon;
+    VEH_KEY_SUB_POS_MODE(0,3,0): set_CDC_Old_wagon;
+    VEH_KEY_SUB_POS_MODE(0,4,0): set_CDC_Old_engineT;
+
+    VEH_KEY_SUB_POS_MODE(0,0,1): set_CDC_Old_engineT_r;
+    VEH_KEY_SUB_POS_MODE(0,1,1): set_CDC_Old_wagon_r;
+    VEH_KEY_SUB_POS_MODE(0,2,1): set_CDC_Old_wagon_r;
+    VEH_KEY_SUB_POS_MODE(0,3,1): set_CDC_Old_wagon_r;
+    VEH_KEY_SUB_POS_MODE(0,4,1): set_CDC_Old_engineH_r;
+
+    /* subtype 1: New */
+    VEH_KEY_SUB_POS_MODE(1,0,0): set_CDC_New_engineH;
+    VEH_KEY_SUB_POS_MODE(1,1,0): set_CDC_New_wagon;
+    VEH_KEY_SUB_POS_MODE(1,2,0): set_CDC_New_wagon;
+    VEH_KEY_SUB_POS_MODE(1,3,0): set_CDC_New_wagon;
+    VEH_KEY_SUB_POS_MODE(1,4,0): set_CDC_New_engineT;
+
+    VEH_KEY_SUB_POS_MODE(1,0,1): set_CDC_New_engineT_r;
+    VEH_KEY_SUB_POS_MODE(1,1,1): set_CDC_New_wagon_r;
+    VEH_KEY_SUB_POS_MODE(1,2,1): set_CDC_New_wagon_r;
+    VEH_KEY_SUB_POS_MODE(1,3,1): set_CDC_New_wagon_r;
+    VEH_KEY_SUB_POS_MODE(1,4,1): set_CDC_New_engineH_r;
+
+    /* subtype 2: Flower_Garden */
+    VEH_KEY_SUB_POS_MODE(2,0,0): set_CDC_Flower_Garden_engineH;
+    VEH_KEY_SUB_POS_MODE(2,1,0): set_CDC_Flower_Garden_wagon;
+    VEH_KEY_SUB_POS_MODE(2,2,0): set_CDC_Flower_Garden_wagon;
+    VEH_KEY_SUB_POS_MODE(2,3,0): set_CDC_Flower_Garden_wagon;
+    VEH_KEY_SUB_POS_MODE(2,4,0): set_CDC_Flower_Garden_engineT;
+
+    VEH_KEY_SUB_POS_MODE(2,0,1): set_CDC_Flower_Garden_engineT_r;
+    VEH_KEY_SUB_POS_MODE(2,1,1): set_CDC_Flower_Garden_wagon_r;
+    VEH_KEY_SUB_POS_MODE(2,2,1): set_CDC_Flower_Garden_wagon_r;
+    VEH_KEY_SUB_POS_MODE(2,3,1): set_CDC_Flower_Garden_wagon_r;
+    VEH_KEY_SUB_POS_MODE(2,4,1): set_CDC_Flower_Garden_engineH_r;
+
+    /* subtype 3: Beach */
+    VEH_KEY_SUB_POS_MODE(3,0,0): set_CDC_Beach_engineH;
+    VEH_KEY_SUB_POS_MODE(3,1,0): set_CDC_Beach_wagon;
+    VEH_KEY_SUB_POS_MODE(3,2,0): set_CDC_Beach_wagon;
+    VEH_KEY_SUB_POS_MODE(3,3,0): set_CDC_Beach_wagon;
+    VEH_KEY_SUB_POS_MODE(3,4,0): set_CDC_Beach_engineT;
+
+    VEH_KEY_SUB_POS_MODE(3,0,1): set_CDC_Beach_engineT_r;
+    VEH_KEY_SUB_POS_MODE(3,1,1): set_CDC_Beach_wagon_r;
+    VEH_KEY_SUB_POS_MODE(3,2,1): set_CDC_Beach_wagon_r;
+    VEH_KEY_SUB_POS_MODE(3,3,1): set_CDC_Beach_wagon_r;
+    VEH_KEY_SUB_POS_MODE(3,4,1): set_CDC_Beach_engineH_r;
+
+    /* subtype 4: Baekje_Crown */
+    VEH_KEY_SUB_POS_MODE(4,0,0): set_CDC_Baekje_Crown_engineH;
+    VEH_KEY_SUB_POS_MODE(4,1,0): set_CDC_Baekje_Crown_wagon;
+    VEH_KEY_SUB_POS_MODE(4,2,0): set_CDC_Baekje_Crown_wagon;
+    VEH_KEY_SUB_POS_MODE(4,3,0): set_CDC_Baekje_Crown_wagon;
+    VEH_KEY_SUB_POS_MODE(4,4,0): set_CDC_Baekje_Crown_engineT;
+
+    VEH_KEY_SUB_POS_MODE(4,0,1): set_CDC_Baekje_Crown_engineT_r;
+    VEH_KEY_SUB_POS_MODE(4,1,1): set_CDC_Baekje_Crown_wagon_r;
+    VEH_KEY_SUB_POS_MODE(4,2,1): set_CDC_Baekje_Crown_wagon_r;
+    VEH_KEY_SUB_POS_MODE(4,3,1): set_CDC_Baekje_Crown_wagon_r;
+    VEH_KEY_SUB_POS_MODE(4,4,1): set_CDC_Baekje_Crown_engineH_r;
+
+    return set_CDC_Old_engineH;
+    }
+
+// 편성수
+switch (FEAT_TRAINS, SELF, sw_articulated_CDC_3car, extra_callback_info1) {
+    1..2: CDC_3Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_CDC_4car, extra_callback_info1) {
+    1..3: CDC_4Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_CDC_5car, extra_callback_info1) {
+    1..4: CDC_5Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch(FEAT_TRAINS, SELF, sw_CDC_3car_capacity_in_custom, cargo_subtype) {
+    4: return 34;
+       84;
+    }
+
+switch(FEAT_TRAINS, SELF, sw_CDC_4car_capacity_in_custom, cargo_subtype) {
+    4: return 30;
+       86;
+    }

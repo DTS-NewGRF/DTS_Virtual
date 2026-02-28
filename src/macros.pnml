@@ -1,0 +1,64 @@
+/*------------------------------------------------------------------------------
+ Common key + common direction mode (robust)
+ - KEY = subtype + position + mode
+ - subtype: 0..1023 (10 bits)
+ - pos    : 0..255  (8 bits)
+ - mode   : 0..15   (4 bits)  (we use 0/1)
+------------------------------------------------------------------------------*/
+
+#ifndef DTS_COMMON_KEY
+#define DTS_COMMON_KEY
+
+/* ---- bit layout ---- */
+#define VEH_SUB_BITS    10
+#define VEH_POS_BITS    8
+#define VEH_MODE_BITS   4
+
+#define VEH_SUB_MASK    ((1 << VEH_SUB_BITS) - 1)   // 0x3FF
+#define VEH_POS_MASK    ((1 << VEH_POS_BITS) - 1)   // 0xFF
+#define VEH_MODE_MASK   ((1 << VEH_MODE_BITS) - 1)  // 0x0F
+
+#define VEH_SUB_SHIFT   0
+#define VEH_POS_SHIFT   (VEH_SUB_SHIFT + VEH_SUB_BITS)   // 10
+#define VEH_MODE_SHIFT  (VEH_POS_SHIFT + VEH_POS_BITS)   // 18
+
+/* ---- key macro (masked) ---- */
+#define VEH_KEY_SUB_POS_MODE(subtype, pos, mode) \
+    (((subtype) & VEH_SUB_MASK) | (((pos) & VEH_POS_MASK) << VEH_POS_SHIFT) | (((mode) & VEH_MODE_MASK) << VEH_MODE_SHIFT))
+
+/*------------------------------------------------------------------------------
+ IMPORTANT NOTE
+ - "Too many ranges" is NOT caused by key collisions.
+ - It is caused by TOO MANY case/range entries inside a switch.
+ - Changing VEH_KEY_SUB_POS_MODE alone cannot reduce case count.
+ - To fix it, you must merge repeated cases into ranges (1..15 etc.) or split switches.
+------------------------------------------------------------------------------*/
+
+/* ---- mode helper: flipped -> 0/1 (your mapping)
+   flipped=0 -> 1
+   flipped=1 -> 0
+*/
+switch(FEAT_TRAINS, SELF, sw_common_mode_flipped, vehicle_is_flipped) {
+    0: return 1;
+    return 0;
+}
+
+/* ---- mode: reversed gate (your original behavior)
+   reversed=0 -> 0
+   reversed=1 -> sw_common_mode_flipped
+*/
+switch(FEAT_TRAINS, PARENT, sw_common_mode_reversed, vehicle_is_reversed) {
+    0: return 0;
+    return sw_common_mode_flipped;
+}
+
+/*------------------------------------------------------------------------------
+ Optional helper macros to compress cases (use later if you decide to fix ranges)
+ These do NOT change behavior, only help you write fewer case lines.
+ Example:
+   VEH_CASE_RANGE(0, 1..5, 0): set_CR400AF_wagon;
+------------------------------------------------------------------------------*/
+#define VEH_CASE(subtype, pos, mode) VEH_KEY_SUB_POS_MODE(subtype, pos, mode)
+#define VEH_CASE_RANGE(subtype, pos_range, mode) VEH_KEY_SUB_POS_MODE(subtype, pos_range, mode)
+
+#endif

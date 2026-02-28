@@ -1,0 +1,25 @@
+name: "[버그사항]"
+description: DTS에 버그사항을 찾으셨습니까?
+title: "[버그]"
+labels: "Bug"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        버그사항 접수해주셔서 감사합니다.!
+  - type: textarea
+    attributes:
+      label: 버그사항
+      description: 문제가 발생한 버그사항. 필요시 스샷 첨부
+  - type: textarea
+    attributes:
+      label: 깃허브 자료실 파일명
+      description: 깃허브 자료실내 파일명을 명시해주세요. 이슈적용시 혼란을 막기 위함입니다. 번거롭더라도 협조부탁드립니다.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 개선점
+      description: 개선될 사항을 알려주세요.
+    validations:
+      required: true

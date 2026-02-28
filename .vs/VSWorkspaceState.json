@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\locomotive",
+    "\\src\\locomotive\\KTX_SC",
+    "\\src\\metro",
+    "\\src\\metro\\VVVF",
+    "\\src\\metro\\VVVF\\Korail_1st",
+    "\\src\\metro\\VVVF\\Korail_2nd",
+    "\\src\\metro\\VVVF\\Korail_3rd",
+    "\\src\\metro\\VVVF\\Korail_4th"
+  ],
+  "SelectedNode": "\\src\\metro\\VVVF\\Korail_1st\\Korail_VVVF_1st_switch.pnml",
+  "PreviewInSolutionExplorer": false
+}

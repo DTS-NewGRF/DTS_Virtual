@@ -1,0 +1,15 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+// 도색명
+// 편성그래픽
+switch (FEAT_TRAINS, SELF, sw_UI_Sinseol_2car, position_in_vehid_chain % 2) {
+    1:set_UI_Sinseol_engineT;
+    set_UI_Sinseol_engineH; //default
+    }
+
+// 편성량
+switch (FEAT_TRAINS, SELF, sw_articulated_UI_Sinseol_2car, extra_callback_info1) {
+    1: Ui_Sinseol_2Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }

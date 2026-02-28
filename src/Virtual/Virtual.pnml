@@ -1,0 +1,36 @@
+/*--------------------------------------------------------------------
+가상
+--------------------------------------------------------------------*/
+// Graphics
+#include "Virtual_graphic.pnml"
+
+/*--------------------------------------------------------------------
+열차정보 그룹
+--------------------------------------------------------------------*/
+item(FEAT_TRAINS, Virtual, 2572){
+    property {
+        name:                           string(STR_Group_Virtual_NAME);
+        climates_available:             NO_CLIMATE;
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        power:                          2592 kW;
+        }
+        
+    graphics {
+        purchase:                       set_Virtual_purchase;
+        }
+    }
+
+/*--------------------------------------------------------------------
+열차 리스트
+--------------------------------------------------------------------*/
+#include "HYEL/HYEL.pnml"
+#include "V_ITX/V_ITX.pnml"
+#include "V_Nuriro/V_Nuriro.pnml"
+#include "V_Nuriro_DD/V_Nuriro_DD.pnml"
+#include "V_KTX/V_KTX.pnml"
+#include "V_Metro/V_Metro.pnml"
+#include "CL_150/CL_150.pnml"
+#include "V_H2_WJ/V_H2_WJ.pnml"
+#include "V_Keisei_AE_series/V_Keisei_AE_series.pnml"

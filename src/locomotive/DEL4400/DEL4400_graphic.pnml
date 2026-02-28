@@ -1,0 +1,43 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_DEL4400_engine_A, "src/locomotive/DEL4400/DEL4400.png"){
+    DTS_temp_mini_6(80, 0)
+}
+
+spriteset(set_DEL4400_engine_B, "src/locomotive/DEL4400/DEL4400.png"){
+    DTS_temp_mini_6(80, 27)
+}
+
+spriteset(set_DEL4400_engine_C, "src/locomotive/DEL4400/DEL4400.png"){
+    DTS_temp_mini_6(80, 54)
+}
+
+spriteset(set_DEL4400_engine_D, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DEL4400/DEL4400_32bpp.png"){
+    DTS_temp_mini_6(80, 0)
+}
+
+/*-------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+spriteset(set_DEL4400_A_purchase, "src/locomotive/DEL4400/DEL4400.png"){
+    tmpl_single_purchase(0, 0)
+}
+
+spriteset(set_DEL4400_B_purchase, "src/locomotive/DEL4400/DEL4400.png"){
+    tmpl_single_purchase(0, 27)
+}
+
+// 등장년도
+switch(FEAT_TRAINS, SELF, sw_DEL4400_2001_purchase, cargo_subtype) {
+    set_DEL4400_A_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DEL4400_2004_purchase, cargo_subtype) {
+    set_DEL4400_B_purchase;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DEL4400_purchase, current_year) {
+    0..2003: sw_DEL4400_2001_purchase;
+    sw_DEL4400_2004_purchase;
+    }

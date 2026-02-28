@@ -1,0 +1,28 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+TTX
+--------------------------------------------------------------------*/
+spriteset(set_TTX_engineH, "src/locomotive/TTX/TTX.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_TTX_wagon, "src/locomotive/TTX/TTX.png") {
+    DTS_temp(80, 27)
+}
+
+spriteset(set_TTX_wagon_r, "src/locomotive/TTX/TTX.png") {
+    DTS_temp(80, 54)
+}
+
+spriteset(set_TTX_engineT, "src/locomotive/TTX/TTX.png"){
+    DTS_temp(80, 81)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+spriteset(set_TTX_purchase, "src/locomotive/TTX/TTX.png"){
+    tmpl_purchase(0, 0)
+}
