@@ -10,7 +10,7 @@ PEX Super
 /*--------------------------------------------------------------------
 열차정보 그룹
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, PEX_Super, 2439){
+item(FEAT_TRAINS, PEX_Super, 1008){
     property {
         name:                           string(STR_Group_PEX_Super_NAME);
         climates_available:             NO_CLIMATE;
@@ -21,14 +21,13 @@ item(FEAT_TRAINS, PEX_Super, 2439){
 
     graphics {
         purchase:                       set_PEX_Super_purchase_Logo;
-        additional_text:                string(STR_REFIT_train_configuration_PEX_SUPER);
         }
         }
 
 /*--------------------------------------------------------------------
 열차정보 1층 차량
 --------------------------------------------------------------------*/  
-item (FEAT_TRAINS, PEX_Super_N, 2440){
+item (FEAT_TRAINS, PEX_Super_N, 1009){
     property {
         name:                           string(STR_PEX_Super_N_NAME);
         climates_available:             ALL_CLIMATES;
@@ -70,14 +69,13 @@ item (FEAT_TRAINS, PEX_Super_N, 2440){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;
-        additional_text:                string(STR_REFIT_train_configuration_PEX_SUPER);
         }
     }
 
 /*--------------------------------------------------------------------
 열차정보 특실차량
 --------------------------------------------------------------------*/  
-item (FEAT_TRAINS, PEX_Super_SN, 2441){
+item (FEAT_TRAINS, PEX_Super_SN, 1010){
     property {
         name:                           string(STR_PEX_Super_SN_NAME);
         climates_available:             ALL_CLIMATES;
@@ -119,14 +117,13 @@ item (FEAT_TRAINS, PEX_Super_SN, 2441){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;
-        additional_text:                string(STR_REFIT_train_configuration_PEX_SUPER);
         }
     }
 
 /*--------------------------------------------------------------------
 열차정보 2층
 --------------------------------------------------------------------*/  
-item (FEAT_TRAINS, PEX_Super_D, 2442){
+item (FEAT_TRAINS, PEX_Super_D, 1011){
     property {
         name:                           string(STR_PEX_Super_D_NAME);
         climates_available:             ALL_CLIMATES;
@@ -168,14 +165,13 @@ item (FEAT_TRAINS, PEX_Super_D, 2442){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;
-        additional_text:                string(STR_REFIT_train_configuration_PEX_SUPER);
         }
     }
 
 /*--------------------------------------------------------------------
 열차정보 식당칸
 --------------------------------------------------------------------*/  
-item (FEAT_TRAINS, PEX_Super_B, 2443){
+item (FEAT_TRAINS, PEX_Super_B, 1012){
     property {
         name:                           string(STR_PEX_Super_B_NAME);
         climates_available:             ALL_CLIMATES;
@@ -217,14 +213,13 @@ item (FEAT_TRAINS, PEX_Super_B, 2443){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;
-        additional_text:                string(STR_REFIT_train_configuration_PEX_SUPER);
         }
     }
 
 /*--------------------------------------------------------------------
 열차정보 침대칸
 --------------------------------------------------------------------*/  
-item (FEAT_TRAINS, PEX_Super_S, 2444){
+item (FEAT_TRAINS, PEX_Super_S, 1013){
     property {
         name:                           string(STR_PEX_Super_S_NAME);
         climates_available:             ALL_CLIMATES;
@@ -266,6 +261,5 @@ item (FEAT_TRAINS, PEX_Super_S, 2444){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;
-        additional_text:                string(STR_REFIT_train_configuration_PEX_SUPER);
         }
     }

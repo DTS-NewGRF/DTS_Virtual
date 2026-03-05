@@ -7,7 +7,7 @@ CRH
 /*--------------------------------------------------------------------
 열차정보 그룹
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, CRH_Logo, 2518){
+item(FEAT_TRAINS, CRH_Logo, 0021){
     property {
         name:                           string(STR_Group_CRH_Logo_NAME);
         climates_available:             NO_CLIMATE;
@@ -35,8 +35,6 @@ item(FEAT_TRAINS, CRH_Logo, 2518){
 #include "CRH380B/CRH380B.pnml"
 #include "CRH380C/CRH380C.pnml"
 #include "CRH380D/CRH380D.pnml"
-#include "CR380AJ/CR380AJ.pnml"
-#include "CR400AF/CR400AF.pnml"
 #include "CR400AF_Z/CR400AF_Z.pnml"
 #include "CR400BF/CR400BF.pnml"
 #include "CR400BF_C/CR400BF_C.pnml"

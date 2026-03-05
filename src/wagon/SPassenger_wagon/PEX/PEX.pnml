@@ -10,11 +10,11 @@ PEX
 /*--------------------------------------------------------------------
 열차정보 그룹
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, PEX, 2333){
+item(FEAT_TRAINS, PEX, 1002){
     property {
         name:                           string(STR_Group_PEX_NAME);
         climates_available:             NO_CLIMATE;
-        track_type:                     ELRL;
+        track_type:                     RAIL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         }
@@ -27,7 +27,7 @@ item(FEAT_TRAINS, PEX, 2333){
 /*--------------------------------------------------------------------
 열차정보 1층 차량
 --------------------------------------------------------------------*/  
-item (FEAT_TRAINS, PEX_N, 2334){
+item (FEAT_TRAINS, PEX_N, 1003){
     property {
         name:                           string(STR_PEX_N_NAME);
         climates_available:             ALL_CLIMATES;
@@ -56,10 +56,9 @@ item (FEAT_TRAINS, PEX_N, 2334){
 
         //Costs
         refit_cost:                     0;
-        running_cost_base:              RUNNING_COST_ELECTRIC;
 
         //Flags
-        misc_flags:                     bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        misc_flags:                     bitmask(TRAIN_FLAG_MU, TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
         extra_weight_per_wagon:         20 ton;
     }
 
@@ -69,14 +68,13 @@ item (FEAT_TRAINS, PEX_N, 2334){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;
-        additional_text:                string(STR_REFIT_train_configuration_PEX);
         }
     }
 
 /*--------------------------------------------------------------------
 열차정보 특실차량
 --------------------------------------------------------------------*/  
-item (FEAT_TRAINS, PEX_SN, 2335){
+item (FEAT_TRAINS, PEX_SN, 1004){
     property {
         name:                           string(STR_PEX_SN_NAME);
         climates_available:             ALL_CLIMATES;
@@ -105,10 +103,9 @@ item (FEAT_TRAINS, PEX_SN, 2335){
 
         //Costs
         refit_cost:                     0;
-        running_cost_base:              RUNNING_COST_ELECTRIC;
 
         //Flags
-        misc_flags:                     bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        misc_flags:                     bitmask(TRAIN_FLAG_MU, TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
         extra_weight_per_wagon:         20 ton;
     }
 
@@ -118,14 +115,13 @@ item (FEAT_TRAINS, PEX_SN, 2335){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;
-        additional_text:                string(STR_REFIT_train_configuration_PEX);
         }
     }
 
 /*--------------------------------------------------------------------
 열차정보 2층
 --------------------------------------------------------------------*/  
-item (FEAT_TRAINS, PEX_D, 2336){
+item (FEAT_TRAINS, PEX_D, 1005){
     property {
         name:                           string(STR_PEX_D_NAME);
         climates_available:             ALL_CLIMATES;
@@ -154,10 +150,9 @@ item (FEAT_TRAINS, PEX_D, 2336){
 
         //Costs
         refit_cost:                     0;
-        running_cost_base:              RUNNING_COST_ELECTRIC;
 
         //Flags
-        misc_flags:                     bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        misc_flags:                     bitmask(TRAIN_FLAG_MU, TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
         extra_weight_per_wagon:         20 ton;
     }
 
@@ -167,14 +162,13 @@ item (FEAT_TRAINS, PEX_D, 2336){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;
-        additional_text:                string(STR_REFIT_train_configuration_PEX);
         }
     }
 
 /*--------------------------------------------------------------------
 열차정보 식당칸
 --------------------------------------------------------------------*/  
-item (FEAT_TRAINS, PEX_B, 2337){
+item (FEAT_TRAINS, PEX_B, 1006){
     property {
         name:                           string(STR_PEX_B_NAME);
         climates_available:             ALL_CLIMATES;
@@ -203,10 +197,9 @@ item (FEAT_TRAINS, PEX_B, 2337){
 
         //Costs
         refit_cost:                     0;
-        running_cost_base:              RUNNING_COST_ELECTRIC;
 
         //Flags
-        misc_flags:                     bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        misc_flags:                     bitmask(TRAIN_FLAG_MU, TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
         extra_weight_per_wagon:         20 ton;
     }
 
@@ -216,14 +209,13 @@ item (FEAT_TRAINS, PEX_B, 2337){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;
-        additional_text:                string(STR_REFIT_train_configuration_PEX);
         }
     }
 
 /*--------------------------------------------------------------------
 열차정보 침대칸
 --------------------------------------------------------------------*/  
-item (FEAT_TRAINS, PEX_S, 2338){
+item (FEAT_TRAINS, PEX_S, 1007){
     property {
         name:                           string(STR_PEX_S_NAME);
         climates_available:             ALL_CLIMATES;
@@ -252,10 +244,9 @@ item (FEAT_TRAINS, PEX_S, 2338){
 
         //Costs
         refit_cost:                     0;
-        running_cost_base:              RUNNING_COST_ELECTRIC;
 
         //Flags
-        misc_flags:                     bitmask(TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        misc_flags:                     bitmask(TRAIN_FLAG_MU, TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
         extra_weight_per_wagon:         20 ton;
     }
 
@@ -265,6 +256,5 @@ item (FEAT_TRAINS, PEX_S, 2338){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            50;
-        additional_text:                string(STR_REFIT_train_configuration_PEX);
         }
     }

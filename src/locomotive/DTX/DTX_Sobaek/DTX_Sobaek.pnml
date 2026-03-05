@@ -10,7 +10,7 @@ DTX-소백
 /*--------------------------------------------------------------------
 열차정보 그룹
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, DTX_Sobaek, 2429){
+item(FEAT_TRAINS, DTX_Sobaek, 0016){
     property {
         name:                           string(STR_Group_DTX_Sobaek_NAME);
         climates_available:             NO_CLIMATE;
@@ -27,9 +27,9 @@ item(FEAT_TRAINS, DTX_Sobaek, 2429){
         }
 
 /*--------------------------------------------------------------------
-열차정보 4량
+열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, DTX_Sobaek_4Car, 2526){
+item(FEAT_TRAINS, DTX_Sobaek_4Car, 0017){
     property {
         name:                           string(STR_DTX_Sobaek_4Car_NAME);
         climates_available:             ALL_CLIMATES;
@@ -82,9 +82,9 @@ item(FEAT_TRAINS, DTX_Sobaek_4Car, 2526){
         }
 
 /*--------------------------------------------------------------------
-열차정보 6량
+열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, DTX_Sobaek_6Car, 2527){
+item(FEAT_TRAINS, DTX_Sobaek_6Car, 0018){
     property {
         name:                           string(STR_DTX_Sobaek_6Car_NAME);
         climates_available:             ALL_CLIMATES;
@@ -140,7 +140,7 @@ item(FEAT_TRAINS, DTX_Sobaek_6Car, 2527){
 /*--------------------------------------------------------------------
 열차정보 8량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, DTX_Sobaek_8Car, 2135){
+item(FEAT_TRAINS, DTX_Sobaek_8Car, 0019){
     property {
         name:                           string(STR_DTX_Sobaek_8Car_NAME);
         climates_available:             ALL_CLIMATES;
@@ -196,7 +196,7 @@ item(FEAT_TRAINS, DTX_Sobaek_8Car, 2135){
 /*--------------------------------------------------------------------
 열차정보 10량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, DTX_Sobaek_10Car, 2430){
+item(FEAT_TRAINS, DTX_Sobaek_10Car, 0020){
     property {
         name:                           string(STR_DTX_Sobaek_10Car_NAME);
         climates_available:             ALL_CLIMATES;

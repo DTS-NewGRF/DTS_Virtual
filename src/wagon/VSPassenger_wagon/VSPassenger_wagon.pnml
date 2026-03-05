@@ -1,32 +1,28 @@
 /*--------------------------------------------------------------------
-CRH1
+VTS 2층 차량
 --------------------------------------------------------------------*/
 // Graphics
-#include "CRH1_graphic.pnml"
+#include "VSPassenger_wagon_graphic.pnml"
 
 // Switch
-#include "CRH1_switch.pnml"
+#include "VSPassenger_wagon_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, CRH1_10Car, 0022){
+item(FEAT_TRAINS, VTS_SPASS, 1001){
     property {
-        name:                           string(STR_CRH1_10Car_NAME);
+        name:                           string(STR_VTS_SPASS_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2007, 1, 1);
-        track_type:                     ELRL;
-        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        introduction_date:              date(1994, 1, 1);
+        track_type:                     RAIL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  CRH_Logo;
         
         //spec
-        speed:                          260km/h;
-        power:                          8000 kW;
-        weight:                         40 ton;
+        power:                          0 kW;
+        weight:                         30 ton;
         tractive_effort_coefficient:    0.3;
-        air_drag_coefficient:           0.01;
-        
+
         //Model
         model_life:                     VEHICLE_NEVER_EXPIRES;
         vehicle_life:                   30;
@@ -34,7 +30,7 @@ item(FEAT_TRAINS, CRH1_10Car, 0022){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 84;
+        cargo_capacity:                 200;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -42,20 +38,18 @@ item(FEAT_TRAINS, CRH1_10Car, 0022){
         
         //Costs
         refit_cost:                     0;
-        running_cost_base:              RUNNING_COST_ELECTRIC;
         
         //Flags
-        misc_flags:                     bitmask(TRAIN_FLAG_MU, TRAIN_FLAG_AUTOREFIT);
-        extra_weight_per_wagon:         35 ton;
+        misc_flags:                     bitmask(TRAIN_FLAG_MU, TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
+        extra_weight_per_wagon:         20 ton;
         }
-        
-    graphics {
-        default:                        sw_CRH1_10car;
-        articulated_part:               sw_articulated_CRH1_10car;
-        purchase:                       set_CRH1_purchase;
-        speed:                          sw_High_250_speed;
+
+	graphics {
+        default:                        sw_VSPassenger_1Car;
+        purchase:                       set_VSPassenger_wagon_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
-        running_cost_factor:            150;
+        running_cost_factor:            50;
+        cargo_subtype_text:             sw_VSPassenger_cargo_subtype_text;
         }
         }

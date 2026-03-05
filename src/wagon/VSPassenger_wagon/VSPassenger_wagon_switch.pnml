@@ -1,0 +1,17 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_VSPassenger_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_VSPassenger_Taegeuk);     // 태극 도색
+    return string(STR_REFIT_LIVERY_VSPassenger_BR);
+}
+
+switch(FEAT_TRAINS, SELF, sw_VSPassenger_Wagon, cargo_subtype) {
+    1: set_set_VSPassenger_Taegeuk_wagon;     // 태극 도색
+    set_VSPassenger_wagon;
+}
+
+// 편성그래픽
+switch (FEAT_TRAINS, SELF, sw_VSPassenger_1Car, position_in_vehid_chain % 1) {
+    sw_VSPassenger_Wagon; //default
+    }

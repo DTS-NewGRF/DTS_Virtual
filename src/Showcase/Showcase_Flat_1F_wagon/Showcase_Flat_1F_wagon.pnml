@@ -1,23 +1,19 @@
 /*--------------------------------------------------------------------
 쇼케이스 평판화차
 --------------------------------------------------------------------*/
-// Graphics
+// Graphic
 #include "Showcase_Flat_1F_wagon_graphic.pnml"
-
-// Switch
-#include "Showcase_Flat_1F_wagon_switch.pnml"
 
 /*--------------------------------------------------------------------
 화물차량 정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Showcase_Flat_1F, 2522){
+item(FEAT_TRAINS, Showcase_Flat_1F, 1000){
     property {
         name:                           string(STR_Showcase_Flat_1F_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(1967, 1, 1);
         track_type:                     RAIL;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  Group_Showcase;
         
         //spec
         power:                          0 kW;
@@ -48,8 +44,8 @@ item(FEAT_TRAINS, Showcase_Flat_1F, 2522){
         }
 
 	graphics {
-        default:                        sw_ShowCase_FLAT_1F_wagon_1Car;
-        purchase:                       sw_ShowCase_FLAT_1F_purchase;
+        default:                        set_Showcase_Flat_1F_Poter2_wagon;
+        purchase:                       set_Showcase_Flat_1F_Poter2_purchase;
         cargo_capacity:                 0;
         cost_factor:                    10;
         running_cost_factor:            150;

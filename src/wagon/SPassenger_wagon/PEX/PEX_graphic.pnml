@@ -25,10 +25,6 @@ spriteset(set_PEX_wagon_DB, "src/wagon/SPassenger_wagon/PEX/PEX_D_wagon.png") {
     DTS_temp(80, 27)
 }
 
-spriteset(set_PEX_wagon_DC, "src/wagon/Coach_2F_wagon/Coach_2F_wagon.png") {
-    DTS_temp(80, 0)
-}
-
 spriteset(set_PEX_wagon_B, "src/wagon/SPassenger_wagon/PEX/PEX_B_wagon.png") {
     DTS_temp(80, 0)
 }
