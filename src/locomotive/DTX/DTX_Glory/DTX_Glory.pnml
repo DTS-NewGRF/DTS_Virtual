@@ -10,7 +10,7 @@ DTX-영광
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, DTX_Glory_20Car, 2558){
+item(FEAT_TRAINS, DTX_Glory_20Car, 1045){
     property {
         name:                           string(STR_DTX_Glory_20Car_NAME);
         climates_available:             ALL_CLIMATES;

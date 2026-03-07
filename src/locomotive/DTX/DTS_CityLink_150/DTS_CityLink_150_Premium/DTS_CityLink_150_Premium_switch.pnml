@@ -1,0 +1,162 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+//도색명
+switch(FEAT_TRAINS, SELF, sw_DTS_CityLink_150_Premium_cargo_subtype_text, cargo_subtype) {
+    0: return string(STR_REFIT_LIVERY_DTS_CityLink_150_Premium_150);
+    1: return string(STR_REFIT_LIVERY_DTS_CityLink_150_Premium_180);
+    2: return string(STR_REFIT_LIVERY_DTS_CityLink_150_Premium_150_2cc);
+    3: return string(STR_REFIT_LIVERY_DTS_CityLink_150_Premium_180_2cc);
+}
+
+// 10량 CL-150
+switch(FEAT_TRAINS, SELF, sw_DTS_CityLink_150_Premium_engineH, cargo_subtype) {
+    0..1: set_DTS_CityLink_150_Premium_engineH;
+    2..3: set_DTS_CityLink_150_Premium_2cc_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DTS_CityLink_150_Premium_panto_wagon_M1, cargo_subtype) {
+    0..1: set_DTS_CityLink_150_Premium_panto_wagon_M1;
+    2..3: set_DTS_CityLink_150_Premium_2cc_panto_wagon_M1;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DTS_CityLink_150_Premium_wagon_M1, cargo_subtype) {
+    0..1: set_DTS_CityLink_150_Premium_wagon_M1;
+    2..3: set_DTS_CityLink_150_Premium_2cc_wagon_M1;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DTS_CityLink_150_Premium_wagon_MT, cargo_subtype) {
+    0..1: set_DTS_CityLink_150_Premium_wagon_MT;
+    2..3: set_DTS_CityLink_150_Premium_2cc_wagon_MT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DTS_CityLink_150_Premium_wagon_T1, cargo_subtype) {
+    0..1: set_DTS_CityLink_150_Premium_wagon_T1;
+    2..3: set_DTS_CityLink_150_Premium_2cc_wagon_T1;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DTS_CityLink_150_Premium_wagon_T2, cargo_subtype) {
+    0..1: set_DTS_CityLink_150_Premium_wagon_T2;
+    2..3: set_DTS_CityLink_150_Premium_2cc_wagon_T2;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DTS_CityLink_150_Premium_wagon_CM, cargo_subtype) {
+    0..1: set_DTS_CityLink_150_Premium_wagon_CM;
+    2..3: set_DTS_CityLink_150_Premium_2cc_wagon_CM;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DTS_CityLink_150_Premium_wagon_M2, cargo_subtype) {
+    0..1: set_DTS_CityLink_150_Premium_wagon_M2;
+    2..3: set_DTS_CityLink_150_Premium_2cc_wagon_M2;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DTS_CityLink_150_Premium_panto_wagon_M2, cargo_subtype) {
+    0..1: set_DTS_CityLink_150_Premium_panto_wagon_M2;
+    2..3: set_DTS_CityLink_150_Premium_2cc_panto_wagon_M2;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DTS_CityLink_150_Premium_engineT, cargo_subtype) {
+    0..1: set_DTS_CityLink_150_Premium_engineT;
+    2..3: set_DTS_CityLink_150_Premium_2cc_engineT;
+}
+
+// 10량 CL-150 뒤집힘
+switch(FEAT_TRAINS, SELF, sw_DTS_CityLink_150_Premium_engineH_r, cargo_subtype) {
+    0..1: set_DTS_CityLink_150_Premium_engineH_r;
+    2..3: set_DTS_CityLink_150_Premium_2cc_engineH_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DTS_CityLink_150_Premium_panto_wagon_M1_r, cargo_subtype) {
+    0..1: set_DTS_CityLink_150_Premium_panto_wagon_M1_r;
+    2..3: set_DTS_CityLink_150_Premium_2cc_panto_wagon_M1_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DTS_CityLink_150_Premium_wagon_M1_r, cargo_subtype) {
+    0..1: set_DTS_CityLink_150_Premium_wagon_M1_r;
+    2..3: set_DTS_CityLink_150_Premium_2cc_wagon_M1_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DTS_CityLink_150_Premium_wagon_MT_r, cargo_subtype) {
+    0..1: set_DTS_CityLink_150_Premium_wagon_MT_r;
+    2..3: set_DTS_CityLink_150_Premium_2cc_wagon_MT_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DTS_CityLink_150_Premium_wagon_T1_r, cargo_subtype) {
+    0..1: set_DTS_CityLink_150_Premium_wagon_T1_r;
+    2..3: set_DTS_CityLink_150_Premium_2cc_wagon_T1_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DTS_CityLink_150_Premium_wagon_T2_r, cargo_subtype) {
+    0..1: set_DTS_CityLink_150_Premium_wagon_T2_r;
+    2..3: set_DTS_CityLink_150_Premium_2cc_wagon_T2_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DTS_CityLink_150_Premium_wagon_CM_r, cargo_subtype) {
+    0..1: set_DTS_CityLink_150_Premium_wagon_CM_r;
+    2..3: set_DTS_CityLink_150_Premium_2cc_wagon_CM_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DTS_CityLink_150_Premium_wagon_M2_r, cargo_subtype) {
+    0..1: set_DTS_CityLink_150_Premium_wagon_M2_r;
+    2..3: set_DTS_CityLink_150_Premium_2cc_wagon_M2_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DTS_CityLink_150_Premium_panto_wagon_M2_r, cargo_subtype) {
+    0..1: set_DTS_CityLink_150_Premium_panto_wagon_M2_r;
+    2..3: set_DTS_CityLink_150_Premium_2cc_panto_wagon_M2_r;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DTS_CityLink_150_Premium_engineT_r, cargo_subtype) {
+    0..1: set_DTS_CityLink_150_Premium_engineT_r;
+    2..3: set_DTS_CityLink_150_Premium_2cc_engineT_r;
+}
+
+// 편성그래픽
+// 10량
+switch (FEAT_TRAINS, SELF, sw_DTS_CityLink_150_Premium_10car, position_in_vehid_chain % 10) {
+    1:sw_DTS_CityLink_150_Premium_panto_wagon_M1;
+    2:sw_DTS_CityLink_150_Premium_wagon_M1;
+    3:sw_DTS_CityLink_150_Premium_wagon_MT;
+    4:sw_DTS_CityLink_150_Premium_wagon_T1;
+    5:sw_DTS_CityLink_150_Premium_wagon_T2;
+    6:sw_DTS_CityLink_150_Premium_wagon_CM;
+    7:sw_DTS_CityLink_150_Premium_wagon_M2;
+    8:sw_DTS_CityLink_150_Premium_panto_wagon_M2;
+    9:sw_DTS_CityLink_150_Premium_engineT;
+    sw_DTS_CityLink_150_Premium_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_DTS_CityLink_150_Premium_10car_r, position_in_vehid_chain % 10) {
+    1:sw_DTS_CityLink_150_Premium_panto_wagon_M2_r;
+    2:sw_DTS_CityLink_150_Premium_wagon_M2_r;
+    3:sw_DTS_CityLink_150_Premium_wagon_CM_r;
+    4:sw_DTS_CityLink_150_Premium_wagon_T2_r;
+    5:sw_DTS_CityLink_150_Premium_wagon_T1_r;
+    6:sw_DTS_CityLink_150_Premium_wagon_MT_r;
+    7:sw_DTS_CityLink_150_Premium_wagon_M1_r;
+    8:sw_DTS_CityLink_150_Premium_panto_wagon_M1_r;
+    9:sw_DTS_CityLink_150_Premium_engineH_r;
+    sw_DTS_CityLink_150_Premium_engineT_r; //default
+    }
+
+switch(FEAT_TRAINS, SELF, sw_DTS_CityLink_150_Premium_10car_flipped, vehicle_is_flipped){
+    0: sw_DTS_CityLink_150_Premium_10car_r;
+    sw_DTS_CityLink_150_Premium_10car;
+}
+
+switch(FEAT_TRAINS, PARENT, sw_DTS_CityLink_150_Premium_10car_reversed, vehicle_is_reversed){
+    0: sw_DTS_CityLink_150_Premium_10car;
+    sw_DTS_CityLink_150_Premium_10car_flipped;
+}
+
+// 편성량
+switch (FEAT_TRAINS, SELF, sw_articulated_DTS_CityLink_150_Premium_10car, extra_callback_info1) {
+    1..9: DTS_CityLink_150_Premium_10Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+// 속도변수
+switch(FEAT_TRAINS, SELF, sw_DTS_CityLink_150_Premium_speed, cargo_subtype) {
+    0: sw_Regular_150_speed;
+    1: sw_High_180_speed;
+}

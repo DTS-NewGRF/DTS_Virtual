@@ -70,6 +70,6 @@ switch (FEAT_TRAINS, SELF, sw_articulated_DTX_Sobaek_10car, extra_callback_info1
 
 // 속도변수
 switch(FEAT_TRAINS, SELF, sw_DTX_Sobaek_speed, cargo_subtype) {
-      1: return 260;
+      1: sw_High_260_speed;
     sw_Regular_150_speed;
 }

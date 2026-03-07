@@ -1,12 +1,52 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-switch (FEAT_TRAINS, SELF, sw_H2_WJ_2car, position_in_vehid_chain % 2) {
-    1:set_H2_WJ_engineT;
+// 편성그래픽
+switch (FEAT_TRAINS, SELF, sw_H2_WJ_6car, position_in_vehid_chain % 6) {
+    1:set_H2_WJ_wagon;
+    2:set_H2_WJ_wagon;
+    3:set_H2_WJ_wagon;
+    4:set_H2_WJ_wagon;
+    5:set_H2_WJ_engineT;
     set_H2_WJ_engineH; //default
     }
 
-switch (FEAT_TRAINS, SELF, sw_articulated_H2_WJ_2car, extra_callback_info1) {
-    1: H2_WJ_2Car;
+switch (FEAT_TRAINS, SELF, sw_H2_WJ_8car, position_in_vehid_chain % 8) {
+    1:set_H2_WJ_wagon;
+    2:set_H2_WJ_wagon;
+    3:set_H2_WJ_wagon;
+    4:set_H2_WJ_wagon;
+    5:set_H2_WJ_wagon;
+    6:set_H2_WJ_wagon;
+    7:set_H2_WJ_engineT;
+    set_H2_WJ_engineH; //default
+    }
+
+switch (FEAT_TRAINS, SELF, sw_H2_WJ_10car, position_in_vehid_chain % 10) {
+    1:set_H2_WJ_wagon;
+    2:set_H2_WJ_wagon;
+    3:set_H2_WJ_wagon;
+    4:set_H2_WJ_wagon;
+    5:set_H2_WJ_wagon;
+    6:set_H2_WJ_wagon;
+    7:set_H2_WJ_wagon;
+    8:set_H2_WJ_wagon;
+    9:set_H2_WJ_engineT;
+    set_H2_WJ_engineH; //default
+    }
+
+// 편성량
+switch (FEAT_TRAINS, SELF, sw_articulated_H2_WJ_6car, extra_callback_info1) {
+    1..5: H2_WJ_6Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_H2_WJ_8car, extra_callback_info1) {
+    1..7: H2_WJ_8Car;
+    return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
+    }
+
+switch (FEAT_TRAINS, SELF, sw_articulated_H2_WJ_10car, extra_callback_info1) {
+    1..9: H2_WJ_10Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }

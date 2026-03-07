@@ -10,7 +10,7 @@ DTX-태백
 /*--------------------------------------------------------------------
 열차정보 그룹
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, DTX_Taebaek, 2431){
+item(FEAT_TRAINS, DTX_Taebaek, 1064){
     property {
         name:                           string(STR_Group_DTX_Taebaek_NAME);
         climates_available:             NO_CLIMATE;
@@ -29,7 +29,7 @@ item(FEAT_TRAINS, DTX_Taebaek, 2431){
 /*--------------------------------------------------------------------
 열차정보 6량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, DTX_Taebaek_6Car, 2462){
+item(FEAT_TRAINS, DTX_Taebaek_6Car, 1065){
     property {
         name:                           string(STR_DTX_Taebaek_6Car_NAME);
         climates_available:             ALL_CLIMATES;
@@ -83,7 +83,7 @@ item(FEAT_TRAINS, DTX_Taebaek_6Car, 2462){
 /*--------------------------------------------------------------------
 열차정보 8량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, DTX_Taebaek_8Car, 2134){
+item(FEAT_TRAINS, DTX_Taebaek_8Car, 1066){
     property {
         name:                           string(STR_DTX_Taebaek_8Car_NAME);
         climates_available:             ALL_CLIMATES;
@@ -137,7 +137,7 @@ item(FEAT_TRAINS, DTX_Taebaek_8Car, 2134){
 /*--------------------------------------------------------------------
 열차정보 10량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, DTX_Taebaek_10Car, 2432){
+item(FEAT_TRAINS, DTX_Taebaek_10Car, 1067){
     property {
         name:                           string(STR_DTX_Taebaek_10Car_NAME);
         climates_available:             ALL_CLIMATES;

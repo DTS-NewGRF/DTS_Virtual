@@ -1,0 +1,245 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+DTS_CityLink_150 2세대 크로스
+--------------------------------------------------------------------*/
+spriteset(set_DTS_CityLink_150_2nd_A_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_A.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_DTS_CityLink_150_2nd_A_engineH_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_A.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_DTS_CityLink_150_2nd_A_panto_wagon_M1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_A.png") {
+    DTS_temp(80, 54)
+}
+
+spriteset(set_DTS_CityLink_150_2nd_A_panto_wagon_M1_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_A.png") {
+    DTS_temp_r(80, 81)
+}
+
+spriteset(set_DTS_CityLink_150_2nd_A_wagon_M1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_A.png") {
+    DTS_temp(80, 108)
+}
+
+spriteset(set_DTS_CityLink_150_2nd_A_wagon_M1_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_A.png") {
+    DTS_temp_r(80, 108)
+}
+
+spriteset(set_DTS_CityLink_150_2nd_A_wagon_T, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_A.png") {
+    DTS_temp(80, 135)
+}
+
+spriteset(set_DTS_CityLink_150_2nd_A_wagon_T_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_A.png") {
+    DTS_temp_r(80, 135)
+}
+
+spriteset(set_DTS_CityLink_150_2nd_A_wagon_M2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_A.png") {
+    DTS_temp(80, 162)
+}
+
+spriteset(set_DTS_CityLink_150_2nd_A_wagon_M2_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_A.png") {
+    DTS_temp_r(80, 162)
+}
+
+spriteset(set_DTS_CityLink_150_2nd_A_panto_wagon_M2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_A.png") {
+    DTS_temp(80, 189)
+}
+
+spriteset(set_DTS_CityLink_150_2nd_A_panto_wagon_M2_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_A.png") {
+    DTS_temp_r(80, 216)
+}
+
+spriteset(set_DTS_CityLink_150_2nd_A_engineT_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_A.png"){
+    DTS_temp(80, 243)
+}
+
+spriteset(set_DTS_CityLink_150_2nd_A_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_A.png"){
+    DTS_temp(80, 270)
+}
+
+/*--------------------------------------------------------------------
+DTS_CityLink_150 2세대 크로스 2cc
+--------------------------------------------------------------------*/
+spriteset(set_DTS_CityLink_150_2nd_A_2cc_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_A.png", "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_A_2cc.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_DTS_CityLink_150_2nd_A_2cc_engineH_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_A.png", "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_A_2cc.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_DTS_CityLink_150_2nd_A_2cc_panto_wagon_M1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_A.png", "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_A_2cc.png"){
+    DTS_temp(80, 54)
+}
+
+spriteset(set_DTS_CityLink_150_2nd_A_2cc_panto_wagon_M1_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_A.png", "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_A_2cc.png"){
+    DTS_temp_r(80, 81)
+}
+
+spriteset(set_DTS_CityLink_150_2nd_A_2cc_wagon_M1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_A.png", "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_A_2cc.png"){
+    DTS_temp(80, 108)
+}
+
+spriteset(set_DTS_CityLink_150_2nd_A_2cc_wagon_M1_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_A.png", "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_A_2cc.png"){
+    DTS_temp_r(80, 108)
+}
+
+spriteset(set_DTS_CityLink_150_2nd_A_2cc_wagon_T, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_A.png", "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_A_2cc.png"){
+    DTS_temp(80, 135)
+}
+
+spriteset(set_DTS_CityLink_150_2nd_A_2cc_wagon_T_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_A.png", "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_A_2cc.png"){
+    DTS_temp_r(80, 135)
+}
+
+spriteset(set_DTS_CityLink_150_2nd_A_2cc_wagon_M2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_A.png", "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_A_2cc.png"){
+    DTS_temp(80, 162)
+}
+
+spriteset(set_DTS_CityLink_150_2nd_A_2cc_wagon_M2_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_A.png", "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_A_2cc.png"){
+    DTS_temp_r(80, 162)
+}
+
+spriteset(set_DTS_CityLink_150_2nd_A_2cc_panto_wagon_M2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_A.png", "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_A_2cc.png"){
+    DTS_temp(80, 189)
+}
+
+spriteset(set_DTS_CityLink_150_2nd_A_2cc_panto_wagon_M2_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_A.png", "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_A_2cc.png"){
+    DTS_temp_r(80, 216)
+}
+
+spriteset(set_DTS_CityLink_150_2nd_A_2cc_engineT_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_A.png", "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_A_2cc.png"){
+    DTS_temp(80, 243)
+}
+
+spriteset(set_DTS_CityLink_150_2nd_A_2cc_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_A.png", "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_A_2cc.png"){
+    DTS_temp(80, 270)
+}
+
+/*--------------------------------------------------------------------
+DTS_CityLink_150 2세대 세미크로스
+--------------------------------------------------------------------*/
+spriteset(set_DTS_CityLink_150_2nd_B_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_B.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_DTS_CityLink_150_2nd_B_engineH_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_B.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_DTS_CityLink_150_2nd_B_panto_wagon_M1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_B.png") {
+    DTS_temp(80, 54)
+}
+
+spriteset(set_DTS_CityLink_150_2nd_B_panto_wagon_M1_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_B.png") {
+    DTS_temp_r(80, 81)
+}
+
+spriteset(set_DTS_CityLink_150_2nd_B_wagon_M1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_B.png") {
+    DTS_temp(80, 108)
+}
+
+spriteset(set_DTS_CityLink_150_2nd_B_wagon_M1_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_B.png") {
+    DTS_temp_r(80, 108)
+}
+
+spriteset(set_DTS_CityLink_150_2nd_B_wagon_T, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_B.png") {
+    DTS_temp(80, 135)
+}
+
+spriteset(set_DTS_CityLink_150_2nd_B_wagon_T_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_B.png") {
+    DTS_temp_r(80, 135)
+}
+
+spriteset(set_DTS_CityLink_150_2nd_B_wagon_M2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_B.png") {
+    DTS_temp(80, 162)
+}
+
+spriteset(set_DTS_CityLink_150_2nd_B_wagon_M2_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_B.png") {
+    DTS_temp_r(80, 162)
+}
+
+spriteset(set_DTS_CityLink_150_2nd_B_panto_wagon_M2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_B.png") {
+    DTS_temp(80, 189)
+}
+
+spriteset(set_DTS_CityLink_150_2nd_B_panto_wagon_M2_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_B.png") {
+    DTS_temp_r(80, 216)
+}
+
+spriteset(set_DTS_CityLink_150_2nd_B_engineT_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_B.png"){
+    DTS_temp(80, 243)
+}
+
+spriteset(set_DTS_CityLink_150_2nd_B_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_B.png"){
+    DTS_temp(80, 270)
+}
+
+/*--------------------------------------------------------------------
+DTS_CityLink_150 2세대 세미크로스 2cc
+--------------------------------------------------------------------*/
+spriteset(set_DTS_CityLink_150_2nd_B_2cc_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_B.png", "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_B_2cc.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_DTS_CityLink_150_2nd_B_2cc_engineH_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_B.png", "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_B_2cc.png"){
+    DTS_temp(80, 27)
+}
+
+spriteset(set_DTS_CityLink_150_2nd_B_2cc_panto_wagon_M1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_B.png", "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_B_2cc.png"){
+    DTS_temp(80, 54)
+}
+
+spriteset(set_DTS_CityLink_150_2nd_B_2cc_panto_wagon_M1_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_B.png", "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_B_2cc.png"){
+    DTS_temp_r(80, 81)
+}
+
+spriteset(set_DTS_CityLink_150_2nd_B_2cc_wagon_M1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_B.png", "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_B_2cc.png"){
+    DTS_temp(80, 108)
+}
+
+spriteset(set_DTS_CityLink_150_2nd_B_2cc_wagon_M1_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_B.png", "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_B_2cc.png"){
+    DTS_temp_r(80, 108)
+}
+
+spriteset(set_DTS_CityLink_150_2nd_B_2cc_wagon_T, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_B.png", "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_B_2cc.png"){
+    DTS_temp(80, 135)
+}
+
+spriteset(set_DTS_CityLink_150_2nd_B_2cc_wagon_T_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_B.png", "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_B_2cc.png"){
+    DTS_temp_r(80, 135)
+}
+
+spriteset(set_DTS_CityLink_150_2nd_B_2cc_wagon_M2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_B.png", "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_B_2cc.png"){
+    DTS_temp(80, 162)
+}
+
+spriteset(set_DTS_CityLink_150_2nd_B_2cc_wagon_M2_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_B.png", "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_B_2cc.png"){
+    DTS_temp_r(80, 162)
+}
+
+spriteset(set_DTS_CityLink_150_2nd_B_2cc_panto_wagon_M2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_B.png", "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_B_2cc.png"){
+    DTS_temp(80, 189)
+}
+
+spriteset(set_DTS_CityLink_150_2nd_B_2cc_panto_wagon_M2_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_B.png", "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_B_2cc.png"){
+    DTS_temp_r(80, 216)
+}
+
+spriteset(set_DTS_CityLink_150_2nd_B_2cc_engineT_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_B.png", "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_B_2cc.png"){
+    DTS_temp(80, 243)
+}
+
+spriteset(set_DTS_CityLink_150_2nd_B_2cc_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_B.png", "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_B_2cc.png"){
+    DTS_temp(80, 270)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+spriteset(set_DTS_CityLink_150_2nd_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink_150/DTS_CityLink_150_2nd/DTS_CityLink_150_2nd_A.png"){
+    tmpl_purchase(0, 0)
+}

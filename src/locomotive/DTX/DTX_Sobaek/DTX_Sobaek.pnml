@@ -10,7 +10,7 @@ DTX-소백
 /*--------------------------------------------------------------------
 열차정보 그룹
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, DTX_Sobaek, 0016){
+item(FEAT_TRAINS, DTX_Sobaek, 1054){
     property {
         name:                           string(STR_Group_DTX_Sobaek_NAME);
         climates_available:             NO_CLIMATE;
@@ -29,7 +29,7 @@ item(FEAT_TRAINS, DTX_Sobaek, 0016){
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, DTX_Sobaek_4Car, 0017){
+item(FEAT_TRAINS, DTX_Sobaek_4Car, 1055){
     property {
         name:                           string(STR_DTX_Sobaek_4Car_NAME);
         climates_available:             ALL_CLIMATES;
@@ -84,7 +84,7 @@ item(FEAT_TRAINS, DTX_Sobaek_4Car, 0017){
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, DTX_Sobaek_6Car, 0018){
+item(FEAT_TRAINS, DTX_Sobaek_6Car, 1056){
     property {
         name:                           string(STR_DTX_Sobaek_6Car_NAME);
         climates_available:             ALL_CLIMATES;
@@ -140,7 +140,7 @@ item(FEAT_TRAINS, DTX_Sobaek_6Car, 0018){
 /*--------------------------------------------------------------------
 열차정보 8량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, DTX_Sobaek_8Car, 0019){
+item(FEAT_TRAINS, DTX_Sobaek_8Car, 1057){
     property {
         name:                           string(STR_DTX_Sobaek_8Car_NAME);
         climates_available:             ALL_CLIMATES;
@@ -196,7 +196,7 @@ item(FEAT_TRAINS, DTX_Sobaek_8Car, 0019){
 /*--------------------------------------------------------------------
 열차정보 10량
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, DTX_Sobaek_10Car, 0020){
+item(FEAT_TRAINS, DTX_Sobaek_10Car, 1058){
     property {
         name:                           string(STR_DTX_Sobaek_10Car_NAME);
         climates_available:             ALL_CLIMATES;

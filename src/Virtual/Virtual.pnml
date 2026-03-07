@@ -25,12 +25,8 @@ item(FEAT_TRAINS, Virtual, 2572){
 /*--------------------------------------------------------------------
 열차 리스트
 --------------------------------------------------------------------*/
-#include "HYEL/HYEL.pnml"
 #include "V_ITX/V_ITX.pnml"
 #include "V_Nuriro/V_Nuriro.pnml"
 #include "V_Nuriro_DD/V_Nuriro_DD.pnml"
 #include "V_KTX/V_KTX.pnml"
-#include "V_Metro/V_Metro.pnml"
-#include "CL_150/CL_150.pnml"
-#include "V_H2_WJ/V_H2_WJ.pnml"
 #include "V_Keisei_AE_series/V_Keisei_AE_series.pnml"
