@@ -4,30 +4,13 @@
 #include "locomotive/H2_WJ/H2_WJ.pnml"
 #include "locomotive/HYEL/HYEL.pnml"
 #include "locomotive/ITX/ITX.pnml"
-#include "locomotive/Keisei_AE_series/Keisei_AE_series.pnml"
 #include "locomotive/KTX/KTX.pnml"
-#include "locomotive/MSB_Speeder/MSB_Speeder.pnml"
-#include "locomotive/NEL_8100/NEL_8100.pnml"
-#include "locomotive/NEL_8200/NEL_8200.pnml"
-#include "locomotive/NHSRCL_E5/NHSRCL_E5.pnml"
-#include "locomotive/NSW_TrainLink_D/NSW_TrainLink_D.pnml"
 #include "locomotive/Nuriro/Nuriro.pnml"
-#include "locomotive/OEL_8000/OEL_8000.pnml"
-#include "locomotive/Shinkansen/Shinkansen.pnml"
-#include "locomotive/RDC/RDC.pnml"
-#include "locomotive/Renfe/Renfe.pnml"
-#include "locomotive/Talgo_350_SRO/Talgo_350_SRO.pnml"
-#include "locomotive/TGV/TGV.pnml"
-#include "locomotive/THSR_700T/THSR_700T.pnml"
 #include "locomotive/Transparency/Transparency.pnml"
-#include "locomotive/TTX/TTX.pnml"
 #include "locomotive/VHST_600X/VHST_600X.pnml"
 
 // Metro
 #include "metro/Nextrain/Nextrain.pnml"
-
-//Virtual
-#include "Virtual/Virtual.pnml"
 
 //Showcase
 #include "Showcase/Showcase.pnml"

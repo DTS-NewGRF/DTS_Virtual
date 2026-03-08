@@ -7,7 +7,7 @@
 /*--------------------------------------------------------------------
 열차정보 그룹
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Nuriro_Logo, 2513){
+item(FEAT_TRAINS, Nuriro_Logo, 1172){
     property {
         name:                           string(STR_Group_Nuriro_Logo_NAME);
         climates_available:             NO_CLIMATE;
@@ -26,3 +26,4 @@ item(FEAT_TRAINS, Nuriro_Logo, 2513){
 열차 리스트
 --------------------------------------------------------------------*/
 #include "Nuriro/Nuriro.pnml"
+#include "Nuriro_DD/Nuriro_DD.pnml"

@@ -52,106 +52,6 @@ sort(FEAT_TRAINS, [
     DFX_10Car,                               //1043
     DPX_14Car,                               //1044
 
-    //ITX 열차 그룹
-    ITX_Logo,                                //2512
-    ITX_Maum,                                //2193
-    ITX_Maum_4Car,                           //2166
-    ITX_Maum_6Car,                           //2010
-    ITX_Maum_4_4Car,                         //2403
-    ITX_Maum_4_6Car,                         //2258
-    ITX_Maum_6_4Car,                         //2259
-    ITX_Saemaeul_6Car,                       //2327
-    ITX_CheongChun_8Car,                     //2354
-
-    //누리로 열차 그룹
-    Nuriro_Logo,                             //2513
-    Nuriro_4Car,                             //2324
-    Nuriro_8Car,                             //2325
-
-    //KTX 열차 그룹
-    KTX_Logo,                                //2511
-    KTX_Eum,                                 //2425
-    KTX_Eum_6Car,                            //2423
-    KTX_Eum_12Car,                           //2426
-    KTX_1_20Car,                             //2322
-    KTX_Cheong_Ryong,                        //2427
-    KTX_Cheong_Ryong_8Car,                   //2229
-    KTX_Cheong_Ryong_16Car,                  //2428
-
-    //가상열차
-    Virtual,                                 //2572
-    V_ITX_Logo,                              //2548
-    V_ITX_Maum,                              //2549
-    V_ITX_Maum_8Car,                         //2131
-    V_ITX_Maum_10Car,                        //2238
-    V_ITX_Maum_DD,                           //2262
-    V_ITX_Maum_DD_4Car,                      //2311
-    V_ITX_Maum_DD_6Car,                      //2011
-    V_ITX_Maum_DD_8Car,                      //2550
-    V_ITX_Maum_DD_10Car,                     //2551
-    V_ITX_Saemaeul,                          //2573
-    V_ITX_Saemaeul_8Car,                     //2328
-    V_ITX_Saemaeul_10Car,                    //2574
-    V_ITX_Saemaeul_DD,                       //2231
-    V_ITX_Saemaeul_DD_6Car,                  //2013
-    V_ITX_Saemaeul_DD_8Car,                  //2233
-    V_ITX_Saemaeul_DD_10Car,                 //2575
-    V_ITX_CheongChan,                        //2490
-    V_ITX_CheongChan_6Car,                   //2491
-    V_ITX_CheongChan_8Car,                   //2492
-    V_ITX_CheongChan_10Car,                  //2576
-    V_ITX_CheongChun,                        //2352
-    V_ITX_CheongChun_6Car,                   //2353
-    V_ITX_CheongChun_10Car,                  //2355
-    V_ITX_CheongChun_DD,                     //2577
-    V_ITX_CheongChun_DD_8Car,                //2018
-    V_ITX_CheongChun_DD_10Car,               //2578
-    V_Nuriro,                                //2579
-    V_Nuriro_6Car,                           //2580
-    V_Nuriro_8Car,                           //2581
-    V_Nuriro_10Car,                          //2582
-    V_Nuriro_DD_4Car,                        //2012
-    V_Nuriro_DD_6Car,                        //2583
-    V_Nuriro_DD_8Car,                        //2584
-    V_Nuriro_DD_10Car,                       //2585
-    V_KTX_Logo,                              //2546
-    Group_V_KTX_Eum,                         //2592
-    V_KTX_Eum_6Car,                          //2020
-    V_KTX_Eum_8Car,                          //2593
-    V_KTX_Eum_10Car,                         //2594
-    V_KTX_Eum_DD_6Car,                       //2021
-    V_KTX_Cargo,                             //2555
-    V_KTX_Cargo_260_6Car,                    //2556
-    V_KTX_Cargo_260_8Car,                    //2552
-    V_KTX_Cargo_320_8Car,                    //2553
-    V_KTX_Cargo_260_10Car,                   //2597
-    V_KTX_Cargo_300_10Car,                   //2026
-    V_KTX_Cargo_320_10Car,                   //2599
-    V_KTX_Cargo_260_12Car,                   //2557
-    V_KTX_Cargo_320_16Car,                   //2554
-    V_KTX_Cheong_Ryong,                      //2306
-    V_KTX_Cheong_Ryong_8Car,                 //2022
-    V_KTX_Cheong_Ryong_10Car,                //2600
-    V_KTX_Cheong_Ryong_16Car,                //2528
-    V_KTX_Cheong_Ryong_DD_8Car,              //2023
-    V_KTX_Cheong_Ryong_DD_10Car,             //2601
-    V_KTX_Chowol,                            //2602
-    V_KTX_Chowol_8Car,                       //2406
-    V_KTX_Chowol_10Car,                      //2603
-    V_KTX_Onnuri,                            //2508
-    V_KTX_Onnuri_8Car,                       //2509
-    V_KTX_Onnuri_10Car,                      //2510
-    V_KTX_Onnuri_16Car,                      //2529
-    //V_KTX_Sancheon,                          //2604
-    //V_KTX_Sancheon_10Car,                    //2547
-    //V_KTX_Sancheon_DD_10Car,                 //2025
-    V_KTX_Taegeuk,                           //2478
-    V_KTX_Taegeuk_8Car,                      //2479
-    V_KTX_Taegeuk_10Car,                     //2480
-    V_KTX_Taegeuk_16Car,                     //2481
-    V_KTX_Taegeuk_20Car,                     //2482
-    Keisei_AE_series_10Car,                  //2609
-
     //지하철
     Nextrain,                                //1026
     Nextrain_3Car,                           //1027
@@ -201,65 +101,76 @@ sort(FEAT_TRAINS, [
     HYEL_400_8Car,                           //1095
     HYEL_400_10Car,                          //1096
     HYEL_400_16Car,                          //1097
-    NEL_8100,                                //2299
-    NEL_8200,                                //2177
-    OEL8000,                                 //2417
-    RDC,                                     //2348
-    RDC_3Car,                                //2349
-    RDC_4Car,                                //2350
-    Keisei_AE_series_8Car,                   //2084
-    NSW_TrainLink_D,                         //2195
-    NSW_TrainLink_D_4Car,                    //2117
-    NSW_TrainLink_D_6Car,                    //2142
-    Transparency,                            //2520
+    ITX_Logo,                                //1118
+    ITX_CheongChan,                          //1119
+    ITX_CheongChan_6Car,                     //1120
+    ITX_CheongChan_8Car,                     //1121
+    ITX_CheongChan_10Car,                    //1122
+    ITX_CheongChun,                          //1123
+    ITX_CheongChun_6Car,                     //1124
+    ITX_CheongChun_10Car,                    //1125
+    ITX_CheongChun_DD,                       //1126
+    ITX_CheongChun_DD_8Car,                  //1127
+    ITX_CheongChun_DD_10Car,                 //1128
+    ITX_Maum,                                //1129
+    ITX_Maum_8Car,                           //1130
+    ITX_Maum_10Car,                          //1131
+    ITX_Maum_DD,                             //1132
+    ITX_Maum_DD_4Car,                        //1133
+    ITX_Maum_DD_6Car,                        //1134
+    ITX_Maum_DD_8Car,                        //1135
+    ITX_Maum_DD_10Car,                       //1136
+    ITX_Saemaeul,                            //1137
+    ITX_Saemaeul_8Car,                       //1138
+    ITX_Saemaeul_10Car,                      //1139
+    ITX_Saemaeul_DD,                         //1140
+    ITX_Saemaeul_DD_6Car,                    //1141
+    ITX_Saemaeul_DD_8Car,                    //1142
+    ITX_Saemaeul_DD_10Car,                   //1143
+    KTX_Logo,                                //1144
+    KTX_Cargo,                               //1145
+    KTX_Cargo_260_6Car,                      //1146
+    KTX_Cargo_300_10Car,                     //1148
+    KTX_Cargo_320_8Car,                      //1149
+    KTX_Cargo_260_12Car,                     //1147
+    KTX_Cargo_320_16Car,                     //1150
+    KTX_Cheong_Ryong,                        //1151
+    KTX_Cheong_Ryong_8Car,                   //1152
+    KTX_Cheong_Ryong_12Car,                  //1153
+    KTX_Cheong_Ryong_16Car,                  //1154
+    KTX_Cheong_Ryong_DD_8Car,                //1155
+    KTX_Chowol_8Car,                         //1156
+    KTX_Eum,                                 //1157
+    KTX_Eum_6Car,                            //1158
+    KTX_Eum_DD_6Car,                         //1159
+    KTX_Onnuri,                              //1160
+    KTX_Onnuri_8Car,                         //1161
+    KTX_Onnuri_10Car,                        //1162
+    KTX_Onnuri_16Car,                        //1163
+    KTX_Sancheon,                            //1164
+    KTX_Sancheon_10Car,                      //1165
+    KTX_Sancheon_DD_10Car,                   //1166
+    KTX_Taegeuk,                             //1167
+    KTX_Taegeuk_8Car,                        //1168
+    KTX_Taegeuk_10Car,                       //1169
+    KTX_Taegeuk_16Car,                       //1170
+    KTX_Taegeuk_20Car,                       //1171
+    
+    //누리로 열차 그룹
+    Nuriro_Logo,                             //1172
+    Nuriro_6Car,                             //1173
+    Nuriro_8Car,                             //1174
+    Nuriro_10Car,                            //1175
+    Nuriro_DD_4Car,                          //1176
+    Nuriro_DD_6Car,                          //1177
+    Nuriro_DD_8Car,                          //1178
+    Nuriro_DD_10Car,                         //1179
 
-    //준고속 180
-    TTX_6Car,                                //2019
-
-    //준고속 260
-    Renfe_S_130_13Car,                       //2075
-    Shinkansen_0,                            //2197
-    Shinkansen_0_12Car,                      //2085
-    Shinkansen_0_16Car,                      //2126
-    Shinkansen_700,                          //2198
-    Shinkansen_700_8Car,                     //2143
-    Shinkansen_700_16Car,                    //2087
-    Shinkansen_800_6Car,                     //2088
-    Shinkansen_E2_10Car,                     //2091
-    Shinkansen_E7_W7_12Car,                  //2094
+    Transparency,                            //1180
 
     //고속열차 331
     CTX_P_10Car,                             //1041
-    Renfe_S_100_10Car,                       //2072
-    Renfe_S_102_14Car,                       //2073
-    Renfe_S_103_8Car,                        //2074
-    TGV_Duplex_10Car,                        //2076
-    TGV_Pos_10Car,                           //2077
-    Thalys_PBKA_10Car,                       //2402
-    TGV_Sud_Est_10Car,                       //2078
-    TGV_Reseau_Duplex_10Car,                 //2079
-    TGV_A_12Car,                             //2080
-    TGV_R_10Car,                             //2154
-    TGV_La_Poste_10Car,                      //2081
-    TGV_M_11Car,                             //2082
-    Shinkansen_500,                          //2202
-    Shinkansen_500_8Car,                     //2086
-    Shinkansen_500_16Car,                    //2062
-    Shinkansen_N700,                         //2203
-    Shinkansen_N700_8Car,                    //2089
-    Shinkansen_N700_16Car,                   //2155
-    Shinkansen_N700_S,                       //2204
-    Shinkansen_N700_S_6Car,                  //2090
-    Shinkansen_N700_S_16Car,                 //2156
-    Shinkansen_E5_H5,                        //2304
-    Shinkansen_E5_H5_10Car,                  //2092
-    Shinkansen_E5_H5_E6_17Car,               //2305
-    Shinkansen_E6_7Car,                      //2093
-    Shinkansen_E8_7Car,                      //2095
-    NHSRCL_E5_10Car,                         //2116
-    THSR_700T_12Car,                         //2118
-    Talgo_350_SRO_14Car,                     //2121
-
+    
     //고속열차 430
     Glory_430,                               //1068
     Glory_430_10Car,                         //1069
@@ -270,13 +181,10 @@ sort(FEAT_TRAINS, [
     Glory_600_8Car,                          //1072
     Glory_600_10Car,                         //1073
     Glory_600_16Car,                         //1074
-    VHST_600X,                               //2371
-    VHST_600X_8Car,                          //2029
-    VHST_600X_16Car,                         //2372
-    Shinkansen_923_7Car,                     //2096
-
-    //유지보수차량
-    MSB_Speeder,                             //2178
+    VHST_600X,                               //1181
+    VHST_600X_8Car,                          //1182
+    VHST_600X_10Car,                         //1183
+    VHST_600X_16Car,                         //1184
     
     //객차
     VTS_SPASS,                               //1001

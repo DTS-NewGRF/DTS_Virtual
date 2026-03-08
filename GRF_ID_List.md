@@ -119,166 +119,74 @@
 |1115|HYEL_PEX_Super_8Car|
 |1116|HYEL_PEX_Super_10Car|
 |1117|HYEL_PEX_Super_14Car|
+|1118|[그룹명] ITX_Logo|
+|1119|ITX_CheongChan|
+|1120|ITX_CheongChan_6Car|
+|1121|ITX_CheongChan_8Car|
+|1122|ITX_CheongChan_10Car|
+|1123|[그룹명] ITX_CheongChun|
+|1124|ITX_CheongChun_6Car|
+|1125|ITX_CheongChun_10Car|
+|1126|[그룹명] V_ITX_CheongChun_DD|
+|1127|V_ITX_CheongChun_DD_8Car|
+|1128|V_ITX_CheongChun_DD_10Car|
+|1129|[그룹명] ITX_Maum|
+|1130|ITX_Maum_8Car|
+|1131|ITX_Maum_10Car|
+|1132|[그룹명] ITX_Maum_DD|
+|1133|ITX_Maum_DD_4Car|
+|1134|ITX_Maum_DD_6Car|
+|1135|ITX_Maum_DD_8Car|
+|1136|ITX_Maum_DD_10Car|
+|1137|[그룹명] V_ITX_Saemaeul|
+|1138|V_ITX_Saemaeul_8Car|
+|1139|V_ITX_Saemaeul_10Car|
+|1140|[그룹명] ITX_Saemaeul_DD|
+|1141|ITX_Saemaeul_DD_6Car|
+|1142|ITX_Saemaeul_DD_8Car|
+|1143|ITX_Saemaeul_DD_10Car|
+|1144|[그룹명] KTX_Logo|
+|1145|[그룹명] KTX_Cargo|
+|1146|KTX_Cargo_260_6Car|
+|1147|KTX_Cargo_260_12Car|
+|1148|KTX_Cargo_300_10Car|
+|1149|KTX_Cargo_320_8Car|
+|1150|V_KTX_Cargo_320_16Car|
+|1151|[그룹명] KTX_Cheong_Ryong|
+|1152|V_KTX_Cheong_Ryong_8Car|
+|1153|KTX_Cheong_Ryong_12Car|
+|1154|KTX_Cheong_Ryong_16Car|
+|1155|KTX_Cheong_Ryong_DD_8Car|
+|1156|KTX_Chowol_8Car|
+|1157|[그룹명] KTX_Eum|
+|1158|KTX_Eum_6Car|
+|1159|KTX_Eum_DD_6Car|
+|1160|[그룹명] V_KTX_Onnuri|
+|1161|V_KTX_Onnuri_8Car|
+|1162|V_KTX_Onnuri_10Car|
+|1163|V_KTX_Onnuri_16Car|
+|1164|[그룹명] KTX_Sancheon|
+|1165|KTX_Sancheon_10Car|
+|1166|KTX_Sancheon_DD_10Car|
+|1167|KTX_Taegeuk|
+|1168|KTX_Taegeuk_8Car|
+|1169|KTX_Taegeuk_10Car|
+|1170|KTX_Taegeuk_16Car|
+|1171|KTX_Taegeuk_20Car|
+|1172|[그룹명] Nuriro_Logo|
+|1173|Nuriro_6Car|
+|1174|Nuriro_8Car|
+|1175|Nuriro_10Car|
+|1176|Nuriro_DD_4Car|
+|1177|Nuriro_DD_6Car|
+|1178|Nuriro_DD_8Car|
+|1179|Nuriro_DD_10Car|
+|1180|Transparency|
+|1181|[그룹명] VHST_600X|
+|1182|VHST_600X_8Car|
+|1183|VHST_600X_10Car|
+|1184|VHST_600X_16Car|
 
-|2010|ITX_Maum_6Car|
-|2011|V_ITX_Maum_DD_6Car|
-|2012|V_Nuriro_DD_4Car|
-|2013|V_ITX_Saemaeul_DD_6Car|
-|2018|V_ITX_CheongChun_DD_8Car|
-|2020|V_KTX_Eum_6Car|
-|2021|V_KTX_Eum_DD_6Car|
-|2022|V_KTX_Cheong_Ryong_8Car|
-|2023|V_KTX_Cheong_Ryong_DD_8Car|
-|2025|V_KTX_Sancheon_DD_10Car|
-|2026|V_KTX_Cargo_300_10Car|
-|2029|VHST_600X_8Car|
-|2062|Shinkansen_500_16Car|
-|2072|Renfe_S_100_10Car|
-|2073|Renfe_S_102_14Car|
-|2074|Renfe_S_103_8Car|
-|2075|Renfe_S_130_13Car|
-|2076|TGV_Duplex_10Car|
-|2077|TGV_Pos_10Car|
-|2078|TGV_Sud_Est_10Car|
-|2079|TGV_Reseau_Duplex_10Car|
-|2080|TGV_A_12Car|
-|2081|TGV_La_Poste_10Car|
-|2082|TGV_M_11Car|
-|2084|Keisei_AE_series_8Car|
-|2085|Shinkansen_0_12Car|
-|2086|Shinkansen_500_8Car|
-|2087|Shinkansen_700_16Car|
-|2088|Shinkansen_800_6Car|
-|2089|Shinkansen_N700_8Car|
-|2090|Shinkansen_N700_S_6Car|
-|2091|Shinkansen_E2_10Car|
-|2092|Shinkansen_E5_H5_10Car|
-|2093|Shinkansen_E6_7Car|
-|2094|Shinkansen_E7_W7_12Car|
-|2095|Shinkansen_E8_7Car|
-|2096|Shinkansen_923_7Car|
-|2116|NHSRCL_E5_10Car|
-|2117|NSW_TrainLink_D_4Car|
-|2118|THSR_700T_12Car|
-|2121|Talgo_350_SRO_14Car|
-|2126|Shinkansen_0_16Car|
-|2131|V_ITX_Maum_8Car|
-|2142|NSW_TrainLink_D_6Car|
-|2143|Shinkansen_700_8Car|
-|2154|TGV_R_10Car|
-|2155|Shinkansen_N700_16Car|
-|2156|Shinkansen_N700_S_16Car|
-|2166|ITX_Maum_4Car|
-|2177|NEL_8200|
-|2178|MSB_Speeder|
-|2193|[그룹명] ITX_Maum|
-|2195|[그룹명] NSW_TrainLink_D|
-|2197|[그룹명] Shinkansen_0|
-|2198|[그룹명] Shinkansen_700|
-|2199|[공백]|
-|2202|[그룹명] Shinkansen_500|
-|2203|[그룹명] Shinkansen_N700|
-|2204|[그룹명] Shinkansen_N700_S|
 |2220|[사용불가]|
 |2221|[사용불가]|
-|2229|KTX_Cheong_Ryong_8Car|
-|2231|[그룹명] V_ITX_Saemaeul_DD|
-|2233|V_ITX_Saemaeul_DD_8Car|
-|2238|V_ITX_Maum_10Car|
-|2257|Seoulmetro_1st_1000_4000_10Car|
-|2258|ITX_Maum_4_6Car|
-|2259|ITX_Maum_6_4Car|
-|2262|[그룹명] V_ITX_Maum_DD|
-|2285|Seoulmetro_1st_2000_3000_10Car|
-|2299|NEL_8100|
-|2304|[그룹명] Shinkansen_E5_H5|
-|2305|Shinkansen_E5_H5_E6_17Car|
-|2306|V_KTX_Cheong_Ryong|
-|2309|Seoulmetro_1st_7000_8Car|
-|2310|Seoulmetro_1st_6000_8Car|
-|2311|V_ITX_Maum_DD_4Car|
-|2322|KTX_1_20Car|
-|2323|[공백]|
-|2324|Nuriro_4Car|
-|2325|Nuriro_8Car|
-|2326|[공백]|
-|2327|ITX_Saemaeul_6Car|
-|2328|V_ITX_Saemaeul_8Car|
-|2348|[그룹명] RDC|
-|2349|RDC_3Car|
-|2350|RDC_4Car|
-|2352|[그룹명] ITX_CheongChun|
-|2353|V_ITX_CheongChun_6Car|
-|2354|ITX_CheongChun_8Car|
-|2355|V_ITX_CheongChun_10Car|
-|2371|[그룹명] VHST_600X|
-|2372|VHST_600X_16Car|
-|2402|Thalys_PBKA_10Car|
-|2403|ITX_Maum_4_4Car|
-|2406|V_KTX_Chowol_8Car|
-|2417|OEL8000|
-|2423|KTX_Eum_6Car|
-|2425|[그룹명] KTX_Eum|
-|2426|KTX_Eum_12Car|
-|2427|[그룹명] KTX_Cheong_Ryong|
-|2428|KTX_Cheong_Ryong_16Car|
-|2478|V_KTX_Taegeuk|
-|2479|V_KTX_Taegeuk_8Car|
-|2480|V_KTX_Taegeuk_10Car|
-|2481|V_KTX_Taegeuk_16Car|
-|2482|V_KTX_Taegeuk_20Car|
-|2490|ITX_CheongChan|
-|2491|V_ITX_CheongChan_6Car|
-|2492|V_ITX_CheongChan_8Car|
 |2507|[사용불가]|
-|2508|[그룹명] V_KTX_Onnuri|
-|2509|V_KTX_Onnuri_8Car|
-|2510|V_KTX_Onnuri_10Car|
-|2511|[그룹명] KTX_Logo|
-|2512|[그룹명] ITX_Logo|
-|2513|[그룹명] Nuriro_Logo|
-|2515|[그룹명] MTR_Logo|
-|2517|[그룹명] Nishitetsu_Logo|
-|2520|Transparency|
-|2528|V_KTX_Cheong_Ryong_16Car|
-|2529|V_KTX_Onnuri_16Car|
-|2546|[그룹명] [가상] V_KTX_Logo|
-|2547|V_KTX_Sancheon_10Car|
-|2548|[그룹명] [가상] V_ITX_Logo|
-|2549|[그룹명] [가상] V_ITX_Maum|
-|2550|V_ITX_Maum_DD_8Car|
-|2551|V_ITX_Maum_DD_10Car|
-|2552|V_KTX_Cargo_260_8Car|
-|2553|V_KTX_Cargo_320_8Car|
-|2554|V_KTX_Cargo_320_16Car|
-|2555|[그룹명] V_KTX_Cargo|
-|2556|V_KTX_Cargo_260_6Car|
-|2557|V_KTX_Cargo_260_12Car|
-|2572|Virtual|
-|2573|V_ITX_Saemaeul|
-|2574|V_ITX_Saemaeul_10Car|
-|2575|V_ITX_Saemaeul_DD_10Car|
-|2576|V_ITX_Saemaeul_DD_10Car|
-|2577|[그룹명] V_ITX_CheongChun_DD|
-|2578|V_ITX_CheongChun_DD_10Car|
-|2579|[그룹명] V_Nuriro|
-|2580|V_Nuriro_6Car|
-|2581|V_Nuriro_8Car|
-|2582|V_Nuriro_10Car|
-|2583|V_Nuriro_DD_6Car|
-|2584|V_Nuriro_DD_8Car|
-|2585|V_Nuriro_DD_10Car|
-|2592|[그룹명] Group_V_KTX_Eum|
-|2593|V_KTX_Eum_8Car|
-|2594|V_KTX_Eum_10Car|
-|2595|V_KTX_Eum_DD_8Car|
-|2596|V_KTX_Eum_DD_10Car|
-|2597|V_KTX_Cargo_260_10Car|
-|2598|V_KTX_Cargo_260_10Car|
-|2599|V_KTX_Cargo_320_10Car|
-|2600|V_KTX_Cheong_Ryong_10Car|
-|2601|V_KTX_Cheong_Ryong_DD_10Car|
-|2602|[그룹명] V_KTX_Chowol|
-|2603|V_KTX_Chowol_10Car|
-|2604|[그룹명] V_KTX_Sancheon|
-|2609|Keisei_AE_series_10Car|

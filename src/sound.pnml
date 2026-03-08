@@ -2,17 +2,6 @@
 사운드 스위치
 --------------------------------------------------------------------*/
 /*--------------------------------------------------------------------
-Cummins_DMU_start.wav
-적용열차
-- RDC
---------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_Cummins_DMU_start_sound, extra_callback_info1) {
-    SOUND_EVENT_START: sound("sounds/Cummins_DMU_start.wav");
-    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
-    return CB_RESULT_NO_SOUND;
-    }
-
-/*--------------------------------------------------------------------
 DAWONSYSIGBT2start.wav
 적용열차
 - ITX-마음, 마음 DD
@@ -85,93 +74,14 @@ switch(FEAT_TRAINS, SELF, sw_osfx_65_sound, extra_callback_info1) {
     }
 
 /*--------------------------------------------------------------------
-SIEMENSGTO2locostart.wav
-적용열차
-- 8100호대 전기 기관차
---------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_SIEMENSGTO2locostart_sound, extra_callback_info1) {
-    SOUND_EVENT_START: sound("sounds/SIEMENSGTO2locostart.wav");
-    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
-    return CB_RESULT_NO_SOUND;
-    }
-
-/*--------------------------------------------------------------------
-SIEMENSGTOlocostart.wav
-적용열차
-- 8200호대 전기 기관차
---------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_SIEMENSGTOlocostart_sound, extra_callback_info1) {
-    SOUND_EVENT_START: sound("sounds/SIEMENSGTOlocostart.wav");
-    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
-    return CB_RESULT_NO_SOUND;
-    }
-
-/*--------------------------------------------------------------------
-TGV_Kstart.wav
-적용열차
-- KTX-1
-- TGV-레조, 듀플렉스 1세대, 레조 듀플렉스
---------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_TGV_Kstart_sound, extra_callback_info1) {
-    SOUND_EVENT_START: sound("sounds/TGV_Kstart.wav");
-    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
-    return CB_RESULT_NO_SOUND;
-    }
-
-/*--------------------------------------------------------------------
 TGV_POS_IGBT_start.wav
 적용열차
-- TGV-Pos, 듀플렉스 2세대
+- 듀플렉스 2세대
 - 아벨리아 리버티
 - 알 보라크
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_TGV_POS_IGBT_start_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/TGV_POS_IGBT_start.wav");
-    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
-    return CB_RESULT_NO_SOUND;
-    }
-
-/*--------------------------------------------------------------------
-Thyristor_drive_start.wav
-적용열차
-- 8000호대 전기기관차
-- TGV-아틀랑티크, 쉬드 에스트
---------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_Thyristor_drive_start_sound, extra_callback_info1) {
-    SOUND_EVENT_START: sound("sounds/Thyristor_drive_start.wav");
-    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
-    return CB_RESULT_NO_SOUND;
-    }
-
-/*--------------------------------------------------------------------
-TOSHIBAGTOJ2start.wav
-적용열차
-- 신칸센 500계 16량
---------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_TOSHIBAGTOJ2start_sound, extra_callback_info1) {
-    SOUND_EVENT_START: sound("sounds/TOSHIBAGTOJ2start.wav");
-    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
-    return CB_RESULT_NO_SOUND;
-    }
-
-/*--------------------------------------------------------------------
-TOSHIBAIGBTJ2start.wav
-적용열차
-- 니시테츠 9000형
---------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_TOSHIBAIGBTJ2start_sound, extra_callback_info1) {
-    SOUND_EVENT_START: sound("sounds/TOSHIBAIGBTJ2start.wav");
-    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
-    return CB_RESULT_NO_SOUND;
-    }
-
-/*--------------------------------------------------------------------
-TOSHIBAIGBTJ3start.wav
-적용열차
-- 신칸센 500계 8량
---------------------------------------------------------------------*/
-switch(FEAT_TRAINS, SELF, sw_TOSHIBAIGBTJ3start_sound, extra_callback_info1) {
-    SOUND_EVENT_START: sound("sounds/TOSHIBAIGBTJ3start.wav");
     SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
     return CB_RESULT_NO_SOUND;
     }
@@ -211,7 +121,6 @@ switch(FEAT_TRAINS, SELF, sw_TOSHIBASicStart_sound, extra_callback_info1) {
 TOSHIBAStart.wav
 적용열차
 - ITX-새마을 DD, 청춘, 청춘 DD
-- TTX
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_TOSHIBAStart_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/TOSHIBAStart.wav");
@@ -222,7 +131,7 @@ switch(FEAT_TRAINS, SELF, sw_TOSHIBAStart_sound, extra_callback_info1) {
 /*--------------------------------------------------------------------
 WOOJINMITSUBISHIIGBT2start.wav
 적용열차
-- CL-150, 180
+- CL-150
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_WOOJINMITSUBISHIIGBT2start_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/WOOJINMITSUBISHIIGBT2start.wav");

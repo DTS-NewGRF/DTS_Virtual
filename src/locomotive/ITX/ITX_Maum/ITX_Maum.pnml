@@ -10,7 +10,7 @@ ITX-마음
 /*--------------------------------------------------------------------
 열차정보 그룹
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, ITX_Maum, 2193){
+item(FEAT_TRAINS, ITX_Maum, 1129){
     property {
         name:                           string(STR_Group_ITX_Maum_NAME);
         climates_available:             NO_CLIMATE;
@@ -27,122 +27,13 @@ item(FEAT_TRAINS, ITX_Maum, 2193){
         }
 
 /*--------------------------------------------------------------------
-열차정보 4량
+열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, ITX_Maum_4Car, 2166){
+item(FEAT_TRAINS, ITX_Maum_8Car, 1130){
     property {
-        name:                           string(STR_ITX_Maum_4Car_NAME);
+        name:                           string(STR_ITX_Maum_8Car_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2022, 1, 1);
-        track_type:                     ELRL;
-        engine_class:                   ENGINE_CLASS_ELECTRIC;
-        sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  ITX_Maum;
-        
-        //spec
-        speed:                          165km/h;
-        power:                          2000 kW;
-        weight:                         140 ton;
-        tractive_effort_coefficient:    0.3;
-        air_drag_coefficient:           0.01;
-        
-        //Model
-        model_life:                     VEHICLE_NEVER_EXPIRES;
-        vehicle_life:                   30;
-        retire_early:                   0;
-        reliability_decay:              0;
-        
-        //Cargo
-        cargo_capacity:                 66;
-        refittable_cargo_classes:       NO_CARGO_CLASS;
-        non_refittable_cargo_classes:   NO_CARGO_CLASS;
-        cargo_allow_refit:              [PASS];
-        cargo_disallow_refit:           [];
-        
-        //Costs
-        cost_factor:                    10;
-        running_cost_factor:            150;
-        refit_cost:                     0;
-        running_cost_base:              RUNNING_COST_ELECTRIC;
-        
-        //Flags
-        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
-        extra_weight_per_wagon:         35 ton;
-        }
-        
-    graphics {
-        default:                        sw_ITX_Maum_4car_reversed;
-        articulated_part:               sw_articulated_ITX_Maum_4car;
-        purchase:                       set_ITX_Maum_purchase;
-        speed:                          sw_Regular_150_speed;
-        loading_speed:                  25;
-        cargo_subtype_text:             sw_ITX_Maum_cargo_subtype_text;
-        sound_effect:                   sw_DAWONSYSIGBT2start_sound;
-        }
-        }
-
-/*--------------------------------------------------------------------
-열차정보 6량
---------------------------------------------------------------------*/
-item(FEAT_TRAINS, ITX_Maum_6Car, 2010){
-    property {
-        name:                           string(STR_ITX_Maum_6Car_NAME);
-        climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2022, 1, 1);
-        track_type:                     ELRL;
-        engine_class:                   ENGINE_CLASS_ELECTRIC;
-        sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  ITX_Maum;
-        
-        //spec
-        speed:                          165km/h;
-        power:                          3000 kW;
-        weight:                         210 ton;
-        tractive_effort_coefficient:    0.3;
-        air_drag_coefficient:           0.01;
-        
-        //Model
-        model_life:                     VEHICLE_NEVER_EXPIRES;
-        vehicle_life:                   30;
-        retire_early:                   0;
-        reliability_decay:              0;
-        
-        //Cargo
-        cargo_capacity:                 66;
-        refittable_cargo_classes:       NO_CARGO_CLASS;
-        non_refittable_cargo_classes:   NO_CARGO_CLASS;
-        cargo_allow_refit:              [PASS];
-        cargo_disallow_refit:           [];
-        
-        //Costs
-        cost_factor:                    10;
-        running_cost_factor:            150;
-        refit_cost:                     0;
-        running_cost_base:              RUNNING_COST_ELECTRIC;
-        
-        //Flags
-        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
-        extra_weight_per_wagon:         35 ton;
-        }
-        
-    graphics {
-        default:                        sw_ITX_Maum_6car_reversed;
-        articulated_part:               sw_articulated_ITX_Maum_6car;
-        purchase:                       set_ITX_Maum_purchase;
-        speed:                          sw_Regular_150_speed;
-        loading_speed:                  25;
-        sound_effect:                   sw_DAWONSYSIGBT2start_sound;
-        }
-        }
-
-/*--------------------------------------------------------------------
-열차정보 4+4량
---------------------------------------------------------------------*/
-item(FEAT_TRAINS, ITX_Maum_4_4Car, 2403){
-    property {
-        name:                           string(STR_ITX_Maum_4_4Car_NAME);
-        climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2024, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
@@ -151,7 +42,7 @@ item(FEAT_TRAINS, ITX_Maum_4_4Car, 2403){
         //spec
         speed:                          165km/h;
         power:                          4000 kW;
-        weight:                         280 ton;
+        weight:                         320 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -162,7 +53,7 @@ item(FEAT_TRAINS, ITX_Maum_4_4Car, 2403){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 66;
+        cargo_capacity:                 74;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -180,22 +71,21 @@ item(FEAT_TRAINS, ITX_Maum_4_4Car, 2403){
         }
         
     graphics {
-        default:                        sw_ITX_Maum_4_4car_reversed;
-        articulated_part:               sw_articulated_ITX_Maum_4_4car;
+        default:                        sw_ITX_Maum_8car_reversed;
+        articulated_part:               sw_articulated_ITX_Maum_8car;
         purchase:                       set_ITX_Maum_purchase;
         speed:                          sw_Regular_150_speed;
         loading_speed:                  25;
-        cargo_subtype_text:             sw_ITX_Maum_4_4_cargo_subtype_text;
         sound_effect:                   sw_DAWONSYSIGBT2start_sound;
         }
         }
 
 /*--------------------------------------------------------------------
-열차정보 4+6량
+열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, ITX_Maum_4_6Car, 2258){
+item(FEAT_TRAINS, ITX_Maum_10Car, 1131){
     property {
-        name:                           string(STR_ITX_Maum_4_6Car_NAME);
+        name:                           string(STR_ITX_Maum_10Car_NAME);
         climates_available:             ALL_CLIMATES;
         introduction_date:              date(2022, 1, 1);
         track_type:                     ELRL;
@@ -206,7 +96,7 @@ item(FEAT_TRAINS, ITX_Maum_4_6Car, 2258){
         //spec
         speed:                          165km/h;
         power:                          5000 kW;
-        weight:                         350 ton;
+        weight:                         400 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -217,7 +107,7 @@ item(FEAT_TRAINS, ITX_Maum_4_6Car, 2258){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 66;
+        cargo_capacity:                 79;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -235,62 +125,8 @@ item(FEAT_TRAINS, ITX_Maum_4_6Car, 2258){
         }
         
     graphics {
-        default:                        sw_ITX_Maum_4_6car_reversed;
-        articulated_part:               sw_articulated_ITX_Maum_4_6car;
-        purchase:                       set_ITX_Maum_purchase;
-        speed:                          sw_Regular_150_speed;
-        loading_speed:                  25;
-        sound_effect:                   sw_DAWONSYSIGBT2start_sound;
-        }
-        }
-
-/*--------------------------------------------------------------------
-열차정보 6+4량
---------------------------------------------------------------------*/
-item(FEAT_TRAINS, ITX_Maum_6_4Car, 2259){
-    property {
-        name:                           string(STR_ITX_Maum_6_4Car_NAME);
-        climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2022, 1, 1);
-        track_type:                     ELRL;
-        engine_class:                   ENGINE_CLASS_ELECTRIC;
-        sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  ITX_Maum;
-        
-        //spec
-        speed:                          165km/h;
-        power:                          5000 kW;
-        weight:                         350 ton;
-        tractive_effort_coefficient:    0.3;
-        air_drag_coefficient:           0.01;
-        
-        //Model
-        model_life:                     VEHICLE_NEVER_EXPIRES;
-        vehicle_life:                   30;
-        retire_early:                   0;
-        reliability_decay:              0;
-        
-        //Cargo
-        cargo_capacity:                 66;
-        refittable_cargo_classes:       NO_CARGO_CLASS;
-        non_refittable_cargo_classes:   NO_CARGO_CLASS;
-        cargo_allow_refit:              [PASS];
-        cargo_disallow_refit:           [];
-        
-        //Costs
-        cost_factor:                    10;
-        running_cost_factor:            150;
-        refit_cost:                     0;
-        running_cost_base:              RUNNING_COST_ELECTRIC;
-        
-        //Flags
-        misc_flags:                     bitmask(TRAIN_FLAG_FLIP, TRAIN_FLAG_AUTOREFIT, TRAIN_FLAG_2CC, TRAIN_FLAG_SPRITE_STACK);
-        extra_weight_per_wagon:         35 ton;
-        }
-        
-    graphics {
-        default:                        sw_ITX_Maum_6_4car_reversed;
-        articulated_part:               sw_articulated_ITX_Maum_6_4car;
+        default:                        sw_ITX_Maum_10car_reversed;
+        articulated_part:               sw_articulated_ITX_Maum_10car;
         purchase:                       set_ITX_Maum_purchase;
         speed:                          sw_Regular_150_speed;
         loading_speed:                  25;

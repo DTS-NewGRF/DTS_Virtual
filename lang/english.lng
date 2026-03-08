@@ -10,10 +10,6 @@ STR_GRF_URL                                            :https://github.com/DTS-N
 STR_To_Be_Deleted_202403_NAME                          :[2024.3] {RED} To Be Deleted
 
 # locomotive's name / Logo
-STR_Group_KTX_Logo_NAME                                :KTX
-STR_Group_V_KTX_Logo_NAME                              :{GREEN}[Virtual] {BLACK}KTX
-STR_Group_ITX_Logo_NAME                                :ITX
-STR_Group_V_ITX_Logo_NAME                              :{GREEN}[Virtual] {BLACK}ITX
 STR_Group_Nuriro_Logo_NAME                             :Nuriro
 
 # DTS
@@ -118,160 +114,73 @@ STR_Group_HYEL_PEX_Super_NAME                          :HYEL PEX-SUPER (Premium 
 STR_HYEL_PEX_Super_8Car_NAME                           :HYEL PEX-SUPER 8Car
 STR_HYEL_PEX_Super_10Car_NAME                          :HYEL PEX-SUPER 10Car
 STR_HYEL_PEX_Super_14Car_NAME                          :HYEL PEX-SUPER 14Car
-STR_ITX_CheongChun_8Car_NAME                           :[8Car] ITX-CheongChun
+STR_Group_ITX_Logo_NAME                                :ITX
+STR_Group_ITX_CheongChan_NAME                          :ITX-CheongChan
+STR_ITX_CheongChan_6Car_NAME                           :[6Car] ITX-CheongChan
+STR_ITX_CheongChan_8Car_NAME                           :[8Car] ITX-CheongChan
+STR_ITX_CheongChan_10Car_NAME                          :[10Car] ITX-CheongChan
+STR_Group_ITX_CheongChun_NAME                          :ITX-CheongChun
+STR_ITX_CheongChun_6Car_NAME                           :[6Car] ITX-CheongChun
+STR_ITX_CheongChun_10Car_NAME                          :[10Car] ITX-CheongChun
+STR_Group_ITX_CheongChun_DD_NAME                       :ITX-CheongChun DD
+STR_ITX_CheongChun_DD_8Car_NAME                        :[8Car] ITX-CheongChun DD
+STR_ITX_CheongChun_DD_10Car_NAME                       :[10Car] ITX-CheongChun DD
 STR_Group_ITX_Maum_NAME                                :ITX-Maum
-STR_ITX_Maum_4Car_NAME                                 :[4Car] ITX-Maum
-STR_ITX_Maum_6Car_NAME                                 :[6Car] ITX-Maum
-STR_ITX_Maum_4_4Car_NAME                               :[4+4Car] ITX-Maum
-STR_ITX_Maum_4_6Car_NAME                               :[4+6Car] ITX-Maum
-STR_ITX_Maum_6_4Car_NAME                               :[6+8Car] ITX-Maum
-STR_ITX_Saemaeul_6Car_NAME                             :[6Car] ITX-Saemaeul
-STR_KTX_1_20Car_NAME                                   :[20Car] TGV-K
+STR_ITX_Maum_8Car_NAME                                 :[8Car] ITX-Maum
+STR_ITX_Maum_10Car_NAME                                :[10Car] ITX-Maum
+STR_Group_ITX_Maum_DD_NAME                             :ITX-Maum DD
+STR_ITX_Maum_DD_4Car_NAME                              :[4Car] ITX-Maum DD
+STR_ITX_Maum_DD_6Car_NAME                              :[6Car] ITX-Maum DD
+STR_ITX_Maum_DD_8Car_NAME                              :[8Car] ITX-Maum DD
+STR_ITX_Maum_DD_10Car_NAME                             :[10Car] ITX-Maum DD
+STR_Group_ITX_Saemaeul_NAME                            :ITX-Saemaeul
+STR_ITX_Saemaeul_8Car_NAME                             :[8Car] ITX-Saemaeul
+STR_ITX_Saemaeul_10Car_NAME                            :[10Car] ITX-Saemaeul
+STR_Group_ITX_Saemaeul_DD_NAME                         :ITX-Saemaeul DD
+STR_ITX_Saemaeul_DD_6Car_NAME                          :[6Car] ITX-Saemaeul DD
+STR_ITX_Saemaeul_DD_8Car_NAME                          :[8Car] ITX-Saemaeul DD
+STR_ITX_Saemaeul_DD_10Car_NAME                         :[10Car] ITX-Saemaeul DD
+STR_Group_KTX_Logo_NAME                                :KTX
+STR_KTX_Cargo_NAME                                     :KTX-Cargo
+STR_KTX_Cargo_260_6Car_NAME                            :[6Car] KTX-Cargo 260
+STR_KTX_Cargo_260_12Car_NAME                           :[12Car] KTX-Cargo 260
+STR_KTX_Cargo_300_10Car_NAME                           :[10Car] KTX-Cargo 300
+STR_KTX_Cargo_320_8Car_NAME                            :[8Car] KTX-Cargo 320
+STR_KTX_Cargo_320_16Car_NAME                           :[16Car] KTX-Cargo 320
 STR_Group_KTX_Cheong_Ryong_NAME                        :KTX-Cheong Ryong
 STR_KTX_Cheong_Ryong_8Car_NAME                         :[8Car] KTX-Cheong Ryong
+STR_KTX_Cheong_Ryong_12Car_NAME                        :[12Car] KTX-Cheong Ryong
 STR_KTX_Cheong_Ryong_16Car_NAME                        :[16Car] KTX-Cheong Ryong
+STR_KTX_Cheong_Ryong_DD_8Car_NAME                      :[8Car] KTX-Cheong Ryong DD
+STR_KTX_Chowol_8Car_NAME                               :[8Car] KTX-Chowol
 STR_Group_KTX_Eum_NAME                                 :KTX-EUM
 STR_KTX_Eum_6Car_NAME                                  :[6Car] KTX-EUM
-STR_KTX_Eum_12Car_NAME                                 :[12Car] KTX-EUM
-STR_MSB_Speeder_NAME                                   :MSB Speeder
-STR_NEL_8100_NAME                                      :NEL 8100
-STR_NEL_8200_NAME                                      :NEL 8200
+STR_KTX_Eum_DD_6Car_NAME                               :[6Car] KTX-EUM DD
+STR_Group_KTX_Onnuri_NAME                              :KTX-Onnuri
+STR_KTX_Onnuri_8Car_NAME                               :[8Car] KTX-Onnuri
+STR_KTX_Onnuri_10Car_NAME                              :[10Car] KTX-Onnuri
+STR_KTX_Onnuri_16Car_NAME                              :[16Car] KTX-Onnuri
+STR_Group_KTX_Sancheon_NAME                            :KTX-Sancheon
+STR_KTX_Sancheon_10Car_NAME                            :[10Car]KTX-Sancheon
+STR_KTX_Sancheon_DD_10Car_NAME                         :[10Car] KTX-Sancheon DD
+STR_Group_KTX_Taegeuk_NAME                             :KTX Taegeuk
+STR_KTX_Taegeuk_8Car_NAME                              :[8Car] KTX Taegeuk
+STR_KTX_Taegeuk_10Car_NAME                             :[10Car] KTX Taegeuk
+STR_KTX_Taegeuk_16Car_NAME                             :[16Car] KTX Taegeuk
+STR_KTX_Taegeuk_20Car_NAME                             :[20Car] KTX Taegeuk
 STR_Group_Nuriro_NAME                                  :Korail 200000 series EMU (NURIRO)
-STR_Nuriro_4Car_NAME                                   :[4Car] Korail 200000 series EMU (NURIRO)
-STR_Nuriro_8Car_NAME                                   :[8Car] Korail 200000 series EMU (NURIRO)
-STR_OEL_8000_NAME                                      :OEL 8000
-STR_Group_RDC_NAME                                     :RDC Diesel
-STR_RDC_3Car_NAME                                      :[3Car] RDC Diesel
-STR_RDC_4Car_NAME                                      :[4Car] RDC Diesel
-STR_TTX_6Car_NAME                                      :[6Car] TTX
+STR_Nuriro_6Car_NAME                                   :[6Car] Nuriro
+STR_Nuriro_8Car_NAME                                   :[8Car] Nuriro
+STR_Nuriro_10Car_NAME                                  :[10Car] Nuriro
+STR_Nuriro_DD_4Car_NAME                                :[4Car] Nuriro DD
+STR_Nuriro_DD_6Car_NAME                                :[6Car] Nuriro DD
+STR_Nuriro_DD_8Car_NAME                                :[8Car] Nuriro DD
+STR_Nuriro_DD_10Car_NAME                               :[10Car] Nuriro DD
+STR_Transparency_NAME                                  :Transparency Vehicle
 STR_Group_VHST_600X_NAME                               :VHST-600X
 STR_VHST_600X_8Car_NAME                                :[8Car] VHST-600X
+STR_VHST_600X_10Car_NAME                               :[10Car] VHST-600X
 STR_VHST_600X_16Car_NAME                               :[16Car] VHST-600X
-
-# European / locomotive's name
-STR_Renfe_S_100_10Car_NAME                             :[10Car] Renfe AVE S-100
-STR_Renfe_S_102_14Car_NAME                             :[14Car] Renfe AVE S-102
-STR_Renfe_S_103_8Car_NAME                              :[8Car] Renfe AVE S-103
-STR_Renfe_S_130_13Car_NAME                             :[13Car] Renfe S-130
-STR_TGV_A_12Car_NAME                                   :[12Car] TGV Atlantique
-STR_TGV_Duplex_10Car_NAME                              :[10Car] TGV Duplex
-STR_TGV_La_Poste_10Car_NAME                            :[10Car] TGV La Poste
-STR_TGV_M_11Car_NAME                                   :[11Car] TGV M
-STR_TGV_R_10Car_NAME                                   :[10Car] TGV Reseau
-STR_TGV_Pos_10Car_NAME                                 :[10Car] TGV Pos
-STR_TGV_Reseau_Duplex_10Car_NAME                       :[10Car] TGV Reseau Duplex
-STR_TGV_Sud_Est_10Car_NAME                             :[10Car] TGV Sud-Est
-STR_Thalys_PBKA_10Car_NAME                             :[10Car] Thalys PBKA
-
-# Japanese / locomotive's name
-STR_Kse2_8Car_NAME                                     :[8Car] Keisei AE series
-STR_Group_Shinkansen_0_NAME                            :Shinkansen 0
-STR_Shinkansen_0_12Car_NAME                            :[12Car] Shinkansen 0
-STR_Shinkansen_0_16Car_NAME                            :[16Car] Shinkansen 0
-STR_Group_Shinkansen_500_NAME                          :Shinkansen 500
-STR_Shinkansen_500_8Car_NAME                           :[8Car] Shinkansen 500
-STR_Shinkansen_500_16Car_NAME                          :[16Car] Shinkansen 500
-STR_Group_Shinkansen_700_NAME                          :Shinkansen 700
-STR_Shinkansen_700_8Car_NAME                           :[8Car] Shinkansen 700
-STR_Shinkansen_700_16Car_NAME                          :[16Car] Shinkansen 700
-STR_Shinkansen_800_6Car_NAME                           :[6Car] Shinkansen 800
-STR_Shinkansen_923_7Car_NAME                           :[7Car] Shinkansen 923
-STR_Shinkansen_E2_10Car_NAME                           :[10Car] Shinkansen E2
-STR_Group_Shinkansen_E5_H5_NAME                        :Shinkansen E5·H5
-STR_Shinkansen_E5_H5_10Car_NAME                        :[10Car] Shinkansen E5·H5
-STR_Shinkansen_E5_H5_E6_17Car_NAME                     :[17Car] Shinkansen E5·H5+E6
-STR_Shinkansen_E6_7Car_NAME                            :[7Car] Shinkansen E6
-STR_Shinkansen_E7_W7_12Car_NAME                        :[12Car] Shinkansen E7·W7
-STR_Shinkansen_E8_7Car_NAME                            :[7Car] Shinkansen E8
-STR_Group_Shinkansen_N700_NAME                         :Shinkansen N700
-STR_Shinkansen_N700_8Car_NAME                          :[8Car] Shinkansen N700 Sanyo-Kyushu Shinkansen
-STR_Shinkansen_N700_16Car_NAME                         :[16Car] Shinkansen N700
-STR_Group_Shinkansen_N700S_NAME                        :Shinkansen N700S
-STR_Shinkansen_N700S_6Car_NAME                         :[6Car] Shinkansen N700S Nishikyushu Shinkansen
-STR_Shinkansen_N700S_16Car_NAME                        :[16Car] Shinkansen N700S
-
-# Virtual / locomotive's name
-STR_Group_Virtual_NAME                                 :Virtual
-STR_Group_V_ITX_CheongChan_NAME                        :ITX-CheongChan
-STR_V_ITX_CheongChan_6Car_NAME                         :[6Car] ITX-CheongChan
-STR_V_ITX_CheongChan_8Car_NAME                         :[8Car] ITX-CheongChan
-STR_V_ITX_CheongChan_10Car_NAME                        :[10Car] ITX-CheongChan
-STR_Group_V_ITX_CheongChun_NAME                        :ITX-CheongChun
-STR_V_ITX_CheongChun_6Car_NAME                         :[6Car] ITX-CheongChun
-STR_V_ITX_CheongChun_10Car_NAME                        :[10Car] ITX-CheongChun
-STR_Group_V_ITX_CheongChun_DD_NAME                     :ITX-CheongChun DD
-STR_V_ITX_CheongChun_DD_8Car_NAME                      :[8Car] ITX-CheongChun DD
-STR_V_ITX_CheongChun_DD_10Car_NAME                     :[10Car] ITX-CheongChun DD
-STR_Group_V_ITX_Maum_NAME                              :{GREEN}[Virtual] {BLACK}ITX-Maum
-STR_V_ITX_Maum_8Car_NAME                               :[8Car] ITX-Maum
-STR_V_ITX_Maum_10Car_NAME                              :[10Car] ITX-Maum
-STR_Group_V_ITX_Maum_DD_NAME                           :ITX-Maum DD
-STR_V_ITX_Maum_DD_4Car_NAME                            :[4Car] ITX-Maum DD
-STR_V_ITX_Maum_DD_6Car_NAME                            :[6Car] ITX-Maum DD
-STR_V_ITX_Maum_DD_8Car_NAME                            :[6Car] ITX-Maum DD
-STR_V_ITX_Maum_DD_10Car_NAME                           :[6Car] ITX-Maum DD
-STR_Group_V_ITX_Saemaeul_NAME                          :{GREEN}[Virtual] {BLACK}ITX-Saemaeul
-STR_V_ITX_Saemaeul_8Car_NAME                           :[8Car] ITX-Saemaeul
-STR_V_ITX_Saemaeul_10Car_NAME                          :[10Car] ITX-Saemaeul
-STR_Group_V_ITX_Saemaeul_DD_NAME                       :ITX-Saemaeul DD
-STR_V_ITX_Saemaeul_DD_6Car_NAME                        :[6Car] ITX-Saemaeul DD
-STR_V_ITX_Saemaeul_DD_8Car_NAME                        :[8Car] ITX-Saemaeul DD
-STR_V_ITX_Saemaeul_DD_10Car_NAME                       :[10Car] ITX-Saemaeul DD
-STR_Group_V_Nuriro_NAME                                :{GREEN}[Virtual] {BLACK} Nuriro
-STR_V_Nuriro_6Car_NAME                                 :[6Car] Nuriro
-STR_V_Nuriro_8Car_NAME                                 :[8Car] Nuriro
-STR_V_Nuriro_10Car_NAME                                :[10Car] Nuriro
-STR_V_Nuriro_DD_4Car_NAME                              :[4Car] Nuriro DD
-STR_V_Nuriro_DD_6Car_NAME                              :[6Car] Nuriro DD
-STR_V_Nuriro_DD_8Car_NAME                              :[8Car] Nuriro DD
-STR_V_Nuriro_DD_10Car_NAME                             :[10Car] Nuriro DD
-STR_V_KTX_Cargo_NAME                                   :KTX-Cargo
-STR_V_KTX_Cargo_260_6Car_NAME                          :[6Car]KTX-Cargo 260
-STR_V_KTX_Cargo_260_8Car_NAME                          :[8Car]KTX-Cargo 260
-STR_V_KTX_Cargo_260_10Car_NAME                         :[10Car]KTX-Cargo 260
-STR_V_KTX_Cargo_260_12Car_NAME                         :[12Car]KTX-Cargo 260
-STR_V_KTX_Cargo_300_10Car_NAME                         :[10Car]KTX-Cargo 300
-STR_V_KTX_Cargo_320_8Car_NAME                          :[8Car]KTX-Cargo 320
-STR_V_KTX_Cargo_320_10Car_NAME                         :[10Car]KTX-Cargo 320
-STR_V_KTX_Cargo_320_16Car_NAME                         :[16Car]KTX-Cargo 320
-STR_Group_V_KTX_Cheong_Ryong_NAME                      :KTX-Cheong Ryong
-STR_V_KTX_Cheong_Ryong_8Car_NAME                       :[8Car]KTX-Cheong Ryong
-STR_V_KTX_Cheong_Ryong_10Car_NAME                      :[10Car]KTX-Cheong Ryong
-STR_V_KTX_Cheong_Ryong_16Car_NAME                      :[16Car]KTX-Cheong Ryong
-STR_V_KTX_Cheong_Ryong_DD_8Car_NAME                    :[8Car]KTX-Cheong Ryong DD
-STR_V_KTX_Cheong_Ryong_DD_10Car_NAME                   :[10Car]KTX-Cheong Ryong DD
-STR_Group_V_KTX_Chowol_NAME                            :KTX-Chowol
-STR_V_KTX_Chowol_8Car_NAME                             :[8Car] KTX-Chowol
-STR_V_KTX_Chowol_10Car_NAME                            :[10Car] KTX-Chowol
-STR_Group_V_KTX_Eum_NAME                               :KTX-EUM
-STR_V_KTX_Eum_6Car_NAME                                :[6Car]KTX-EUM
-STR_V_KTX_Eum_8Car_NAME                                :[8Car]KTX-EUM
-STR_V_KTX_Eum_10Car_NAME                               :[10Car]KTX-EUM
-STR_V_KTX_Eum_DD_6Car_NAME                             :[6Car]KTX-EUM DD
-STR_V_KTX_Eum_DD_8Car_NAME                             :[8Car]KTX-EUM DD
-STR_V_KTX_Eum_DD_10Car_NAME                            :[10Car]KTX-EUM DD
-STR_Group_V_KTX_Onnuri_NAME                            :KTX-Onnuri
-STR_V_KTX_Onnuri_8Car_NAME                             :[8Car] KTX-Onnuri
-STR_V_KTX_Onnuri_10Car_NAME                            :[10Car] KTX-Onnuri
-STR_V_KTX_Onnuri_16Car_NAME                            :[16Car] KTX-Onnuri
-STR_Group_V_KTX_Sancheon_NAME                          :KTX-Sancheon
-STR_V_KTX_Sancheon_10Car_NAME                          :[10Car]KTX-Sancheon
-STR_V_KTX_Sancheon_DD_10Car_NAME                       :[10Car] KTX-Sancheon DD
-STR_Group_V_KTX_Taegeuk_NAME                           :KTX Taegeuk
-STR_V_KTX_Taegeuk_8Car_NAME                            :[8Car] KTX Taegeuk
-STR_V_KTX_Taegeuk_10Car_NAME                           :[10Car] KTX Taegeuk
-STR_V_KTX_Taegeuk_16Car_NAME                           :[16Car] KTX Taegeuk
-STR_V_KTX_Taegeuk_20Car_NAME                           :[20Car] KTX Taegeuk
-STR_Kse2_10Car_NAME                                    :[10Car] Keisei AE series
-STR_Transparency_NAME                                  :Transparency Vehicle
-
-# World / locomotive's name
-STR_NHSRCL_E5_10Car_NAME                               :[10Car] NHSRCL E5
-STR_Group_NSW_TrainLink_D_NAME                         :NSW TrainLink D
-STR_NSW_TrainLink_D_4Car_NAME                          :[4Car] NSW TrainLink D
-STR_NSW_TrainLink_D_6Car_NAME                          :[6Car] NSW TrainLink D
-STR_Talgo_350_SRO_14Car_NAME                           :[14Car] Talgo 350 SRO
-STR_THSR_700T_12Car_NAME                               :[12Car] THSR 700T
 
 # Metro's name
 STR_Group_Nextrain_NAME                                :Nextrain Metro
@@ -314,11 +223,6 @@ STR_PARAM_High_SPEED_Train_430_DESC                    :Adjust the Virtual speed
 STR_PARAM_High_SPEED_Train_Test_NAME                   :Test High Virtual speed Train
 STR_PARAM_High_SPEED_Train_Test_DESC                   :Adjust the Virtual speed of the Test high-speed train{}- Default:600km/h
 
-# Refit (Additional text) Real Trian(BLUE), Test Train(YELLOW), Plan Train(PURPLE), Virtual Train(RED)
-STR_REFIT_train_configuration_TGV_Poste                :{BLACK}train configuration {}{GREEN} TGV La Poste
-STR_REFIT_train_configuration_2F                       :{BLACK}train configuration {}{GREEN} 2F passenger vehicles
-STR_REFIT_train_configuration_Coach_Last               :{BLACK}train configuration {}{GREEN} Coach 2F Passenger vehicles
-
 # Liveries locomotive
 STR_REFIT_LIVERY_DTS_CityLink_150_speed                : 150km/h
 STR_REFIT_LIVERY_DTS_CityLink_180_speed                : 180km/h
@@ -359,121 +263,47 @@ STR_REFIT_LIVERY_HYEL_PEX_Super_I                      : HYEL PEX_Super I
 STR_REFIT_LIVERY_HYEL_PEX_Super_J                      : HYEL PEX_Super J
 STR_REFIT_LIVERY_ITX_CheongChun_A                      : ITX-CheongChun A
 STR_REFIT_LIVERY_ITX_CheongChun_B                      : ITX-CheongChun B
-STR_REFIT_LIVERY_ITX_Maum                              : ITX-Maum
-STR_REFIT_LIVERY_ITX_Maum_High1                        : HIGH1 Resort
-STR_REFIT_LIVERY_ITX_Maum_4_4_A                        : ITX-Maum + HIGH1 Resort
-STR_REFIT_LIVERY_ITX_Maum_4_4_B                        : HIGH1 Resort + ITX-Maum
-STR_REFIT_LIVERY_KTX_1_1997                            : Special 4Car
-STR_REFIT_LIVERY_KTX_1_2007                            : Move Cinema
-STR_REFIT_LIVERY_KTX_1_2013                            : LTE-A
-STR_REFIT_LIVERY_KTX_1_2017                            : Special 3Car
-STR_REFIT_LIVERY_KTX_Cheong_Ryong_Eum                  : KTX-Eum
-STR_REFIT_LIVERY_KTX_Cheong_Ryong                      : KTX-Cheong Ryong
-STR_REFIT_LIVERY_KTX_Cheong_Ryong_2nd                  : KTX-Cheong Ryong 2nd
+STR_REFIT_LIVERY_KTX_Cheong_Ryong_BK                   : Black Livery
+STR_REFIT_LIVERY_KTX_Cheong_Ryong_CC                   : Company Colour
+STR_REFIT_LIVERY_KTX_Cheong_Ryong_Euro                 : Euro
+STR_REFIT_LIVERY_KTX_Cheong_Ryong_ICE                  : ICE
+STR_REFIT_LIVERY_KTX_Cheong_Ryong_JR                   : JR
+STR_REFIT_LIVERY_KTX_Cheong_Ryong_SRT_A                : SRT_A
+STR_REFIT_LIVERY_KTX_Cheong_Ryong_SRT_B                : SRT_B
+STR_REFIT_LIVERY_KTX_Cheong_Ryong_SRT_C                : SRT_C
+STR_REFIT_LIVERY_KTX_Cheong_Ryong_SRT_D                : SRT_D
+STR_REFIT_LIVERY_KTX_Cheong_Ryong_SRT_E                : SRT_E
+STR_REFIT_LIVERY_KTX_Cheong_Ryong_THRS                 : THRS
+STR_REFIT_LIVERY_KTX_Cheong_Ryong_DD                   : KTX-Cheong Ryong
+STR_REFIT_LIVERY_KTX_Cheong_Ryong_DD_BK                : Black Livery
+STR_REFIT_LIVERY_KTX_Cheong_Ryong_DD_CC                : Company Color
+STR_REFIT_LIVERY_KTX_Eum_MD                            : KTX-Eum Prototype Livery
+STR_REFIT_LIVERY_KTX_Eum_W                             : KTX-Eum White Livery
+STR_REFIT_LIVERY_KTX_Eum_BK                            : KTX-Eum Black Livery
+STR_REFIT_LIVERY_KTX_Eum_SM1                           : KTX-Eum Saemaeul First Livery
+STR_REFIT_LIVERY_KTX_Eum_SM2                           : KTX-Eum Saemaeul Second Livery
+STR_REFIT_LIVERY_KTX_Eum_SM3                           : KTX-Eum Saemaeul Third Livery
 STR_REFIT_LIVERY_SRT_320                               : SRT 320
 STR_REFIT_LIVERY_KTX_Eum                               : KTX-Eum
 STR_REFIT_LIVERY_KTX_Eum_1st_2nd                       : KTX-Eum 1st+2nd
 STR_REFIT_LIVERY_KTX_Eum_2nd_1st                       : KTX-Eum 2nd+1st
 STR_REFIT_LIVERY_KTX_Eum_2nd                           : KTX-Eum 2nd
+STR_REFIT_LIVERY_KTX_Honam_Sky_blue                    : KTX-Sancheon 120000 1
+STR_REFIT_LIVERY_KTX_Honam_Yellow                      : KTX-Sancheon 120000 2
+STR_REFIT_LIVERY_KTX_Gyeonggang_Blue                   : KTX-Gyeonggang Blue Livery
+STR_REFIT_LIVERY_KTX_Gyeonggang_White                  : KTX-Gyeonggang White Livery
 STR_REFIT_LIVERY_L150_1F                               : 1F
 STR_REFIT_LIVERY_L150_2F                               : 2F
-STR_REFIT_LIVERY_V_KTX_Cheong_Ryong_CC                 : Company Colour
-STR_REFIT_LIVERY_V_KTX_Cheong_Ryong_BK                 : Black Livery
-STR_REFIT_LIVERY_V_KTX_Cheong_Ryong_SRT_A              : SRT_A
-STR_REFIT_LIVERY_V_KTX_Cheong_Ryong_SRT_B              : SRT_B
-STR_REFIT_LIVERY_V_KTX_Cheong_Ryong_SRT_C              : SRT_C
-STR_REFIT_LIVERY_V_KTX_Cheong_Ryong_SRT_D              : SRT_D
-STR_REFIT_LIVERY_V_KTX_Cheong_Ryong_SRT_E              : SRT_E
-STR_REFIT_LIVERY_V_KTX_Cheong_Ryong_ICE                : ICE
-STR_REFIT_LIVERY_V_KTX_Cheong_Ryong_Euro               : Euro
-STR_REFIT_LIVERY_V_KTX_Cheong_Ryong_THRS               : THRS
-STR_REFIT_LIVERY_V_KTX_Cheong_Ryong_JR                 : JR
-STR_REFIT_LIVERY_V_KTX_Cheong_Ryong_DD                 : KTX-Cheong Ryong
-STR_REFIT_LIVERY_V_KTX_Cheong_Ryong_DD_CC              : Company Color
-STR_REFIT_LIVERY_V_KTX_Cheong_Ryong_DD_BK              : Black Livery
-STR_REFIT_LIVERY_V_KTX_Eum_W                           : KTX-Eum White Livery
-STR_REFIT_LIVERY_V_KTX_Eum_BK                          : KTX-Eum Black Livery
-STR_REFIT_LIVERY_V_KTX_Eum_MD                          : KTX-Eum Prototype Livery
-STR_REFIT_LIVERY_V_KTX_Eum_SM1                         : KTX-Eum Saemaeul First Livery
-STR_REFIT_LIVERY_V_KTX_Eum_SM2                         : KTX-Eum Saemaeul Second Livery
-STR_REFIT_LIVERY_V_KTX_Eum_SM3                         : KTX-Eum Saemaeul Third Livery
-STR_REFIT_LIVERY_V_KTX_Honam_Sky_blue                  : KTX-Sancheon 120000 1
-STR_REFIT_LIVERY_V_KTX_Honam_Yellow                    : KTX-Sancheon 120000 2
-STR_REFIT_LIVERY_V_KTX_Gyeonggang_Blue                 : KTX-Gyeonggang Blue Livery
-STR_REFIT_LIVERY_V_KTX_Gyeonggang_White                : KTX-Gyeonggang White Livery
-STR_REFIT_LIVERY_NEL_8100_A                            : NEL 8100 A
-STR_REFIT_LIVERY_NEL_8100_B                            : NEL 8100 B
 STR_REFIT_LIVERY_Nuriro_Old                            : Nuriro Old
 STR_REFIT_LIVERY_Nuriro_New                            : Nuriro New
 STR_REFIT_LIVERY_Nuriro_A                              : Nuriro A
 STR_REFIT_LIVERY_Nuriro_B                              : Nuriro B
 STR_REFIT_LIVERY_Nuriro_O                              : Nuriro O-Train
 STR_REFIT_LIVERY_Nuriro_DS                             : Nuriro Donghae Santa
-STR_REFIT_LIVERY_Nuriro_AB                             : Nuriro Old+New
-STR_REFIT_LIVERY_Nuriro_AC                             : Nuriro Old+Raping A
-STR_REFIT_LIVERY_Nuriro_AD                             : Nuriro Old+Raping B
-STR_REFIT_LIVERY_Nuriro_BA                             : Nuriro New+Old
-STR_REFIT_LIVERY_Nuriro_BC                             : Nuriro New+Raping A
-STR_REFIT_LIVERY_Nuriro_BD                             : Nuriro New+Raping B
-STR_REFIT_LIVERY_Nuriro_CA                             : Nuriro Raping A+Old
-STR_REFIT_LIVERY_Nuriro_CB                             : Nuriro Raping A+New
-STR_REFIT_LIVERY_Nuriro_DA                             : Nuriro Raping B+Old
-STR_REFIT_LIVERY_Nuriro_DB                             : Nuriro Raping B+New
 STR_REFIT_LIVERY_Nuriro_DD_Old                         : Old
 STR_REFIT_LIVERY_Nuriro_DD_New                         : New
 STR_REFIT_LIVERY_Nuriro_DD_O_Train                     : O-train
 STR_REFIT_LIVERY_Nuriro_DD_ITX_Saemaeul                : ITX-Saemaeul
-STR_REFIT_LIVERY_OEL8000_I1                            : 1st Early livery
-STR_REFIT_LIVERY_OEL8000_I2                            : 2nd Early livery
-STR_REFIT_LIVERY_OEL8000_O1                            : 1st Old livery
-STR_REFIT_LIVERY_OEL8000_O2                            : 2nd Old livery
-STR_REFIT_LIVERY_OEL8000_N1                            : 1st New livery
-STR_REFIT_LIVERY_OEL8000_N2                            : 2nd New livery
-STR_REFIT_LIVERY_RDC                                   : RDC
-STR_REFIT_LIVERY_RDC_Cafe_A                            : RDC Cafe Car A
-STR_REFIT_LIVERY_RDC_Cafe_B                            : RDC Cafe Car B
-STR_REFIT_LIVERY_RDC_Cafe_C                            : RDC Cafe Car C
-STR_REFIT_LIVERY_RDC_PY                                : RDC Pohang Yeongdeok A type
-STR_REFIT_LIVERY_RDC_PY2                               : RDC Pohang Yeongdeok B type
-STR_REFIT_LIVERY_RDC_Gyeongbuk_Old                     : RDC Gyeongbuk Old
-STR_REFIT_LIVERY_RDC_Gyeongbuk_New                     : RDC Gyeongbuk New
-STR_REFIT_LIVERY_RDC_Gyeongbuk_Nadri                   : RDC Gyeongbuk Nadri
-STR_REFIT_LIVERY_BB15000_Orginal                       : Orginal
-STR_REFIT_LIVERY_BB15000_Korail                        : Korail
-STR_REFIT_LIVERY_BB15000_En_Voyagee                    : En Voyagee
-STR_REFIT_LIVERY_TGV_Atlantic                          : Atlantic Blue
-STR_REFIT_LIVERY_TGV_Atlantic_1st                      : 1st Atlantic Blue
-STR_REFIT_LIVERY_TGV_Atlantic_2nd                      : 2nd Atlantic Blue
-STR_REFIT_LIVERY_TGV_Atlantic_First_2Car               : Atlantic Blue First 2Car
-STR_REFIT_LIVERY_TGV_Atlantic_First_3Car               : Atlantic Blue First 3Car
-STR_REFIT_LIVERY_TGV_Carmillon                         : Carmillon
-STR_REFIT_LIVERY_TGV_Carmillon_1st                     : 1st Carmillon
-STR_REFIT_LIVERY_TGV_Carmillon_2nd                     : 2nd Carmillon
-STR_REFIT_LIVERY_TGV_Lacroix                           : Lacroix
-STR_REFIT_LIVERY_TGV_Lyair                             : Lyria
-STR_REFIT_LIVERY_TGV_M                                 : TGV-M
-STR_REFIT_LIVERY_TGV_M_Inoui                           : Inoui
-STR_REFIT_LIVERY_TGV_M_Rame                            : Rame D'Essal
-STR_REFIT_LIVERY_TGV_Ouigo                             : Ouigo
-STR_REFIT_LIVERY_TGV_Sud_Est_Original                  : Orange
-STR_REFIT_LIVERY_TGV_Sud_Est_Last                      : Last run Event
-STR_REFIT_LIVERY_TGV_Thalys_PBKA_Old                   : Thalys PBKA Old
-STR_REFIT_LIVERY_TGV_Thalys_PBKA_New                   : Thalys PBKA New
-STR_REFIT_LIVERY_TGV_Thalys_Ruby                       : Thalys Ruby
-STR_REFIT_LIVERY_Renfe_S_100_old                       : Old Livery
-STR_REFIT_LIVERY_Renfe_S_100_new                       : Renewal Livery
-STR_REFIT_LIVERY_Renfe_S_130_Alvia                     : Alvia
-STR_REFIT_LIVERY_Renfe_S_130_Aprosiyob                 : Aprosiyob
-STR_REFIT_LIVERY_Shinkansen_0                          : Original Livery
-STR_REFIT_LIVERY_Shinkansen_0_renewal                  : Renewal Livery
-STR_REFIT_LIVERY_Shinkansen_E2_Pink                    : Pink line Livery
-STR_REFIT_LIVERY_Shinkansen_E2_Red                     : Red line Livery
-STR_REFIT_LIVERY_Shinkansen_E5                         : Shinkansen E5
-STR_REFIT_LIVERY_Shinkansen_H5                         : Shinkansen H5
-STR_REFIT_LIVERY_Shinkansen_E5_E6                      : Shinkansen E5+E6
-STR_REFIT_LIVERY_Shinkansen_E5_E8                      : Shinkansen E5+E8
-STR_REFIT_LIVERY_Shinkansen_H5_E6                      : Shinkansen H5+E6
-STR_REFIT_LIVERY_Shinkansen_H5_E8                      : Shinkansen H5+E8
 
 # Liveries wagon
 STR_REFIT_LIVERY_VSPassenger_BR                        : Default Color
