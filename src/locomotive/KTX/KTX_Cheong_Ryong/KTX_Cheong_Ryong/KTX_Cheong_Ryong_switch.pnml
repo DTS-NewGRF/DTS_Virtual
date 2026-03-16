@@ -397,7 +397,7 @@ switch (FEAT_TRAINS, SELF, sw_KTX_Cheong_Ryong_16car_r, position_in_vehid_chain 
      9:sw_KTX_Cheong_Ryong_16Car_wagon_M3_r;
     10:sw_KTX_Cheong_Ryong_16Car_wagon_M2_r;
     11:sw_KTX_Cheong_Ryong_16Car_wagon_M1_r;
-    12..15:sw_KTX_Cheong_Ryong_16Car_wagon_M2_r;
+    12..14:sw_KTX_Cheong_Ryong_16Car_wagon_M2_r;
     15:sw_KTX_Cheong_Ryong_16Car_engineH_r;
     }
 

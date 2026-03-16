@@ -1,5 +1,4 @@
 # Diversity Train Set 다양성 가상열차세트 /DTS Virtuel
-![DTS_board](https://github.com/DTS-NewGRF/DTS/blob/minengallery/docs/DTS_board.png)
 **다양성 가상열차세트**는 <br>
 2023년 6월 18일 `Diversity Train Set 다양성 열차세트2 / DTS2`로 등록을 시작했습니다.<br>
 당시, 온라인컨텐츠 깃허브의 업로드 오류로 인해 등록되어 방치된 세트였습니다.<br>
@@ -7,22 +6,11 @@
 [Github release 페이지](https://github.com/DTS-NewGRF/DTS_Virtual/releases)와 인게임 온라인 컨텐츠에서 다운받을 수 있습니다.<br>
 
 ## 최근 등록 릴리즈
-[1.01] 등 <br>
-[이슈외작업]
-* [DTS-Track] 지하선로, 협궤선로 추가 대응
-* [가상열차] 그룹 및 추가편성
-
-[이슈작업]
-* [열차변경] KTX-청룡 2세대 그래픽 변경 ([#708](https://github.com/DTS-NewGRF/DTS/issues/708))(2026.01.01)
-* [열차변경] SRT 320 이관 (실존 → 가상) ([#709](https://github.com/DTS-NewGRF/DTS/issues/709))(2026.01.01)
-* [열차변경] SRT 320 그래픽 변경 (32bpp) ([#710](https://github.com/DTS-NewGRF/DTS/issues/710))(2026.01.01)
-* [열차변경] KTX-청룡 2세대 수송량 변경 및 등장년도 변경, SRT 320 등장년도 변경 ([#711](https://github.com/DTS-NewGRF/DTS/issues/711))(2026.01.10)
-* [버그] 부산김해경전철 전동차가 부산교통공사 그룹 아래에 있음 ([#712](https://github.com/DTS-NewGRF/DTS/issues/712))(2026.02.01)
-* [열차추가] TLX 관광열차 (32bpp) ([#713](https://github.com/DTS-NewGRF/DTS/issues/713))(2026.02.21)
-* [열차추가] [1067mm 협궤 전기열차] 타이완철로유한회사 EMU900 (회사 색상) ([#714](https://github.com/DTS-NewGRF/DTS/issues/714))(2026.02.23)
-  * [버그] 타이완철로유한회사 EMU900 그래픽 문제 수정 ([#715](https://github.com/DTS-NewGRF/DTS/issues/715))(2026.02.25)
+[1.01] 곧 작업예정. <br>
 
 ## 인게임 등록
+[1.00] 이관작업완료 <br>
+* DTS에서 가상열차 이관작업완료.
 
 ## 등록기준
 ### 공통사항
