@@ -132,7 +132,7 @@ item(FEAT_TRAINS, Nuriro_10Car, 1175){
         
         //spec
         speed:                          165km/h;
-        power:                          2000 kW;
+        power:                          3000 kW;
         weight:                         264 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;

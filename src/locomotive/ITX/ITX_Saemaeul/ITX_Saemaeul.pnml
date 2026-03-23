@@ -95,7 +95,7 @@ item(FEAT_TRAINS, ITX_Saemaeul_10Car, 1139){
         
         //spec
         speed:                          181km/h;
-        power:                          4000 kW;
+        power:                          5000 kW;
         weight:                         280 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;

@@ -149,7 +149,7 @@ item(FEAT_TRAINS, ITX_CheongChan_10Car, 1122){
         
         //spec
         speed:                          181km/h;
-        power:                          6240 kW;
+        power:                          8320 kW;
         weight:                         264 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;

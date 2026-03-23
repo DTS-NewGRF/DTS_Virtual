@@ -135,7 +135,7 @@ item(FEAT_TRAINS, DTS_R001_8Car, 1024){
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, DTS_R001_10Car, 1019){
+item(FEAT_TRAINS, DTS_R001_10Car, 1025){
     property {
         name:                           string(STR_DTS_R001_10Car_NAME);
         climates_available:             ALL_CLIMATES;
@@ -147,7 +147,7 @@ item(FEAT_TRAINS, DTS_R001_10Car, 1019){
         
         //spec
         speed:                          150km/h;
-        power:                          3360 kW;
+        power:                          4200 kW;
         weight:                         30 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -159,7 +159,7 @@ item(FEAT_TRAINS, DTS_R001_10Car, 1019){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 121;
+        cargo_capacity:                 116;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
