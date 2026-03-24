@@ -6,9 +6,10 @@
 [Github release 페이지](https://github.com/DTS-NewGRF/DTS_Virtual/releases)와 인게임 온라인 컨텐츠에서 다운받을 수 있습니다.<br>
 
 ## 최근 등록 릴리즈
-[1.01] 2026.03.23 <br>
+[1.01] <br>
 * [열차변경][도색추가] KTX-청룡 DD 2세대 ([#4](https://github.com/DTS-NewGRF/DTS_Virtual/issues/4))(2026.03.22)
 * [열차변경] 가상차량 성능 조정 ([#5](https://github.com/DTS-NewGRF/DTS_Virtual/issues/5))(2026.03.23)
+* [열차변경] DTX-Metro R001 10량 편성 조정 ([#6](https://github.com/DTS-NewGRF/DTS_Virtual/issues/6))(2026.03.24)
 
 ## 인게임 등록
 [1.00] 이관작업완료 <br>
