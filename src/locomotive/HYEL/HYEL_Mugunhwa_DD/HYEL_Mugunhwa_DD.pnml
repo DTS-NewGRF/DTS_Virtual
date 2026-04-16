@@ -42,7 +42,7 @@ item(FEAT_TRAINS, HYEL_Mugunhwa_DD_6Car, 1111){
         //spec
         speed:                          181km/h;
         power:                          8000 kW;
-        weight:                         30 ton;
+        weight:                         318 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -97,7 +97,7 @@ item(FEAT_TRAINS, HYEL_Mugunhwa_DD_8Car, 1112){
         //spec
         speed:                          181km/h;
         power:                          8000 kW;
-        weight:                         30 ton;
+        weight:                         424 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -152,7 +152,7 @@ item(FEAT_TRAINS, HYEL_Mugunhwa_DD_10Car, 1113){
         //spec
         speed:                          181km/h;
         power:                          8000 kW;
-        weight:                         30 ton;
+        weight:                         530 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

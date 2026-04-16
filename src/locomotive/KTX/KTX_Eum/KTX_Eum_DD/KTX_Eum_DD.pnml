@@ -34,7 +34,7 @@ item(FEAT_TRAINS, KTX_Eum_DD_6Car, 1159){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 100;
+        cargo_capacity:                 90;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];

@@ -41,7 +41,7 @@ item(FEAT_TRAINS, ITX_Saemaeul_DD_6Car, 1141){
         
         //spec
         speed:                          181km/h;
-        power:                          10000 kW;
+        power:                          6000 kW;
         weight:                         270 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -53,7 +53,7 @@ item(FEAT_TRAINS, ITX_Saemaeul_DD_6Car, 1141){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 160;
+        cargo_capacity:                 100;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -95,7 +95,7 @@ item(FEAT_TRAINS, ITX_Saemaeul_DD_8Car, 1142){
         
         //spec
         speed:                          181km/h;
-        power:                          10000 kW;
+        power:                          8000 kW;
         weight:                         360 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -107,7 +107,7 @@ item(FEAT_TRAINS, ITX_Saemaeul_DD_8Car, 1142){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 160;
+        cargo_capacity:                 100;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -161,7 +161,7 @@ item(FEAT_TRAINS, ITX_Saemaeul_DD_10Car, 1143){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 160;
+        cargo_capacity:                 100;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];

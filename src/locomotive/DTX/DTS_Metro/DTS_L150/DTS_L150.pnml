@@ -42,7 +42,7 @@ item(FEAT_TRAINS, DTS_L150_4Car, 1017){
         //spec
         speed:                          150km/h;
         power:                          1680 kW;
-        weight:                         20 ton;
+        weight:                         140 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -95,7 +95,7 @@ item(FEAT_TRAINS, DTS_L150_6Car, 1018){
         //spec
         speed:                          150km/h;
         power:                          3360 kW;
-        weight:                         20 ton;
+        weight:                         210 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -148,7 +148,7 @@ item(FEAT_TRAINS, DTS_L150_8Car, 1019){
         //spec
         speed:                          150km/h;
         power:                          3360 kW;
-        weight:                         20 ton;
+        weight:                         280 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -179,6 +179,7 @@ item(FEAT_TRAINS, DTS_L150_8Car, 1019){
         articulated_part:               sw_articulated_DTS_L150_8car;
         purchase:                       set_DTS_L150_purchase;
         cargo_capacity:                 sw_DTS_L150_8Car_capacity_in_custom;
+        weight:                         sw_DTS_L150_8Car_weight_in_custom;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -203,7 +204,7 @@ item(FEAT_TRAINS, DTS_L150_10Car, 1020){
         //spec
         speed:                          150km/h;
         power:                          4200 kW;
-        weight:                         20 ton;
+        weight:                         350 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -234,6 +235,7 @@ item(FEAT_TRAINS, DTS_L150_10Car, 1020){
         articulated_part:               sw_articulated_DTS_L150_10car;
         purchase:                       set_DTS_L150_purchase;
         cargo_capacity:                 sw_DTS_L150_10Car_capacity_in_custom;
+        weight:                         sw_DTS_L150_10Car_weight_in_custom;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -258,7 +260,7 @@ item(FEAT_TRAINS, DTS_L150_12Car, 1021){
         //spec
         speed:                          150km/h;
         power:                          5040 kW;
-        weight:                         20 ton;
+        weight:                         452 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

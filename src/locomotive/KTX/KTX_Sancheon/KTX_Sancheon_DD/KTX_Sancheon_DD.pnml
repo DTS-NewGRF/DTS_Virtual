@@ -34,7 +34,7 @@ item(FEAT_TRAINS, KTX_Sancheon_DD_10Car, 1166){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 116;
+        cargo_capacity:                 75;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];

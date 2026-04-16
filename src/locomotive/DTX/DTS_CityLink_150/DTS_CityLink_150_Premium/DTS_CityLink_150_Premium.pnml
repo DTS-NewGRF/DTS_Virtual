@@ -23,7 +23,7 @@ item(FEAT_TRAINS, DTS_CityLink_150_Premium_10Car, 1040){
         //spec
         speed:                          150km/h;
         power:                          5040 kW;
-        weight:                         21 ton;
+        weight:                         346 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

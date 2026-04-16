@@ -42,7 +42,7 @@ item(FEAT_TRAINS, HYEL_300_8Car, 1087){
         //spec
         speed:                          260km/h;
         power:                          8000 kW;
-        weight:                         30 ton;
+        weight:                         270 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -54,7 +54,7 @@ item(FEAT_TRAINS, HYEL_300_8Car, 1087){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 1;
+        cargo_capacity:                 63;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -74,7 +74,6 @@ item(FEAT_TRAINS, HYEL_300_8Car, 1087){
         articulated_part:               sw_articulated_HYEL_300_8car;
         purchase:                       set_HYEL_300_purchase;
         speed:                          sw_High_180_speed;
-        cargo_capacity:                 sw_HYEL_300_8car_capacity_in_custom;
         cost_factor:                    10;
         loading_speed:                  25;
         running_cost_factor:            150;
@@ -99,7 +98,7 @@ item(FEAT_TRAINS, HYEL_300_10Car, 1088){
         //spec
         speed:                          260km/h;
         power:                          8000 kW;
-        weight:                         30 ton;
+        weight:                         310 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -111,7 +110,7 @@ item(FEAT_TRAINS, HYEL_300_10Car, 1088){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 1;
+        cargo_capacity:                 65;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -131,7 +130,6 @@ item(FEAT_TRAINS, HYEL_300_10Car, 1088){
         articulated_part:               sw_articulated_HYEL_300_10car;
         purchase:                       set_HYEL_300_purchase;
         speed:                          sw_High_180_speed;
-        cargo_capacity:                 sw_HYEL_300_10car_capacity_in_custom;
         cost_factor:                    10;
         loading_speed:                  25;
         running_cost_factor:            150;

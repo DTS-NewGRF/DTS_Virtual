@@ -20,7 +20,7 @@ item(FEAT_TRAINS, VTS_SPASS, 1001){
         
         //spec
         power:                          0 kW;
-        weight:                         30 ton;
+        weight:                         50 ton;
         tractive_effort_coefficient:    0.3;
 
         //Model

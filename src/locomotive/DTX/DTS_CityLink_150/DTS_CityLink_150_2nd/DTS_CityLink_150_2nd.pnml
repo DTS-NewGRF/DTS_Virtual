@@ -42,7 +42,7 @@ item(FEAT_TRAINS, DTS_CityLink_150_2nd_4Car, 1036){
         //spec
         speed:                          150km/h;
         power:                          1680 kW;
-        weight:                         21 ton;
+        weight:                         132 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -98,7 +98,7 @@ item(FEAT_TRAINS, DTS_CityLink_150_2nd_6Car, 1037){
         //spec
         speed:                          150km/h;
         power:                          2520 kW;
-        weight:                         21 ton;
+        weight:                         198 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -154,7 +154,7 @@ item(FEAT_TRAINS, DTS_CityLink_150_2nd_8Car, 1038){
         //spec
         speed:                          150km/h;
         power:                          3360 kW;
-        weight:                         21 ton;
+        weight:                         264 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -210,7 +210,7 @@ item(FEAT_TRAINS, DTS_CityLink_150_2nd_10Car, 1039){
         //spec
         speed:                          150km/h;
         power:                          4200 kW;
-        weight:                         21 ton;
+        weight:                         330 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

@@ -776,15 +776,6 @@ switch(FEAT_TRAINS, SELF, sw_HYEL_PEX_Super_10car_capacity_in_custom, cargo_subt
        59;
 }
 
-switch(FEAT_TRAINS, SELF, sw_HYEL_PEX_Super_14car_capacity_in_custom, cargo_subtype) {
-    1: return 79;
-    2: return 69;
-    3: return 69;
-    4: return 79;
-    5: return 69;
-       79;
-}
-
 // 편성수
 switch (FEAT_TRAINS, SELF, sw_articulated_HYEL_PEX_Super_8car, extra_callback_info1) {
     1..7: HYEL_PEX_Super_8Car;

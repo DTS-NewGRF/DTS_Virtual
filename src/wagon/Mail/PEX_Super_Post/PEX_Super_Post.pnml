@@ -31,7 +31,7 @@ item(FEAT_TRAINS, PEX_Super_Post_Car, 1015){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 50;
+        cargo_capacity:                 150;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [MAIL, VALU];

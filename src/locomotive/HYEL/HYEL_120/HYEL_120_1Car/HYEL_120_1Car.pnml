@@ -23,7 +23,7 @@ item(FEAT_TRAINS, HYEL_120_1Car, 1083){
         //spec
         speed:                          150km/h;
         power:                          8800 kW;
-        weight:                         80 ton;
+        weight:                         130 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

@@ -220,3 +220,14 @@ switch(FEAT_TRAINS, SELF, sw_DTS_L150_10Car_capacity_in_custom, cargo_subtype) {
     1: return 106;
        108;
 }
+
+// 중량
+switch(FEAT_TRAINS, SELF, sw_DTS_L150_8Car_weight_in_custom, cargo_subtype) {
+    1: return 296;
+       280;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DTS_L150_10Car_weight_in_custom, cargo_subtype) {
+    1: return 366;
+       350;
+}

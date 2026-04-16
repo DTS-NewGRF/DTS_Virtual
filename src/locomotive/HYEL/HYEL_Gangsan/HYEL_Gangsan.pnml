@@ -42,7 +42,7 @@ item(FEAT_TRAINS, HYEL_Gangsan_3Car, 1100){
         //spec
         speed:                          150km/h;
         power:                          8800 kW;
-        weight:                         50 ton;
+        weight:                         170 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -96,7 +96,7 @@ item(FEAT_TRAINS, HYEL_Gangsan_4Car, 1101){
         //spec
         speed:                          150km/h;
         power:                          11000 kW;
-        weight:                         50 ton;
+        weight:                         190 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -150,7 +150,7 @@ item(FEAT_TRAINS, HYEL_Gangsan_6Car, 1102){
         //spec
         speed:                          150km/h;
         power:                          11000 kW;
-        weight:                         50 ton;
+        weight:                         230 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -204,7 +204,7 @@ item(FEAT_TRAINS, HYEL_Gangsan_8Car, 1103){
         //spec
         speed:                          150km/h;
         power:                          11000 kW;
-        weight:                         50 ton;
+        weight:                         270 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -258,7 +258,7 @@ item(FEAT_TRAINS, HYEL_Gangsan_10Car, 1104){
         //spec
         speed:                          150km/h;
         power:                          11000 kW;
-        weight:                         50 ton;
+        weight:                         310 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

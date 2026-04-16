@@ -152,16 +152,3 @@ switch (FEAT_TRAINS, SELF, sw_articulated_HYEL_300_10car, extra_callback_info1) 
     1..9: HYEL_300_10Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;
     }
-
-// 수송량
-switch(FEAT_TRAINS, SELF, sw_HYEL_300_8car_capacity_in_custom, cargo_subtype) {
-    1: return 58;
-    2: return 58;
-    140;
-}
-
-switch(FEAT_TRAINS, SELF, sw_HYEL_300_10car_capacity_in_custom, cargo_subtype) {
-    1: return 59;
-    2: return 59;
-    140;
-}

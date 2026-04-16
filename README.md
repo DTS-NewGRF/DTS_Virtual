@@ -10,6 +10,21 @@
 * [열차변경][도색추가] KTX-청룡 DD 2세대 ([#4](https://github.com/DTS-NewGRF/DTS_Virtual/issues/4))(2026.03.22)
 * [열차변경] 가상차량 성능 조정 ([#5](https://github.com/DTS-NewGRF/DTS_Virtual/issues/5))(2026.03.23)
 * [열차변경] DTX-Metro R001 10량 편성 조정 ([#6](https://github.com/DTS-NewGRF/DTS_Virtual/issues/6))(2026.03.24)
+* [열차변경] HYEL-15 성능 조정 ([#7](https://github.com/DTS-NewGRF/DTS_Virtual/issues/7))(2026.04.16)
+* [열차변경] DFX 성능 조정 ([#8](https://github.com/DTS-NewGRF/DTS_Virtual/issues/8))(2026.04.16)
+* [열차변경] DPX 성능 조정 ([#9](https://github.com/DTS-NewGRF/DTS_Virtual/issues/9))(2026.04.16)
+* [열차변경] PEX-SUPER 우편객차 수송량 조정 ([#10](https://github.com/DTS-NewGRF/DTS_Virtual/issues/10))(2026.04.16)
+* [열차변경] DTX-Metro L150 비정상적인 중량 수정 ([#11](https://github.com/DTS-NewGRF/DTS_Virtual/issues/11))(2026.04.16)
+* [열차변경] DTX-Metro R001 비정상적인 중량 수정 ([#12](https://github.com/DTS-NewGRF/DTS_Virtual/issues/12))(2026.04.16)
+* [열차변경] DTS_CityLink_150 비정상적인 중량 수정 ([#13](https://github.com/DTS-NewGRF/DTS_Virtual/issues/13))(2026.04.16)
+* [열차변경] 우진산전 수소연료전지동차 비정상적인 중량 수정 ([#14](https://github.com/DTS-NewGRF/DTS_Virtual/issues/14))(2026.04.16)
+* [열차변경] HYEL 기관차 시리즈 비정상적인 중량 수정 ([#15](https://github.com/DTS-NewGRF/DTS_Virtual/issues/15))(2026.04.16)
+* [열차변경] 2층객차 비정상적인 중량 수정 ([#16](https://github.com/DTS-NewGRF/DTS_Virtual/issues/16))(2026.04.16)
+* [열차변경] HYEL 동차 시리즈 비정상적인 중량 수정 / 일부 열차 수송량 변경 ([#17](https://github.com/DTS-NewGRF/DTS_Virtual/issues/17))(2026.04.16)
+* [열차변경] ITX 시리즈 비정상적인 중량 수정 / 성능 변경 ([#18](https://github.com/DTS-NewGRF/DTS_Virtual/issues/18))(2026.04.16)
+* [열차변경] KTX 시리즈 비정상적인 수송량 변경 ([#19](https://github.com/DTS-NewGRF/DTS_Virtual/issues/19))(2026.04.16)
+* [열차변경] 누리로 DD 비정상적인 수송량, 성능 변경 ([#20](https://github.com/DTS-NewGRF/DTS_Virtual/issues/20))(2026.04.16)
+* [열차변경] Glory 600 중량, 수송량 변경 ([#21](https://github.com/DTS-NewGRF/DTS_Virtual/issues/21))(2026.04.16)
 
 ## 인게임 등록
 [1.00] 이관작업완료 <br>

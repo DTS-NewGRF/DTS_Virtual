@@ -43,7 +43,7 @@ item (FEAT_TRAINS, HYEL_PEX_Super_8Car, 1115){
         //spec
         speed:                          260km/h;
         power:                          20000 kW;
-        weight:                         30 ton;
+        weight:                         380 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -100,7 +100,7 @@ item (FEAT_TRAINS, HYEL_PEX_Super_10Car, 1116){
         //spec
         speed:                          260km/h;
         power:                          20000 kW;
-        weight:                         30 ton;
+        weight:                         420 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -157,7 +157,7 @@ item (FEAT_TRAINS, HYEL_PEX_Super_14Car, 1117){
         //spec
         speed:                          260km/h;
         power:                          25000 kW;
-        weight:                         30 ton;
+        weight:                         560 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -169,7 +169,7 @@ item (FEAT_TRAINS, HYEL_PEX_Super_14Car, 1117){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 1;
+        cargo_capacity:                 59;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -192,7 +192,6 @@ item (FEAT_TRAINS, HYEL_PEX_Super_14Car, 1117){
         cost_factor:                    10;
         loading_speed:                  25;
         running_cost_factor:            150;
-        cargo_capacity:                 sw_HYEL_PEX_Super_14car_capacity_in_custom;
         cargo_subtype_text:             sw_HYEL_PEX_Super_14Car_cargo_subtype_text;
         sound_effect:                   sw_TOSHIBASicStart_sound;
         }

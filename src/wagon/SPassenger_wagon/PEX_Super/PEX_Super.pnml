@@ -134,7 +134,7 @@ item (FEAT_TRAINS, PEX_Super_D, 1011){
 
         //spec
         power:                          0 kW;
-        weight:                         20 ton;
+        weight:                         50 ton;
         tractive_effort_coefficient:    0.3;
 
         //Model

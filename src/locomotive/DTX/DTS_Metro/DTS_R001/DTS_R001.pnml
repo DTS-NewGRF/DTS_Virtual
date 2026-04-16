@@ -42,7 +42,7 @@ item(FEAT_TRAINS, DTS_R001_6Car, 1023){
         //spec
         speed:                          150km/h;
         power:                          3360 kW;
-        weight:                         30 ton;
+        weight:                         198 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -95,7 +95,7 @@ item(FEAT_TRAINS, DTS_R001_8Car, 1024){
         //spec
         speed:                          150km/h;
         power:                          3360 kW;
-        weight:                         30 ton;
+        weight:                         264 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -148,7 +148,7 @@ item(FEAT_TRAINS, DTS_R001_10Car, 1025){
         //spec
         speed:                          150km/h;
         power:                          4200 kW;
-        weight:                         30 ton;
+        weight:                         330 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

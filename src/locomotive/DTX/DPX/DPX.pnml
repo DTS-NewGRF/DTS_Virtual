@@ -23,7 +23,7 @@ item(FEAT_TRAINS, DPX_14Car, 1044){
         //spec
         speed:                          600km/h;
         power:                          40000 kW;
-        weight:                         60 ton;
+        weight:                         924 ton;
         tractive_effort_coefficient:    0.86;
         
         //Model
@@ -34,7 +34,7 @@ item(FEAT_TRAINS, DPX_14Car, 1044){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 200;
+        cargo_capacity:                 92;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [MAIL, VALU, GOOD];
