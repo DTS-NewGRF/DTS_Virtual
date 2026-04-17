@@ -6,6 +6,10 @@
 [Github release 페이지](https://github.com/DTS-NewGRF/DTS_Virtual/releases)와 인게임 온라인 컨텐츠에서 다운받을 수 있습니다.<br>
 
 ## 최근 등록 릴리즈
+[1.02] <br>
+* Coming Soon
+
+## 인게임 등록
 [1.01] <br>
 * [열차변경][도색추가] KTX-청룡 DD 2세대 ([#4](https://github.com/DTS-NewGRF/DTS_Virtual/issues/4))(2026.03.22)
 * [열차변경] 가상차량 성능 조정 ([#5](https://github.com/DTS-NewGRF/DTS_Virtual/issues/5))(2026.03.23)
@@ -26,10 +30,6 @@
 * [열차변경] 누리로 DD 비정상적인 수송량, 성능 변경 ([#20](https://github.com/DTS-NewGRF/DTS_Virtual/issues/20))(2026.04.16)
 * [열차변경] Glory 430 중량, 수송량 변경 ([#21](https://github.com/DTS-NewGRF/DTS_Virtual/issues/21))(2026.04.17)
 * [열차변경] 2층객차(가상 객차 차량) 수송량 조정 ([#22](https://github.com/DTS-NewGRF/DTS_Virtual/issues/22))(2026.04.17)
-
-## 인게임 등록
-[1.00] 이관작업완료 <br>
-* DTS에서 가상열차 이관작업완료.
 
 ## 등록기준
 ### 공통사항
