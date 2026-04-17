@@ -24,7 +24,8 @@
 * [열차변경] ITX 시리즈 비정상적인 중량 수정 / 성능 변경 ([#18](https://github.com/DTS-NewGRF/DTS_Virtual/issues/18))(2026.04.16)
 * [열차변경] KTX 시리즈 비정상적인 수송량 변경 ([#19](https://github.com/DTS-NewGRF/DTS_Virtual/issues/19))(2026.04.16)
 * [열차변경] 누리로 DD 비정상적인 수송량, 성능 변경 ([#20](https://github.com/DTS-NewGRF/DTS_Virtual/issues/20))(2026.04.16)
-* [열차변경] Glory 600 중량, 수송량 변경 ([#21](https://github.com/DTS-NewGRF/DTS_Virtual/issues/21))(2026.04.16)
+* [열차변경] Glory 430 중량, 수송량 변경 ([#21](https://github.com/DTS-NewGRF/DTS_Virtual/issues/21))(2026.04.17)
+* [열차변경] 2층객차(가상 객차 차량) 수송량 조정 ([#22](https://github.com/DTS-NewGRF/DTS_Virtual/issues/22))(2026.04.17)
 
 ## 인게임 등록
 [1.00] 이관작업완료 <br>

@@ -30,7 +30,7 @@ item(FEAT_TRAINS, VTS_SPASS, 1001){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 200;
+        cargo_capacity:                 140;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];

@@ -41,7 +41,7 @@ item(FEAT_TRAINS, Glory_430_10Car, 1069){
         //spec
         speed:                          430km/h;
         power:                          10000 kW;
-        weight:                         40 ton;
+        weight:                         424 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -53,7 +53,7 @@ item(FEAT_TRAINS, Glory_430_10Car, 1069){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 100;
+        cargo_capacity:                 61;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -96,7 +96,7 @@ item(FEAT_TRAINS, Glory_430_16Car, 1070){
         //spec
         speed:                          430km/h;
         power:                          20000 kW;
-        weight:                         40 ton;
+        weight:                         344 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -108,7 +108,7 @@ item(FEAT_TRAINS, Glory_430_16Car, 1070){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 100;
+        cargo_capacity:                 67;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
