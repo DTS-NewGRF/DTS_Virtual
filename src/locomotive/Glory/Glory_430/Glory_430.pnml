@@ -96,7 +96,7 @@ item(FEAT_TRAINS, Glory_430_16Car, 1070){
         //spec
         speed:                          430km/h;
         power:                          20000 kW;
-        weight:                         344 ton;
+        weight:                         544 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         

@@ -7,7 +7,8 @@
 
 ## 최근 등록 릴리즈
 [1.02] <br>
-* Coming Soon
+* [버그] KTX-청룡 DD 잘못된 구매창 이미지 수정 ([#3](https://github.com/DTS-NewGRF/DTS_Virtual/issues/3))(2026.04.24)
+* [버그] Glory 430 16량 중량계산 실수 ([#23](https://github.com/DTS-NewGRF/DTS_Virtual/issues/23))(2026.04.24)
 
 ## 인게임 등록
 [1.01] <br>
