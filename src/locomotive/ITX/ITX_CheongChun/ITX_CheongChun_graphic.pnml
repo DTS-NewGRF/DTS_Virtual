@@ -18,7 +18,7 @@ spriteset(set_ITX_CheongChun_panto_wagon_M1, "src/locomotive/ITX/ITX_CheongChun/
 }
 
 spriteset(set_ITX_CheongChun_panto_wagon_M1_Rev, "src/locomotive/ITX/ITX_CheongChun/ITX_CheongChun.png"){
-    DTS_temp_r(80, 81)
+    DTS_temp(80, 81)
 }
 
 spriteset(set_ITX_CheongChun_wagon_M1, "src/locomotive/ITX/ITX_CheongChun/ITX_CheongChun.png") {
@@ -50,11 +50,11 @@ spriteset(set_ITX_CheongChun_panto_wagon_M2, "src/locomotive/ITX/ITX_CheongChun/
 }
 
 spriteset(set_ITX_CheongChun_panto_wagon_M2_Rev, "src/locomotive/ITX/ITX_CheongChun/ITX_CheongChun.png"){
-    DTS_temp_r(80, 297)
+    DTS_temp(80, 297)
 }
 
 spriteset(set_ITX_CheongChun_engineT_Rev, "src/locomotive/ITX/ITX_CheongChun/ITX_CheongChun.png"){
-    DTS_temp(80, 324)
+    DTS_temp_r(80, 324)
 }
 
 spriteset(set_ITX_CheongChun_engineT, "src/locomotive/ITX/ITX_CheongChun/ITX_CheongChun.png"){

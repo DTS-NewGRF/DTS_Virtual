@@ -50,7 +50,7 @@ spriteset(set_KTX_Cargo_320_panto_down_wagon_M4_Rev, "src/locomotive/KTX/KTX_Car
 }
 
 spriteset(set_KTX_Cargo_320_engineT_Rev, "src/locomotive/KTX/KTX_Cargo/KTX_Cargo_320/KTX_Cargo_320.png"){
-    DTS_temp(80, 216)
+    DTS_temp_r(80, 216)
 }
 
 spriteset(set_KTX_Cargo_320_engineT, "src/locomotive/KTX/KTX_Cargo/KTX_Cargo_320/KTX_Cargo_320.png"){

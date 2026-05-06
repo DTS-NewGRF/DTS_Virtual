@@ -9,12 +9,12 @@ switch(FEAT_TRAINS, SELF, sw_KTX_Cargo_260_engineH, train_is_driving_backwards) 
 
 switch(FEAT_TRAINS, SELF, sw_KTX_Cargo_260_panto_wagon_M1, train_is_driving_backwards) {
     0: set_KTX_Cargo_260_panto_down_wagon_M1;
-    1: set_KTX_Cargo_260_panto_up_wagon_M1;
+    1: set_KTX_Cargo_260_panto_up_wagon_M1_Rev;
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_Cargo_260_panto_wagon_M3, train_is_driving_backwards) {
     0: set_KTX_Cargo_260_panto_up_wagon_M3;
-    1: set_KTX_Cargo_260_panto_down_wagon_M3;
+    1: set_KTX_Cargo_260_panto_down_wagon_M3_Rev;
 }
 
 switch(FEAT_TRAINS, SELF, sw_KTX_Cargo_260_engineT, train_is_driving_backwards) {

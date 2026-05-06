@@ -19,10 +19,11 @@ item(FEAT_TRAINS, DTS_CityLink_120_Pass_engine, 1186){
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         variant_group:                  DTS_CityLink_120;
+        dual_headed:                    1;
         
         //spec
         speed:                          150km/h;
-        power:                          1000 kW;
+        power:                          1001 kW;
         weight:                         70 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -59,6 +60,11 @@ item(FEAT_TRAINS, DTS_CityLink_120_Pass_engine, 1186){
         cargo_subtype_text:             sw_DTS_CityLink_120_cargo_subtype_text;
         sound_effect:                   sw_TOSHIBAStart_sound;
         }
+    
+    livery_override(DTS_CityLink_120_Pass_wagon) {
+        default:                        sw_DTS_CityLink_120_Pass_wagon;
+        power:                          671;
+        }
         }
 
 /*--------------------------------------------------------------------
@@ -72,7 +78,6 @@ item(FEAT_TRAINS, DTS_CityLink_120_Pass_wagon, 1187){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  DTS_CityLink_120;
         
         //spec
         weight:                         198 ton;
@@ -102,10 +107,11 @@ item(FEAT_TRAINS, DTS_CityLink_120_Pass_wagon, 1187){
         }
 
     graphics {
-        default:                        sw_DTS_CityLink_120_Pass_wagon;
+        default:                        set_DTS_CityLink_120_Pass_wagon_M2;
         purchase:                       set_DTS_CityLink_120_Pass_wagon_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
+        power:                          671;
         }
         }
