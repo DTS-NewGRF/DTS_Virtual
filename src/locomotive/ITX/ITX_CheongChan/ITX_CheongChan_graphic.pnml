@@ -8,15 +8,15 @@ spriteset(set_ITX_CheongChan_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/l
     DTS_temp(80, 0)
 }
 
-spriteset(set_ITX_CheongChan_engineH_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/ITX/ITX_CheongChan/ITX_CheongChan.png"){
-    DTS_temp(80, 27)
+spriteset(set_ITX_CheongChan_engineH_Rev, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/ITX/ITX_CheongChan/ITX_CheongChan.png"){
+    DTS_temp_r(80, 27)
 }
 
 spriteset(set_ITX_CheongChan_panto_wagon_M1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/ITX/ITX_CheongChan/ITX_CheongChan.png"){
     DTS_temp(80, 54)
 }
 
-spriteset(set_ITX_CheongChan_panto_wagon_M1_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/ITX/ITX_CheongChan/ITX_CheongChan.png"){
+spriteset(set_ITX_CheongChan_panto_wagon_M1_Rev, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/ITX/ITX_CheongChan/ITX_CheongChan.png"){
     DTS_temp_r(80, 81)
 }
 
@@ -24,36 +24,24 @@ spriteset(set_ITX_CheongChan_wagon_M1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/
     DTS_temp(80, 108)
 }
 
-spriteset(set_ITX_CheongChan_wagon_M1_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/ITX/ITX_CheongChan/ITX_CheongChan.png") {
-    DTS_temp_r(80, 108)
-}
-
 spriteset(set_ITX_CheongChan_wagon_T, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/ITX/ITX_CheongChan/ITX_CheongChan.png") {
     DTS_temp(80, 135)
-}
-
-spriteset(set_ITX_CheongChan_wagon_T_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/ITX/ITX_CheongChan/ITX_CheongChan.png") {
-    DTS_temp_r(80, 135)
 }
 
 spriteset(set_ITX_CheongChan_wagon_M2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/ITX/ITX_CheongChan/ITX_CheongChan.png") {
     DTS_temp(80, 162)
 }
 
-spriteset(set_ITX_CheongChan_wagon_M2_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/ITX/ITX_CheongChan/ITX_CheongChan.png") {
-    DTS_temp_r(80, 162)
-}
-
 spriteset(set_ITX_CheongChan_panto_wagon_M2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/ITX/ITX_CheongChan/ITX_CheongChan.png"){
     DTS_temp(80, 189)
 }
 
-spriteset(set_ITX_CheongChan_panto_wagon_M2_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/ITX/ITX_CheongChan/ITX_CheongChan.png"){
+spriteset(set_ITX_CheongChan_panto_wagon_M2_Rev, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/ITX/ITX_CheongChan/ITX_CheongChan.png"){
     DTS_temp_r(80, 216)
 }
 
-spriteset(set_ITX_CheongChan_engineT_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/ITX/ITX_CheongChan/ITX_CheongChan.png"){
-    DTS_temp(80, 243)
+spriteset(set_ITX_CheongChan_engineT_Rev, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/ITX/ITX_CheongChan/ITX_CheongChan.png"){
+    DTS_temp_r(80, 243)
 }
 
 spriteset(set_ITX_CheongChan_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/ITX/ITX_CheongChan/ITX_CheongChan.png"){

@@ -51,7 +51,7 @@ item(FEAT_TRAINS, HYEL_Constrck, 1098){
         }
         
     graphics {
-        default:                        sw_HYEL_Constrck_20car_reversed;
+        default:                        sw_HYEL_Constrck_20car;
         articulated_part:               sw_articulated_HYEL_Constrck;
         purchase:                       set_HYEL_Constrck_purchase;
         speed:                          sw_Regular_150_speed;

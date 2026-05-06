@@ -9,46 +9,30 @@ switch(FEAT_TRAINS, SELF, sw_DTX_Sobaek_subtype_text, cargo_subtype) {
 
 // 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_DTX_Sobaek_4car, position_in_vehid_chain % 4) {
-    1:set_DTX_Sobaek_wagon;
-    2:set_DTX_Sobaek_wagon;
-    3:set_DTX_Sobaek_engineT;
-    set_DTX_Sobaek_engineH; //default
+    0: set_DTX_Sobaek_engineH; //default
+    1..2: set_DTX_Sobaek_wagon;
+    3: set_DTX_Sobaek_engineT;
     }
 
 switch (FEAT_TRAINS, SELF, sw_DTX_Sobaek_6car, position_in_vehid_chain % 6) {
-    1:set_DTX_Sobaek_wagon;
-    2:set_DTX_Sobaek_wagon;
-    3:set_DTX_Sobaek_wagon;
-    4:set_DTX_Sobaek_wagon;
-    5:set_DTX_Sobaek_engineT;
-    set_DTX_Sobaek_engineH; //default
+    0: set_DTX_Sobaek_engineH; //default
+    1..4: set_DTX_Sobaek_wagon;
+    5: set_DTX_Sobaek_engineT;
     }
 
 switch (FEAT_TRAINS, SELF, sw_DTX_Sobaek_8car, position_in_vehid_chain % 8) {
-    1:set_DTX_Sobaek_wagon;
-    2:set_DTX_Sobaek_wagon;
-    3:set_DTX_Sobaek_wagon;
-    4:set_DTX_Sobaek_wagon;
-    5:set_DTX_Sobaek_wagon;
-    6:set_DTX_Sobaek_wagon;
-    7:set_DTX_Sobaek_engineT;
-    set_DTX_Sobaek_engineH; //default
+    0: set_DTX_Sobaek_engineH; //default
+    1..6: set_DTX_Sobaek_wagon;
+    7: set_DTX_Sobaek_engineT;
     }
 
 switch (FEAT_TRAINS, SELF, sw_DTX_Sobaek_10car, position_in_vehid_chain % 10) {
-    1:set_DTX_Sobaek_wagon;
-    2:set_DTX_Sobaek_wagon;
-    3:set_DTX_Sobaek_wagon;
-    4:set_DTX_Sobaek_wagon;
-    5:set_DTX_Sobaek_wagon;
-    6:set_DTX_Sobaek_wagon;
-    7:set_DTX_Sobaek_wagon;
-    8:set_DTX_Sobaek_wagon;
-    9:set_DTX_Sobaek_engineT;
-    set_DTX_Sobaek_engineH; //default
+    0: set_DTX_Sobaek_engineH; //default
+    1..8: set_DTX_Sobaek_wagon;
+    9: set_DTX_Sobaek_engineT;
     }
 
-// 편성량
+// 편성수
 switch (FEAT_TRAINS, SELF, sw_articulated_DTX_Sobaek_4car, extra_callback_info1) {
     1..3: DTX_Sobaek_4Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;

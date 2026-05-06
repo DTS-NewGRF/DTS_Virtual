@@ -5,8 +5,8 @@ spriteset(set_HYEL_400_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomot
     DTS_temp(80, 0)
 }
 
-spriteset(set_HYEL_400_engineH_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_400/HYEL_400.png"){
-    DTS_temp(80, 27)
+spriteset(set_HYEL_400_engineH_Rev, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_400/HYEL_400.png"){
+    DTS_temp_r(80, 27)
 }
 
 spriteset(set_HYEL_400_wagon1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_400/HYEL_400.png") {
@@ -29,8 +29,8 @@ spriteset(set_HYEL_400_wagon5, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomoti
     DTS_temp(80, 162)
 }
 
-spriteset(set_HYEL_400_engineT_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_400/HYEL_400.png"){
-    DTS_temp(80, 189)
+spriteset(set_HYEL_400_engineT_Rev, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_400/HYEL_400.png"){
+    DTS_temp_r(80, 189)
 }
 
 spriteset(set_HYEL_400_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_400/HYEL_400.png"){

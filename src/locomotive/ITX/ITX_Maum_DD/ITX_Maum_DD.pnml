@@ -71,7 +71,7 @@ item(FEAT_TRAINS, ITX_Maum_DD_4Car, 1133){
         }
         
     graphics {
-        default:                        sw_ITX_Maum_DD_4car_reversed;
+        default:                        sw_ITX_Maum_DD_4car;
         articulated_part:               sw_articulated_ITX_Maum_DD_4car;
         purchase:                       set_ITX_Maum_DD_purchase;
         speed:                          sw_Regular_150_speed;
@@ -125,7 +125,7 @@ item(FEAT_TRAINS, ITX_Maum_DD_6Car, 1134){
         }
         
     graphics {
-        default:                        sw_ITX_Maum_DD_6car_reversed;
+        default:                        sw_ITX_Maum_DD_6car;
         articulated_part:               sw_articulated_ITX_Maum_DD_6car;
         purchase:                       set_ITX_Maum_DD_purchase;
         speed:                          sw_Regular_150_speed;
@@ -179,7 +179,7 @@ item(FEAT_TRAINS, ITX_Maum_DD_8Car, 1135){
         }
         
     graphics {
-        default:                        sw_ITX_Maum_DD_8car_reversed;
+        default:                        sw_ITX_Maum_DD_8car;
         articulated_part:               sw_articulated_ITX_Maum_DD_8car;
         purchase:                       set_ITX_Maum_DD_purchase;
         speed:                          sw_Regular_150_speed;
@@ -233,7 +233,7 @@ item(FEAT_TRAINS, ITX_Maum_DD_10Car, 1136){
         }
         
     graphics {
-        default:                        sw_ITX_Maum_DD_10car_reversed;
+        default:                        sw_ITX_Maum_DD_10car;
         articulated_part:               sw_articulated_ITX_Maum_DD_10car;
         purchase:                       set_ITX_Maum_DD_purchase;
         speed:                          sw_Regular_150_speed;

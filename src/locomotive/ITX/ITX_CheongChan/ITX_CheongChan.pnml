@@ -71,7 +71,7 @@ item(FEAT_TRAINS, ITX_CheongChan_6Car, 1120){
         }
         
     graphics {
-        default:                        sw_ITX_CheongChan_6car_reversed;
+        default:                        sw_ITX_CheongChan_6car;
         articulated_part:               sw_articulated_ITX_CheongChan_6car;
         purchase:                       set_ITX_CheongChan_purchase;
         speed:                          sw_High_180_speed;
@@ -125,7 +125,7 @@ item(FEAT_TRAINS, ITX_CheongChan_8Car, 1121){
         }
         
     graphics {
-        default:                        sw_ITX_CheongChan_8car_reversed;
+        default:                        sw_ITX_CheongChan_8car;
         articulated_part:               sw_articulated_ITX_CheongChan_8car;
         purchase:                       set_ITX_CheongChan_purchase;
         speed:                          sw_High_180_speed;
@@ -179,7 +179,7 @@ item(FEAT_TRAINS, ITX_CheongChan_10Car, 1122){
         }
         
     graphics {
-        default:                        sw_ITX_CheongChan_10car_reversed;
+        default:                        sw_ITX_CheongChan_10car;
         articulated_part:               sw_articulated_ITX_CheongChan_10car;
         purchase:                       set_ITX_CheongChan_purchase;
         speed:                          sw_High_180_speed;

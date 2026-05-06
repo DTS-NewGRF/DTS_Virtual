@@ -50,7 +50,7 @@ item(FEAT_TRAINS, DPX_14Car, 1044){
         }
         
 	graphics {
-        default:                        sw_DPX_14car_reversed;
+        default:                        sw_DPX_14car;
         articulated_part:               sw_articulated_DPX_14car;
         purchase:                       set_DPX_purchase;
         loading_speed:                  25;

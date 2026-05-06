@@ -50,7 +50,7 @@ item(FEAT_TRAINS, Nuriro_6Car, 1173){
         }
 
 	graphics {
-        default:                        sw_Nuriro_6Car_reversed;
+        default:                        sw_Nuriro_6Car;
         articulated_part:               sw_articulated_Nuriro_6Car;
         purchase:                       set_Nuriro_purchase;
         speed:                          sw_Regular_150_speed;
@@ -107,7 +107,7 @@ item(FEAT_TRAINS, Nuriro_8Car, 1174){
         }
         
     graphics {
-        default:                        sw_Nuriro_8Car_reversed;
+        default:                        sw_Nuriro_8Car;
         articulated_part:               sw_articulated_Nuriro_8Car;
         purchase:                       set_Nuriro_purchase;
         speed:                          sw_Regular_150_speed;
@@ -162,7 +162,7 @@ item(FEAT_TRAINS, Nuriro_10Car, 1175){
         }
         
     graphics {
-        default:                        sw_Nuriro_10Car_reversed;
+        default:                        sw_Nuriro_10Car;
         articulated_part:               sw_articulated_Nuriro_10Car;
         purchase:                       set_Nuriro_purchase;
         speed:                          sw_Regular_150_speed;

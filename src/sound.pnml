@@ -2,6 +2,17 @@
 사운드 스위치
 --------------------------------------------------------------------*/
 /*--------------------------------------------------------------------
+출발 기본사운드
+적용열차
+- 우진산전 수소연료전지동차
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_Nostart_sound, extra_callback_info1) {
+    SOUND_EVENT_START: sound("sounds/osfx_10.wav");
+    SOUND_EVENT_LOAD_UNLOAD: sound("sounds/osfx_20.wav");
+    return CB_RESULT_NO_SOUND;
+    }
+
+/*--------------------------------------------------------------------
 DAWONSYSIGBT2start.wav
 적용열차
 - ITX-마음, 마음 DD
@@ -109,7 +120,6 @@ TOSHIBASicStart.wav
 - DTS-Metro R001
 - KTX-온누리
 - PEX-SUPER
-- 우진산전 수소연료전지동차
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_TOSHIBASicStart_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/TOSHIBASicStart.wav");
@@ -121,6 +131,7 @@ switch(FEAT_TRAINS, SELF, sw_TOSHIBASicStart_sound, extra_callback_info1) {
 TOSHIBAStart.wav
 적용열차
 - ITX-새마을 DD, 청춘, 청춘 DD
+- DTS-CityLink 120
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_TOSHIBAStart_sound, extra_callback_info1) {
     SOUND_EVENT_START: sound("sounds/TOSHIBAStart.wav");

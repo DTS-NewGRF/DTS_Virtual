@@ -8,20 +8,16 @@ spriteset(set_Nextrain_1000_engineH, "src/metro/Nextrain/Nextrain_1000.png"){
     DTS_temp(80, 0)
 }
 
-spriteset(set_Nextrain_1000_engineH_r, "src/metro/Nextrain/Nextrain_1000.png"){
-    DTS_temp(80, 27)
+spriteset(set_Nextrain_1000_engineH_Rev, "src/metro/Nextrain/Nextrain_1000.png"){
+    DTS_temp_r(80, 27)
 }
 
 spriteset(set_Nextrain_1000_wagon, "src/metro/Nextrain/Nextrain_1000.png"){
     DTS_temp(80, 54)
 }
 
-spriteset(set_Nextrain_1000_wagon_r, "src/metro/Nextrain/Nextrain_1000.png"){
-    DTS_temp_r(80, 54)
-}
-
-spriteset(set_Nextrain_1000_engineT_r, "src/metro/Nextrain/Nextrain_1000.png"){
-    DTS_temp(80, 81)
+spriteset(set_Nextrain_1000_engineT_Rev, "src/metro/Nextrain/Nextrain_1000.png"){
+    DTS_temp_r(80, 81)
 }
 
 spriteset(set_Nextrain_1000_engineT, "src/metro/Nextrain/Nextrain_1000.png"){

@@ -68,7 +68,7 @@ item(FEAT_TRAINS, DTX_Sundeok_8Car, 1060){
         }
         
 	graphics {
-        default:                        sw_DTX_Sundeok_8car_reversed;
+        default:                        sw_DTX_Sundeok_8car;
         articulated_part:               sw_articulated_DTX_Sundeok_8car;
         purchase:                       set_DTX_Sundeok_purchase;
         speed:                          sw_High_430_speed;
@@ -121,7 +121,7 @@ item(FEAT_TRAINS, DTX_Sundeok_10Car, 1061){
         }
         
 	graphics {
-        default:                        sw_DTX_Sundeok_10car_reversed;
+        default:                        sw_DTX_Sundeok_10car;
         articulated_part:               sw_articulated_DTX_Sundeok_10car;
         purchase:                       set_DTX_Sundeok_purchase;
         speed:                          sw_High_430_speed;
@@ -174,7 +174,7 @@ item(FEAT_TRAINS, DTX_Sundeok_16Car, 1062){
         }
         
 	graphics {
-        default:                        sw_DTX_Sundeok_16car_reversed;
+        default:                        sw_DTX_Sundeok_16car;
         articulated_part:               sw_articulated_DTX_Sundeok_16car;
         purchase:                       set_DTX_Sundeok_purchase;
         speed:                          sw_High_430_speed;
@@ -227,7 +227,7 @@ item(FEAT_TRAINS, DTX_Sundeok_20Car, 1063){
         }
         
 	graphics {
-        default:                        sw_DTX_Sundeok_20car_reversed;
+        default:                        sw_DTX_Sundeok_20car;
         articulated_part:               sw_articulated_DTX_Sundeok_20car;
         purchase:                       set_DTX_Sundeok_purchase;
         speed:                          sw_High_430_speed;

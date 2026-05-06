@@ -71,7 +71,7 @@ item(FEAT_TRAINS, HYEL_400_8Car, 1095){
         }
         
     graphics {
-        default:                        sw_HYEL_400_8car_reversed;
+        default:                        sw_HYEL_400_8car;
         articulated_part:               sw_articulated_HYEL_400_8car;
         purchase:                       set_HYEL_400_purchase;
         speed:                          sw_High_430_speed;
@@ -126,7 +126,7 @@ item(FEAT_TRAINS, HYEL_400_10Car, 1096){
         }
         
     graphics {
-        default:                        sw_HYEL_400_10car_reversed;
+        default:                        sw_HYEL_400_10car;
         articulated_part:               sw_articulated_HYEL_400_10car;
         purchase:                       set_HYEL_400_purchase;
         speed:                          sw_High_430_speed;
@@ -181,7 +181,7 @@ item(FEAT_TRAINS, HYEL_400_16Car, 1097){
         }
         
     graphics {
-        default:                        sw_HYEL_400_16car_reversed;
+        default:                        sw_HYEL_400_16car;
         articulated_part:               sw_articulated_HYEL_400_16car;
         purchase:                       set_HYEL_400_purchase;
         speed:                          sw_High_430_speed;

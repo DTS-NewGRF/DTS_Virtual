@@ -68,7 +68,7 @@ item(FEAT_TRAINS, Nextrain_3Car, 1027){
         }
 
     graphics {
-        default:                        sw_Nextrain_1000_3car_reversed;
+        default:                        sw_Nextrain_1000_3car;
         articulated_part:               sw_articulated_Nextrain_1000_3car;
         purchase:                       set_Nextrain_1000_purchase;
         speed:                          sw_Metro_110_speed;
@@ -122,7 +122,7 @@ item(FEAT_TRAINS, Nextrain_4Car, 1028){
         }
 
     graphics {
-        default:                        sw_Nextrain_1000_4car_reversed;
+        default:                        sw_Nextrain_1000_4car;
         articulated_part:               sw_articulated_Nextrain_1000_4car;
         purchase:                       set_Nextrain_1000_purchase;
         speed:                          sw_Metro_110_speed;

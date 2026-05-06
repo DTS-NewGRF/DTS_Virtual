@@ -1,0 +1,127 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+DTS_CityLink_150 프리미엄
+--------------------------------------------------------------------*/
+spriteset(set_DTS_CityLink_150_Premium_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_150/DTS_CityLink_150_Premium/DTS_CityLink_150_Premium.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_DTS_CityLink_150_Premium_engineH_Rev, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_150/DTS_CityLink_150_Premium/DTS_CityLink_150_Premium.png"){
+    DTS_temp_r(80, 27)
+}
+
+spriteset(set_DTS_CityLink_150_Premium_panto_wagon_M1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_150/DTS_CityLink_150_Premium/DTS_CityLink_150_Premium.png") {
+    DTS_temp(80, 54)
+}
+
+spriteset(set_DTS_CityLink_150_Premium_panto_wagon_M1_Rev, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_150/DTS_CityLink_150_Premium/DTS_CityLink_150_Premium.png") {
+    DTS_temp_r(80, 81)
+}
+
+spriteset(set_DTS_CityLink_150_Premium_wagon_M1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_150/DTS_CityLink_150_Premium/DTS_CityLink_150_Premium.png") {
+    DTS_temp(80, 108)
+}
+
+spriteset(set_DTS_CityLink_150_Premium_wagon_MT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_150/DTS_CityLink_150_Premium/DTS_CityLink_150_Premium.png") {
+    DTS_temp(80, 135)
+}
+
+spriteset(set_DTS_CityLink_150_Premium_wagon_T1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_150/DTS_CityLink_150_Premium/DTS_CityLink_150_Premium.png") {
+    DTS_temp(80, 162)
+}
+
+spriteset(set_DTS_CityLink_150_Premium_wagon_T2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_150/DTS_CityLink_150_Premium/DTS_CityLink_150_Premium.png") {
+    DTS_temp(80, 189)
+}
+
+spriteset(set_DTS_CityLink_150_Premium_wagon_CM, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_150/DTS_CityLink_150_Premium/DTS_CityLink_150_Premium.png") {
+    DTS_temp(80, 216)
+}
+
+spriteset(set_DTS_CityLink_150_Premium_wagon_M2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_150/DTS_CityLink_150_Premium/DTS_CityLink_150_Premium.png") {
+    DTS_temp(80, 243)
+}
+
+spriteset(set_DTS_CityLink_150_Premium_panto_wagon_M2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_150/DTS_CityLink_150_Premium/DTS_CityLink_150_Premium.png") {
+    DTS_temp(80, 270)
+}
+
+spriteset(set_DTS_CityLink_150_Premium_panto_wagon_M2_Rev, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_150/DTS_CityLink_150_Premium/DTS_CityLink_150_Premium.png") {
+    DTS_temp_r(80, 297)
+}
+
+spriteset(set_DTS_CityLink_150_Premium_engineT_Rev, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_150/DTS_CityLink_150_Premium/DTS_CityLink_150_Premium.png"){
+    DTS_temp_r(80, 324)
+}
+
+spriteset(set_DTS_CityLink_150_Premium_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_150/DTS_CityLink_150_Premium/DTS_CityLink_150_Premium.png"){
+    DTS_temp(80, 351)
+}
+
+/*--------------------------------------------------------------------
+DTS_CityLink_150 프리미엄 2cc
+--------------------------------------------------------------------*/
+spriteset(set_DTS_CityLink_150_Premium_2cc_engineH, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink//DTS_CityLink_150/DTS_CityLink_150_Premium/DTS_CityLink_150_Premium.png", "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_150/DTS_CityLink_150_Premium/DTS_CityLink_150_Premium_2cc.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_DTS_CityLink_150_Premium_2cc_engineH_Rev, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_150/DTS_CityLink_150_Premium/DTS_CityLink_150_Premium.png", "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_150/DTS_CityLink_150_Premium/DTS_CityLink_150_Premium_2cc.png"){
+    DTS_temp_r(80, 27)
+}
+
+spriteset(set_DTS_CityLink_150_Premium_2cc_panto_wagon_M1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_150/DTS_CityLink_150_Premium/DTS_CityLink_150_Premium.png", "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_150/DTS_CityLink_150_Premium/DTS_CityLink_150_Premium_2cc.png") {
+    DTS_temp(80, 54)
+}
+
+spriteset(set_DTS_CityLink_150_Premium_2cc_panto_wagon_M1_Rev, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_150/DTS_CityLink_150_Premium/DTS_CityLink_150_Premium.png", "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_150/DTS_CityLink_150_Premium/DTS_CityLink_150_Premium_2cc.png") {
+    DTS_temp_r(80, 81)
+}
+
+spriteset(set_DTS_CityLink_150_Premium_2cc_wagon_M1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_150/DTS_CityLink_150_Premium/DTS_CityLink_150_Premium.png", "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_150/DTS_CityLink_150_Premium/DTS_CityLink_150_Premium_2cc.png") {
+    DTS_temp(80, 108)
+}
+
+spriteset(set_DTS_CityLink_150_Premium_2cc_wagon_MT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_150/DTS_CityLink_150_Premium/DTS_CityLink_150_Premium.png", "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_150/DTS_CityLink_150_Premium/DTS_CityLink_150_Premium_2cc.png") {
+    DTS_temp(80, 135)
+}
+
+spriteset(set_DTS_CityLink_150_Premium_2cc_wagon_T1, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_150/DTS_CityLink_150_Premium/DTS_CityLink_150_Premium.png", "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_150/DTS_CityLink_150_Premium/DTS_CityLink_150_Premium_2cc.png") {
+    DTS_temp(80, 162)
+}
+
+spriteset(set_DTS_CityLink_150_Premium_2cc_wagon_T2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_150/DTS_CityLink_150_Premium/DTS_CityLink_150_Premium.png", "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_150/DTS_CityLink_150_Premium/DTS_CityLink_150_Premium_2cc.png") {
+    DTS_temp(80, 189)
+}
+
+spriteset(set_DTS_CityLink_150_Premium_2cc_wagon_CM, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_150/DTS_CityLink_150_Premium/DTS_CityLink_150_Premium.png", "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_150/DTS_CityLink_150_Premium/DTS_CityLink_150_Premium_2cc.png") {
+    DTS_temp(80, 216)
+}
+
+spriteset(set_DTS_CityLink_150_Premium_2cc_wagon_M2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_150/DTS_CityLink_150_Premium/DTS_CityLink_150_Premium.png", "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_150/DTS_CityLink_150_Premium/DTS_CityLink_150_Premium_2cc.png") {
+    DTS_temp(80, 243)
+}
+
+spriteset(set_DTS_CityLink_150_Premium_2cc_panto_wagon_M2, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_150/DTS_CityLink_150_Premium/DTS_CityLink_150_Premium.png", "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_150/DTS_CityLink_150_Premium/DTS_CityLink_150_Premium_2cc.png") {
+    DTS_temp(80, 270)
+}
+
+spriteset(set_DTS_CityLink_150_Premium_2cc_panto_wagon_M2_Rev, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_150/DTS_CityLink_150_Premium/DTS_CityLink_150_Premium.png", "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_150/DTS_CityLink_150_Premium/DTS_CityLink_150_Premium_2cc.png") {
+    DTS_temp_r(80, 297)
+}
+
+spriteset(set_DTS_CityLink_150_Premium_2cc_engineT_Rev, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_150/DTS_CityLink_150_Premium/DTS_CityLink_150_Premium.png", "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_150/DTS_CityLink_150_Premium/DTS_CityLink_150_Premium_2cc.png") {
+    DTS_temp_r(80, 324)
+}
+
+spriteset(set_DTS_CityLink_150_Premium_2cc_engineT, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_150/DTS_CityLink_150_Premium/DTS_CityLink_150_Premium.png", "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_150/DTS_CityLink_150_Premium/DTS_CityLink_150_Premium_2cc.png") {
+    DTS_temp(80, 351)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+-------------------------------------------------------------------*/
+spriteset(set_DTS_CityLink_150_Premium_purchase, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/DTX/DTS_CityLink/DTS_CityLink_150/DTS_CityLink_150_Premium/DTS_CityLink_150_Premium.png"){
+    tmpl_purchase(0, 0)
+}

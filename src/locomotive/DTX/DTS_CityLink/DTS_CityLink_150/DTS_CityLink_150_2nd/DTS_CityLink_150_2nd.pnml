@@ -1,18 +1,18 @@
 /*--------------------------------------------------------------------
-DTS_CityLink_150 1세대
+DTS_CityLink_150 2세대
 --------------------------------------------------------------------*/
 // Graphics
-#include "DTS_CityLink_150_1st_graphic.pnml"
+#include "DTS_CityLink_150_2nd_graphic.pnml"
 
 // Switch
-#include "DTS_CityLink_150_1st_switch.pnml"
+#include "DTS_CityLink_150_2nd_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보 그룹
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, DTS_CityLink_150_1st, 1030){
+item(FEAT_TRAINS, DTS_CityLink_150_2nd, 1035){
     property {
-        name:                           string(STR_Group_DTS_CityLink_150_1st_NAME);
+        name:                           string(STR_Group_DTS_CityLink_150_2nd_NAME);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
@@ -22,22 +22,22 @@ item(FEAT_TRAINS, DTS_CityLink_150_1st, 1030){
         }
 
     graphics {
-        purchase:                       set_DTS_CityLink_150_1st_purchase;
+        purchase:                       set_DTS_CityLink_150_2nd_purchase;
         }
         }
 
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, DTS_CityLink_150_1st_4Car, 1031){
+item(FEAT_TRAINS, DTS_CityLink_150_2nd_4Car, 1036){
     property {
-        name:                           string(STR_DTS_CityLink_150_1st_4Car_NAME);
+        name:                           string(STR_DTS_CityLink_150_2nd_4Car_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2024, 1, 1);
+        introduction_date:              date(2030, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  DTS_CityLink_150_1st;
+        variant_group:                  DTS_CityLink_150_2nd;
         
         //spec
         speed:                          150km/h;
@@ -53,7 +53,7 @@ item(FEAT_TRAINS, DTS_CityLink_150_1st_4Car, 1031){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 54;
+        cargo_capacity:                 38;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -69,29 +69,31 @@ item(FEAT_TRAINS, DTS_CityLink_150_1st_4Car, 1031){
         }
 
     graphics {
-        default:                        sw_DTS_CityLink_150_1st_4car_reversed;
-        articulated_part:               sw_articulated_DTS_CityLink_150_1st_4car;
-        purchase:                       set_DTS_CityLink_150_1st_purchase;
-        speed:                          sw_Regular_150_speed;
+        default:                        sw_DTS_CityLink_150_2nd_4car;
+        articulated_part:               sw_articulated_DTS_CityLink_150_2nd_4car;
+        purchase:                       set_DTS_CityLink_150_2nd_purchase;
+        speed:                          sw_DTS_CityLink_150_2nd_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_WOOJINMITSUBISHIIGBT2start_sound;
+        cargo_subtype_text:             sw_DTS_CityLink_150_2nd_cargo_subtype_text;
+        cargo_capacity:                 sw_DTS_CityLink_150_2nd_4Car_capacity_in_custom;
+        sound_effect:                   sw_TOSHIBASicStart_sound;
         }
         }
 
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, DTS_CityLink_150_1st_6Car, 1032){
+item(FEAT_TRAINS, DTS_CityLink_150_2nd_6Car, 1037){
     property {
-        name:                           string(STR_DTS_CityLink_150_1st_6Car_NAME);
+        name:                           string(STR_DTS_CityLink_150_2nd_6Car_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2024, 1, 1);
+        introduction_date:              date(2030, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  DTS_CityLink_150_1st;
+        variant_group:                  DTS_CityLink_150_2nd;
         
         //spec
         speed:                          150km/h;
@@ -107,7 +109,7 @@ item(FEAT_TRAINS, DTS_CityLink_150_1st_6Car, 1032){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 56;
+        cargo_capacity:                 39;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -123,29 +125,31 @@ item(FEAT_TRAINS, DTS_CityLink_150_1st_6Car, 1032){
         }
 
     graphics {
-        default:                        sw_DTS_CityLink_150_1st_6car_reversed;
-        articulated_part:               sw_articulated_DTS_CityLink_150_1st_6car;
-        purchase:                       set_DTS_CityLink_150_1st_purchase;
-        speed:                          sw_Regular_150_speed;
+        default:                        sw_DTS_CityLink_150_2nd_6car;
+        articulated_part:               sw_articulated_DTS_CityLink_150_2nd_6car;
+        purchase:                       set_DTS_CityLink_150_2nd_purchase;
+        speed:                          sw_DTS_CityLink_150_2nd_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_WOOJINMITSUBISHIIGBT2start_sound;
+        cargo_subtype_text:             sw_DTS_CityLink_150_2nd_cargo_subtype_text;
+        cargo_capacity:                 sw_DTS_CityLink_150_2nd_6Car_capacity_in_custom;
+        sound_effect:                   sw_TOSHIBASicStart_sound;
         }
         }
 
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, DTS_CityLink_150_1st_8Car, 1033){
+item(FEAT_TRAINS, DTS_CityLink_150_2nd_8Car, 1038){
     property {
-        name:                           string(STR_DTS_CityLink_150_1st_8Car_NAME);
+        name:                           string(STR_DTS_CityLink_150_2nd_8Car_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2024, 1, 1);
+        introduction_date:              date(2030, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  DTS_CityLink_150_1st;
+        variant_group:                  DTS_CityLink_150_2nd;
         
         //spec
         speed:                          150km/h;
@@ -161,7 +165,7 @@ item(FEAT_TRAINS, DTS_CityLink_150_1st_8Car, 1033){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 55;
+        cargo_capacity:                 40;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -177,30 +181,31 @@ item(FEAT_TRAINS, DTS_CityLink_150_1st_8Car, 1033){
         }
 
     graphics {
-        default:                        sw_DTS_CityLink_150_1st_8car_reversed;
-        articulated_part:               sw_articulated_DTS_CityLink_150_1st_8car;
-        purchase:                       set_DTS_CityLink_150_1st_purchase;
-        speed:                          sw_DTS_CityLink_150_1st_speed;
+        default:                        sw_DTS_CityLink_150_2nd_8car;
+        articulated_part:               sw_articulated_DTS_CityLink_150_2nd_8car;
+        purchase:                       set_DTS_CityLink_150_2nd_purchase;
+        speed:                          sw_DTS_CityLink_150_2nd_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        cargo_subtype_text:             sw_DTS_CityLink_150_1st_speed_cargo_subtype_text;
-        sound_effect:                   sw_WOOJINMITSUBISHIIGBT2start_sound;
+        cargo_subtype_text:             sw_DTS_CityLink_150_2nd_cargo_subtype_text;
+        cargo_capacity:                 sw_DTS_CityLink_150_2nd_8Car_capacity_in_custom;
+        sound_effect:                   sw_TOSHIBASicStart_sound;
         }
         }
 
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, DTS_CityLink_150_1st_10Car, 1034){
+item(FEAT_TRAINS, DTS_CityLink_150_2nd_10Car, 1039){
     property {
-        name:                           string(STR_DTS_CityLink_150_1st_10Car_NAME);
+        name:                           string(STR_DTS_CityLink_150_2nd_10Car_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2024, 1, 1);
+        introduction_date:              date(2030, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        variant_group:                  DTS_CityLink_150_1st;
+        variant_group:                  DTS_CityLink_150_2nd;
         
         //spec
         speed:                          150km/h;
@@ -216,7 +221,7 @@ item(FEAT_TRAINS, DTS_CityLink_150_1st_10Car, 1034){
         reliability_decay:              0;
         
         //Cargo
-        cargo_capacity:                 55;
+        cargo_capacity:                 40;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -232,14 +237,15 @@ item(FEAT_TRAINS, DTS_CityLink_150_1st_10Car, 1034){
         }
 
     graphics {
-        default:                        sw_DTS_CityLink_150_1st_10car_reversed;
-        articulated_part:               sw_articulated_DTS_CityLink_150_1st_10car;
-        purchase:                       set_DTS_CityLink_150_1st_purchase;
-        speed:                          sw_DTS_CityLink_150_1st_speed;
+        default:                        sw_DTS_CityLink_150_2nd_10car;
+        articulated_part:               sw_articulated_DTS_CityLink_150_2nd_10car;
+        purchase:                       set_DTS_CityLink_150_2nd_purchase;
+        speed:                          sw_DTS_CityLink_150_2nd_speed;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        cargo_subtype_text:             sw_DTS_CityLink_150_1st_speed_cargo_subtype_text;
-        sound_effect:                   sw_WOOJINMITSUBISHIIGBT2start_sound;
+        cargo_subtype_text:             sw_DTS_CityLink_150_2nd_cargo_subtype_text;
+        cargo_capacity:                 sw_DTS_CityLink_150_2nd_10Car_capacity_in_custom;
+        sound_effect:                   sw_TOSHIBASicStart_sound;
         }
         }

@@ -12,8 +12,3 @@ switch(FEAT_TRAINS, SELF, sw_HYEL_150_engine, cargo_subtype) {
     1: set_HYEL_150_SB_engine;        // 바다도색
     set_HYEL_150_engine;
 }
-
-// 편성그래픽
-switch (FEAT_TRAINS, SELF, sw_HYEL_150_engine_1Car, position_in_vehid_chain % 1) {
-    sw_HYEL_150_engine; //default
-    }

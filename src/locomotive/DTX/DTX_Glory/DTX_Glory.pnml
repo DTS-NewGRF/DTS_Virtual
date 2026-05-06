@@ -49,7 +49,7 @@ item(FEAT_TRAINS, DTX_Glory_20Car, 1045){
         }
         
 	graphics {
-        default:                        sw_DTX_Glory_20car_reversed;
+        default:                        sw_DTX_Glory_20car;
         articulated_part:               sw_articulated_DTX_Glory_20car;
         purchase:                       set_DTX_Glory_purchase;
         loading_speed:                  25;

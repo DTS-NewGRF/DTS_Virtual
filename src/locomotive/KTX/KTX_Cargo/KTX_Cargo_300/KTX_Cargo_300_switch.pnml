@@ -5,10 +5,10 @@
 switch (FEAT_TRAINS, SELF, sw_KTX_Cargo_300_10car, position_in_vehid_chain % 10) {
     0: set_KTX_Cargo_300_engineH;
     1..8: set_KTX_Cargo_300_wagon;
-    9:set_KTX_Cargo_300_engineT;
+    9: set_KTX_Cargo_300_engineT;
     }
 
-// 편성량
+// 편성수
 switch (FEAT_TRAINS, SELF, sw_articulated_KTX_Cargo_300_10car, extra_callback_info1) {
     1..9: KTX_Cargo_300_10Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;

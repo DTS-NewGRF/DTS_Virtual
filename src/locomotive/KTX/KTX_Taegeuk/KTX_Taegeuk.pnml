@@ -68,7 +68,7 @@ item(FEAT_TRAINS, KTX_Taegeuk_8Car, 1168){
         }
         
 	graphics {
-        default:                        sw_KTX_Taegeuk_8car_reversed;
+        default:                        sw_KTX_Taegeuk_8car;
         articulated_part:               sw_articulated_KTX_Taegeuk_8car;
         purchase:                       set_KTX_Taegeuk_purchase;
         loading_speed:                  25;
@@ -120,7 +120,7 @@ item(FEAT_TRAINS, KTX_Taegeuk_10Car, 1169){
         }
         
 	graphics {
-        default:                        sw_KTX_Taegeuk_10car_reversed;
+        default:                        sw_KTX_Taegeuk_10car;
         articulated_part:               sw_articulated_KTX_Taegeuk_10car;
         purchase:                       set_KTX_Taegeuk_purchase;
         loading_speed:                  25;
@@ -172,7 +172,7 @@ item(FEAT_TRAINS, KTX_Taegeuk_16Car, 1170){
         }
         
 	graphics {
-        default:                        sw_KTX_Taegeuk_16car_reversed;
+        default:                        sw_KTX_Taegeuk_16car;
         articulated_part:               sw_articulated_KTX_Taegeuk_16car;
         purchase:                       set_KTX_Taegeuk_purchase;
         loading_speed:                  25;
@@ -224,7 +224,7 @@ item(FEAT_TRAINS, KTX_Taegeuk_20Car, 1171){
         }
         
 	graphics {
-        default:                        sw_KTX_Taegeuk_20car_reversed;
+        default:                        sw_KTX_Taegeuk_20car;
         articulated_part:               sw_articulated_KTX_Taegeuk_20car;
         purchase:                       set_KTX_Taegeuk_purchase;
         loading_speed:                  25;

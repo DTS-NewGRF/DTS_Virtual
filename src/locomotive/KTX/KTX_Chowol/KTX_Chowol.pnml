@@ -52,7 +52,7 @@ item(FEAT_TRAINS, KTX_Chowol_8Car, 1156){
         }
         
     graphics {
-        default:                        sw_KTX_Chowol_8car_reversed;
+        default:                        sw_KTX_Chowol_8car;
         articulated_part:               sw_articulated_KTX_Chowol_8car;
         purchase:                       set_KTX_Chowol_Logo_purchase;
         speed:                          sw_High_368_speed;

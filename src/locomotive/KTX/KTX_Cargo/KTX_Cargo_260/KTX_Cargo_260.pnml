@@ -52,7 +52,7 @@ item(FEAT_TRAINS, KTX_Cargo_260_6Car, 1146){
         }
         
     graphics {
-        default:                        sw_KTX_Cargo_260_6car_reversed;
+        default:                        sw_KTX_Cargo_260_6car;
         articulated_part:               sw_articulated_KTX_Cargo_260_6car;
         purchase:                       set_KTX_Cargo_260_purchase;
         speed:                          sw_High_260_speed;
@@ -106,7 +106,7 @@ item(FEAT_TRAINS, KTX_Cargo_260_12Car, 1147){
         }
         
     graphics {
-        default:                        sw_KTX_Cargo_260_12car_reversed;
+        default:                        sw_KTX_Cargo_260_12car;
         articulated_part:               sw_articulated_KTX_Cargo_260_12car;
         purchase:                       set_KTX_Cargo_260_purchase;
         speed:                          sw_High_260_speed;

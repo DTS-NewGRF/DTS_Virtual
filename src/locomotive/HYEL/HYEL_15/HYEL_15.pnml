@@ -4,9 +4,6 @@ HYEL-15
 // Graphics
 #include "HYEL_15_graphic.pnml"
 
-// Switch
-#include "HYEL_15_switch.pnml"
-
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
@@ -51,7 +48,7 @@ item(FEAT_TRAINS, HYEL_15, 1080){
         }
         
     graphics {
-        default:                        sw_HYEL_15_engine_1Car;
+        default:                        set_HYEL_15_engine;
         purchase:                       set_HYEL_15_purchase;
         speed:                          sw_Regular_105_speed;
         cargo_capacity:                 0;

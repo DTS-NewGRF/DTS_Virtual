@@ -76,7 +76,7 @@ item(FEAT_TRAINS, H2_WJ_6Car, 1076){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_TOSHIBASicStart_sound;
+        sound_effect:                   sw_Nostart_sound;
         }
         }
 
@@ -131,7 +131,7 @@ item(FEAT_TRAINS, H2_WJ_8Car, 1077){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_TOSHIBASicStart_sound;
+        sound_effect:                   sw_Nostart_sound;
         }
         }
 
@@ -186,6 +186,6 @@ item(FEAT_TRAINS, H2_WJ_10Car, 1078){
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
-        sound_effect:                   sw_TOSHIBASicStart_sound;
+        sound_effect:                   sw_Nostart_sound;
         }
         }

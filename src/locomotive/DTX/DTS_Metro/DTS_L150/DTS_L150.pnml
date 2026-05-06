@@ -69,7 +69,7 @@ item(FEAT_TRAINS, DTS_L150_4Car, 1017){
         }
 
     graphics {
-        default:                        sw_DTS_L150_4car_reversed;
+        default:                        sw_DTS_L150_4car;
         articulated_part:               sw_articulated_DTS_L150_4car;
         purchase:                       set_DTS_L150_purchase;
         loading_speed:                  25;
@@ -122,7 +122,7 @@ item(FEAT_TRAINS, DTS_L150_6Car, 1018){
         }
 
     graphics {
-        default:                        sw_DTS_L150_6car_reversed;
+        default:                        sw_DTS_L150_6car;
         articulated_part:               sw_articulated_DTS_L150_6car;
         purchase:                       set_DTS_L150_purchase;
         loading_speed:                  25;
@@ -175,7 +175,7 @@ item(FEAT_TRAINS, DTS_L150_8Car, 1019){
         }
 
     graphics {
-        default:                        sw_DTS_L150_8car_reversed;
+        default:                        sw_DTS_L150_8car;
         articulated_part:               sw_articulated_DTS_L150_8car;
         purchase:                       set_DTS_L150_purchase;
         cargo_capacity:                 sw_DTS_L150_8Car_capacity_in_custom;
@@ -231,7 +231,7 @@ item(FEAT_TRAINS, DTS_L150_10Car, 1020){
         }
 
     graphics {
-        default:                        sw_DTS_L150_10car_reversed;
+        default:                        sw_DTS_L150_10car;
         articulated_part:               sw_articulated_DTS_L150_10car;
         purchase:                       set_DTS_L150_purchase;
         cargo_capacity:                 sw_DTS_L150_10Car_capacity_in_custom;
@@ -287,7 +287,7 @@ item(FEAT_TRAINS, DTS_L150_12Car, 1021){
         }
 
     graphics {
-        default:                        sw_DTS_L150_12car_reversed;
+        default:                        sw_DTS_L150_12car;
         articulated_part:               sw_articulated_DTS_L150_12car;
         purchase:                       set_DTS_L150_purchase;
         loading_speed:                  25;

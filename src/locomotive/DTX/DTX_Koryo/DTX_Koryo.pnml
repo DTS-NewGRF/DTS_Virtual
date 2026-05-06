@@ -68,7 +68,7 @@ item(FEAT_TRAINS, DTX_Koryo_8Car, 1047){
         }
         
 	graphics {
-        default:                        sw_DTX_Koryo_8car_reversed;
+        default:                        sw_DTX_Koryo_8car;
         articulated_part:               sw_articulated_DTX_Koryo_8car;
         purchase:                       set_DTX_Koryo_purchase;
         speed:                          sw_High_430_speed;
@@ -121,7 +121,7 @@ item(FEAT_TRAINS, DTX_Koryo_10Car, 1048){
         }
         
 	graphics {
-        default:                        sw_DTX_Koryo_10car_reversed;
+        default:                        sw_DTX_Koryo_10car;
         articulated_part:               sw_articulated_DTX_Koryo_10car;
         purchase:                       set_DTX_Koryo_purchase;
         speed:                          sw_High_430_speed;
@@ -174,7 +174,7 @@ item(FEAT_TRAINS, DTX_Koryo_16Car, 1049){
         }
         
 	graphics {
-        default:                        sw_DTX_Koryo_16car_reversed;
+        default:                        sw_DTX_Koryo_16car;
         articulated_part:               sw_articulated_DTX_Koryo_16car;
         purchase:                       set_DTX_Koryo_purchase;
         speed:                          sw_High_430_speed;
@@ -227,7 +227,7 @@ item(FEAT_TRAINS, DTX_Koryo_20Car, 1050){
         }
         
 	graphics {
-        default:                        sw_DTX_Koryo_20car_reversed;
+        default:                        sw_DTX_Koryo_20car;
         articulated_part:               sw_articulated_DTX_Koryo_20car;
         purchase:                       set_DTX_Koryo_purchase;
         speed:                          sw_High_430_speed;

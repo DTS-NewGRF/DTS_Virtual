@@ -1,38 +1,20 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
+// 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_Glory_430_10car, position_in_vehid_chain % 10) {
-    1:set_Glory_430_wagon;
-    2:set_Glory_430_wagon;
-    3:set_Glory_430_wagon;
-    4:set_Glory_430_wagon;
-    5:set_Glory_430_wagon;
-    6:set_Glory_430_wagon;
-    7:set_Glory_430_wagon;
-    8:set_Glory_430_wagon;
-    9:set_Glory_430_engineT;
-    set_Glory_430_engineH; //default
+    0: set_Glory_430_engineH; //default
+    1..8: set_Glory_430_wagon;
+    9: set_Glory_430_engineT;
     }
 
 switch (FEAT_TRAINS, SELF, sw_Glory_430_16car, position_in_vehid_chain % 16) {
-    1:set_Glory_430_wagon;
-    2:set_Glory_430_wagon;
-    3:set_Glory_430_wagon;
-    4:set_Glory_430_wagon;
-    5:set_Glory_430_wagon;
-    6:set_Glory_430_wagon;
-    7:set_Glory_430_wagon;
-    8:set_Glory_430_wagon;
-    9:set_Glory_430_wagon;
-    10:set_Glory_430_wagon;
-    11:set_Glory_430_wagon;
-    12:set_Glory_430_wagon;
-    13:set_Glory_430_wagon;
-    14:set_Glory_430_wagon;
-    15:set_Glory_430_engineT;
-    set_Glory_430_engineH; //default
+    0: set_Glory_430_engineH; //default
+    1..14: set_Glory_430_wagon;
+    15: set_Glory_430_engineT;
     }
 
+// 편성수
 switch (FEAT_TRAINS, SELF, sw_articulated_Glory_430_10car, extra_callback_info1) {
     1..9: Glory_430_10Car;
     return CB_RESULT_NO_MORE_ARTICULATED_PARTS;

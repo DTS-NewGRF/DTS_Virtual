@@ -8,16 +8,8 @@ spriteset(set_HYEL_300_wagon, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotiv
     DTS_temp(80, 27)
 }
 
-spriteset(set_HYEL_300_wagon_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_300/HYEL_300.png") {
-    DTS_temp_r(80, 27)
-}
-
 spriteset(set_HYEL_300_wagon_tail, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_300/HYEL_300.png"){
     DTS_temp(80, 54)
-}
-
-spriteset(set_HYEL_300_wagon_tail_r, ZOOM_LEVEL_NORMAL, BIT_DEPTH_32BPP, "src/locomotive/HYEL/HYEL_300/HYEL_300.png"){
-    DTS_temp_r(80, 54)
 }
 
 /*--------------------------------------------------------------------

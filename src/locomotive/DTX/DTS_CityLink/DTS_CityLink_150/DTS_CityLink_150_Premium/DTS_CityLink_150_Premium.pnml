@@ -50,7 +50,7 @@ item(FEAT_TRAINS, DTS_CityLink_150_Premium_10Car, 1040){
         }
 
     graphics {
-        default:                        sw_DTS_CityLink_150_Premium_10car_reversed;
+        default:                        sw_DTS_CityLink_150_Premium_10car;
         articulated_part:               sw_articulated_DTS_CityLink_150_Premium_10car;
         purchase:                       set_DTS_CityLink_150_Premium_purchase;
         speed:                          sw_DTS_CityLink_150_Premium_speed;

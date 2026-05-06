@@ -51,7 +51,7 @@ item(FEAT_TRAINS, HYEL_100, 1081){
         }
         
     graphics {
-        default:                        sw_HYEL_100_engine_1Car;
+        default:                        sw_HYEL_100_engine;
         purchase:                       set_HYEL_100_purchase;
         speed:                          Regular_Speed_Train;
         cargo_capacity:                 0;

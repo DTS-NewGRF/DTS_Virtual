@@ -14,6 +14,8 @@ sort(FEAT_TRAINS, [
     DTS_R001_6Car,                           //1023
     DTS_R001_8Car,                           //1024
     DTS_R001_10Car,                          //1025
+    DTS_CityLink_120,                        //1185
+    DTS_CityLink_120_Pass_engine,            //1186
     DTS_CityLink_150,                        //1029
     DTS_CityLink_150_1st,                    //1030
     DTS_CityLink_150_1st_4Car,               //1031
@@ -187,6 +189,7 @@ sort(FEAT_TRAINS, [
     VHST_600X_16Car,                         //1184
     
     //객차
+    DTS_CityLink_120_Pass_wagon,             //1187
     VTS_SPASS,                               //1001
     PEX,                                     //1002
     PEX_N,                                   //1003

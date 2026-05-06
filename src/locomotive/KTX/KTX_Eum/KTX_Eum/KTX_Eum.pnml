@@ -52,7 +52,7 @@ item(FEAT_TRAINS, KTX_Eum_6Car, 1158){
         }
         
     graphics {
-        default:                        sw_KTX_Eum_6car_reversed;
+        default:                        sw_KTX_Eum_6car;
         articulated_part:               sw_articulated_KTX_Eum_6car;
         purchase:                       set_KTX_Eum_purchase;
         speed:                          sw_High_260_speed;

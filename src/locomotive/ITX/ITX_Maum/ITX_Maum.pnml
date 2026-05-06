@@ -71,7 +71,7 @@ item(FEAT_TRAINS, ITX_Maum_8Car, 1130){
         }
         
     graphics {
-        default:                        sw_ITX_Maum_8car_reversed;
+        default:                        sw_ITX_Maum_8car;
         articulated_part:               sw_articulated_ITX_Maum_8car;
         purchase:                       set_ITX_Maum_purchase;
         speed:                          sw_Regular_150_speed;
@@ -125,7 +125,7 @@ item(FEAT_TRAINS, ITX_Maum_10Car, 1131){
         }
         
     graphics {
-        default:                        sw_ITX_Maum_10car_reversed;
+        default:                        sw_ITX_Maum_10car;
         articulated_part:               sw_articulated_ITX_Maum_10car;
         purchase:                       set_ITX_Maum_purchase;
         speed:                          sw_Regular_150_speed;

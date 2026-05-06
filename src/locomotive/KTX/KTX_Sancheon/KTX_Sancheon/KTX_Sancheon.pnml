@@ -50,7 +50,7 @@ item(FEAT_TRAINS, KTX_Sancheon_10Car, 1165){
         }
 
 	graphics {
-        default:                        sw_KTX_Sancheon_10car_reversed;
+        default:                        sw_KTX_Sancheon_10car;
         articulated_part:               sw_articulated_KTX_Sancheon_10car;
         purchase:                       set_KTX_Sancheon_purchase;
         speed:                          sw_High_305_speed;

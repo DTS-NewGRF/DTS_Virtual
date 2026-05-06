@@ -69,7 +69,7 @@ item(FEAT_TRAINS, DTS_R001_6Car, 1023){
         }
 
     graphics {
-        default:                        sw_DTS_R001_6car_reversed;
+        default:                        sw_DTS_R001_6car;
         articulated_part:               sw_articulated_DTS_R001_6car;
         purchase:                       set_DTS_R001_purchase;
         loading_speed:                  25;
@@ -122,7 +122,7 @@ item(FEAT_TRAINS, DTS_R001_8Car, 1024){
         }
 
     graphics {
-        default:                        sw_DTS_R001_8car_reversed;
+        default:                        sw_DTS_R001_8car;
         articulated_part:               sw_articulated_DTS_R001_8car;
         purchase:                       set_DTS_R001_purchase;
         loading_speed:                  25;
@@ -175,7 +175,7 @@ item(FEAT_TRAINS, DTS_R001_10Car, 1025){
         }
 
     graphics {
-        default:                        sw_DTS_R001_10car_reversed;
+        default:                        sw_DTS_R001_10car;
         articulated_part:               sw_articulated_DTS_R001_10car;
         purchase:                       set_DTS_R001_purchase;
         loading_speed:                  25;

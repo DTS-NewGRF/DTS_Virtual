@@ -4,9 +4,6 @@
 // Graphics
 #include "Transparency_graphic.pnml"
 
-// Switch
-#include "Transparency_switch.pnml"
-
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
@@ -50,7 +47,7 @@ item(FEAT_TRAINS, Transparency, 1180){
         }
         
     graphics {
-        default:                        sw_Transparency_engine_1Car;
+        default:                        set_Transparency_engine;
         purchase:                       set_Transparency_purchase;
         cargo_capacity:                 0;
         cost_factor:                    10;

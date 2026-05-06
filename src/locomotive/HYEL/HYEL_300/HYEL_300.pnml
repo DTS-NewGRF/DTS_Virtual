@@ -70,7 +70,7 @@ item(FEAT_TRAINS, HYEL_300_8Car, 1087){
         }
         
     graphics {
-        default:                        sw_HYEL_300_8car_reversed;
+        default:                        sw_HYEL_300_8car;
         articulated_part:               sw_articulated_HYEL_300_8car;
         purchase:                       set_HYEL_300_purchase;
         speed:                          sw_High_180_speed;
@@ -126,7 +126,7 @@ item(FEAT_TRAINS, HYEL_300_10Car, 1088){
         }
         
     graphics {
-        default:                        sw_HYEL_300_10car_reversed;
+        default:                        sw_HYEL_300_10car;
         articulated_part:               sw_articulated_HYEL_300_10car;
         purchase:                       set_HYEL_300_purchase;
         speed:                          sw_High_180_speed;

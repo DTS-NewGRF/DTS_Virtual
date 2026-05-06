@@ -50,7 +50,7 @@ item(FEAT_TRAINS, Nuriro_DD_4Car, 1176){
         }
 
 	graphics {
-        default:                        sw_Nuriro_DD_4car_reversed;
+        default:                        sw_Nuriro_DD_4car;
         articulated_part:               sw_articulated_Nuriro_DD_4car;
         purchase:                       set_Nuriro_DD_purchase;
         speed:                          sw_Regular_150_speed;
@@ -105,7 +105,7 @@ item(FEAT_TRAINS, Nuriro_DD_6Car, 1177){
         }
 
 	graphics {
-        default:                        sw_Nuriro_DD_6car_reversed;
+        default:                        sw_Nuriro_DD_6car;
         articulated_part:               sw_articulated_Nuriro_DD_6car;
         purchase:                       set_Nuriro_DD_purchase;
         speed:                          sw_Regular_150_speed;
@@ -160,7 +160,7 @@ item(FEAT_TRAINS, Nuriro_DD_8Car, 1178){
         }
 
 	graphics {
-        default:                        sw_Nuriro_DD_8car_reversed;
+        default:                        sw_Nuriro_DD_8car;
         articulated_part:               sw_articulated_Nuriro_DD_8car;
         purchase:                       set_Nuriro_DD_purchase;
         speed:                          sw_Regular_150_speed;
@@ -215,7 +215,7 @@ item(FEAT_TRAINS, Nuriro_DD_10Car, 1179){
         }
 
 	graphics {
-        default:                        sw_Nuriro_DD_10car_reversed;
+        default:                        sw_Nuriro_DD_10car;
         articulated_part:               sw_articulated_Nuriro_DD_10car;
         purchase:                       set_Nuriro_DD_purchase;
         speed:                          sw_Regular_150_speed;

@@ -5,23 +5,23 @@ spriteset(set_KTX_Cargo_260_engineH, "src/locomotive/KTX/KTX_Cargo/KTX_Cargo_260
     DTS_temp(80, 0)
 }
 
-spriteset(set_KTX_Cargo_260_engineH_r, "src/locomotive/KTX/KTX_Cargo/KTX_Cargo_260/KTX_Cargo_260.png"){
-    DTS_temp(80, 27)
+spriteset(set_KTX_Cargo_260_engineH_Rev, "src/locomotive/KTX/KTX_Cargo/KTX_Cargo_260/KTX_Cargo_260.png"){
+    DTS_temp_r(80, 27)
 }
 
-spriteset(set_KTX_Cargo_260_wagon_M1, "src/locomotive/KTX/KTX_Cargo/KTX_Cargo_260/KTX_Cargo_260.png"){
+spriteset(set_KTX_Cargo_260_panto_down_wagon_M1, "src/locomotive/KTX/KTX_Cargo/KTX_Cargo_260/KTX_Cargo_260.png"){
     DTS_temp(80, 54)
 }
 
-spriteset(set_KTX_Cargo_260_wagon_M1_2, "src/locomotive/KTX/KTX_Cargo/KTX_Cargo_260/KTX_Cargo_260.png"){
+spriteset(set_KTX_Cargo_260_panto_down_wagon_M1_Rev, "src/locomotive/KTX/KTX_Cargo/KTX_Cargo_260/KTX_Cargo_260.png"){
     DTS_temp_r(80, 54)
 }
 
-spriteset(set_KTX_Cargo_260_wagon_M1_r, "src/locomotive/KTX/KTX_Cargo/KTX_Cargo_260/KTX_Cargo_260.png"){
+spriteset(set_KTX_Cargo_260_panto_up_wagon_M1, "src/locomotive/KTX/KTX_Cargo/KTX_Cargo_260/KTX_Cargo_260.png"){
     DTS_temp(80, 81)
 }
 
-spriteset(set_KTX_Cargo_260_wagon_M1_r2, "src/locomotive/KTX/KTX_Cargo/KTX_Cargo_260/KTX_Cargo_260.png"){
+spriteset(set_KTX_Cargo_260_panto_up_wagon_M1_Rev, "src/locomotive/KTX/KTX_Cargo/KTX_Cargo_260/KTX_Cargo_260.png"){
     DTS_temp_r(80, 81)
 }
 
@@ -29,28 +29,24 @@ spriteset(set_KTX_Cargo_260_wagon_M2, "src/locomotive/KTX/KTX_Cargo/KTX_Cargo_26
     DTS_temp(80, 108)
 }
 
-spriteset(set_KTX_Cargo_260_wagon_M2_r, "src/locomotive/KTX/KTX_Cargo/KTX_Cargo_260/KTX_Cargo_260.png"){
-    DTS_temp_r(80, 108)
-}
-
-spriteset(set_KTX_Cargo_260_wagon_M3, "src/locomotive/KTX/KTX_Cargo/KTX_Cargo_260/KTX_Cargo_260.png"){
+spriteset(set_KTX_Cargo_260_panto_up_wagon_M3, "src/locomotive/KTX/KTX_Cargo/KTX_Cargo_260/KTX_Cargo_260.png"){
     DTS_temp(80, 135)
 }
 
-spriteset(set_KTX_Cargo_260_wagon_M3_2, "src/locomotive/KTX/KTX_Cargo/KTX_Cargo_260/KTX_Cargo_260.png"){
+spriteset(set_KTX_Cargo_260_panto_up_wagon_M3_Rev, "src/locomotive/KTX/KTX_Cargo/KTX_Cargo_260/KTX_Cargo_260.png"){
     DTS_temp_r(80, 135)
 }
 
-spriteset(set_KTX_Cargo_260_wagon_M3_r, "src/locomotive/KTX/KTX_Cargo/KTX_Cargo_260/KTX_Cargo_260.png"){
+spriteset(set_KTX_Cargo_260_panto_down_wagon_M3, "src/locomotive/KTX/KTX_Cargo/KTX_Cargo_260/KTX_Cargo_260.png"){
     DTS_temp(80, 162)
 }
 
-spriteset(set_KTX_Cargo_260_wagon_M3_r2, "src/locomotive/KTX/KTX_Cargo/KTX_Cargo_260/KTX_Cargo_260.png"){
+spriteset(set_KTX_Cargo_260_panto_down_wagon_M3_Rev, "src/locomotive/KTX/KTX_Cargo/KTX_Cargo_260/KTX_Cargo_260.png"){
     DTS_temp_r(80, 162)
 }
 
-spriteset(set_KTX_Cargo_260_engineT_r, "src/locomotive/KTX/KTX_Cargo/KTX_Cargo_260/KTX_Cargo_260.png"){
-    DTS_temp(80, 189)
+spriteset(set_KTX_Cargo_260_engineT_Rev, "src/locomotive/KTX/KTX_Cargo/KTX_Cargo_260/KTX_Cargo_260.png"){
+    DTS_temp_r(80, 189)
 }
 
 spriteset(set_KTX_Cargo_260_engineT, "src/locomotive/KTX/KTX_Cargo/KTX_Cargo_260/KTX_Cargo_260.png"){
@@ -61,7 +57,7 @@ spriteset(set_KTX_Cargo_260_engineT_TCD, "src/locomotive/KTX/KTX_Cargo/KTX_Cargo
     DTS_temp(80, 243)
 }
 
-spriteset(set_KTX_Cargo_260_engineT_TCD_r, "src/locomotive/KTX/KTX_Cargo/KTX_Cargo_260/KTX_Cargo_260.png"){
+spriteset(set_KTX_Cargo_260_engineT_TCD_Rev, "src/locomotive/KTX/KTX_Cargo/KTX_Cargo_260/KTX_Cargo_260.png"){
     DTS_temp_r(80, 243)
 }
 

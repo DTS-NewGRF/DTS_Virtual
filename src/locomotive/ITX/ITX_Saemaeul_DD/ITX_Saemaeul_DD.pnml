@@ -69,7 +69,7 @@ item(FEAT_TRAINS, ITX_Saemaeul_DD_6Car, 1141){
         }
 
 	graphics {
-        default:                        sw_ITX_Saemaeul_DD_6car_reversed;
+        default:                        sw_ITX_Saemaeul_DD_6car;
         articulated_part:               sw_articulated_ITX_Saemaeul_DD_6car;
         purchase:                       set_ITX_Saemaeul_DD_purchase;
         speed:                          sw_Regular_150_speed;
@@ -123,7 +123,7 @@ item(FEAT_TRAINS, ITX_Saemaeul_DD_8Car, 1142){
         }
 
 	graphics {
-        default:                        sw_ITX_Saemaeul_DD_8car_reversed;
+        default:                        sw_ITX_Saemaeul_DD_8car;
         articulated_part:               sw_articulated_ITX_Saemaeul_DD_8car;
         purchase:                       set_ITX_Saemaeul_DD_purchase;
         speed:                          sw_Regular_150_speed;
@@ -177,7 +177,7 @@ item(FEAT_TRAINS, ITX_Saemaeul_DD_10Car, 1143){
         }
 
 	graphics {
-        default:                        sw_ITX_Saemaeul_DD_10car_reversed;
+        default:                        sw_ITX_Saemaeul_DD_10car;
         articulated_part:               sw_articulated_ITX_Saemaeul_DD_10car;
         purchase:                       set_ITX_Saemaeul_DD_purchase;
         speed:                          sw_Regular_150_speed;

@@ -1,7 +1,7 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-//도색명
+// 도색명
 switch(FEAT_TRAINS, SELF, sw_KTX_Eum_cargo_subtype_text, cargo_subtype) {
     0: return string(STR_REFIT_LIVERY_KTX_Eum_MD);
     1: return string(STR_REFIT_LIVERY_KTX_Eum_W);
@@ -11,8 +11,10 @@ switch(FEAT_TRAINS, SELF, sw_KTX_Eum_cargo_subtype_text, cargo_subtype) {
     5: return string(STR_REFIT_LIVERY_KTX_Eum_SM3);
 }
 
-// 6량
-switch(FEAT_TRAINS, SELF, sw_KTX_Eum_engineH, cargo_subtype) {
+// 도색그래픽 세팅
+// 열차
+// 전진방향
+switch(FEAT_TRAINS, SELF, sw_KTX_Eum_engineH_Front, cargo_subtype) {
     0: set_KTX_Eum_MD_engineH;
     1: set_KTX_Eum_W_engineH;
     2: set_KTX_Eum_BK_engineH;
@@ -21,7 +23,7 @@ switch(FEAT_TRAINS, SELF, sw_KTX_Eum_engineH, cargo_subtype) {
     5: set_KTX_Eum_SM3_engineH;
 }
 
-switch(FEAT_TRAINS, SELF, sw_KTX_Eum_wagon_M1, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_KTX_Eum_wagon_M1_Front, cargo_subtype) {
     0: set_KTX_Eum_MD_wagon_M1;
     1: set_KTX_Eum_W_wagon_M1;
     2: set_KTX_Eum_BK_wagon_M1;
@@ -39,7 +41,7 @@ switch(FEAT_TRAINS, SELF, sw_KTX_Eum_wagon_M2, cargo_subtype) {
     5: set_KTX_Eum_SM3_wagon_M2;
 }
 
-switch(FEAT_TRAINS, SELF, sw_KTX_Eum_wagon_M3, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_KTX_Eum_wagon_M3_Front, cargo_subtype) {
     0: set_KTX_Eum_MD_wagon_M3;
     1: set_KTX_Eum_W_wagon_M3;
     2: set_KTX_Eum_BK_wagon_M3;
@@ -48,7 +50,7 @@ switch(FEAT_TRAINS, SELF, sw_KTX_Eum_wagon_M3, cargo_subtype) {
     5: set_KTX_Eum_SM3_wagon_M3;
 }
 
-switch(FEAT_TRAINS, SELF, sw_KTX_Eum_engineT, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_KTX_Eum_engineT_Front, cargo_subtype) {
     0: set_KTX_Eum_MD_engineT;
     1: set_KTX_Eum_W_engineT;
     2: set_KTX_Eum_BK_engineT;
@@ -57,78 +59,72 @@ switch(FEAT_TRAINS, SELF, sw_KTX_Eum_engineT, cargo_subtype) {
     5: set_KTX_Eum_SM3_engineT;
 }
 
-// 6량 뒤집힘
-switch(FEAT_TRAINS, SELF, sw_V_KTX_Eum_engineH_r, cargo_subtype) {
-    0: set_KTX_Eum_MD_engineH_r;
-    1: set_KTX_Eum_W_engineH_r;
-    2: set_KTX_Eum_BK_engineH_r;
-    3: set_KTX_Eum_SM1_engineH_r;
-    4: set_KTX_Eum_SM2_engineH_r;
-    5: set_KTX_Eum_SM3_engineH_r;
+// 후진방향
+switch(FEAT_TRAINS, SELF, sw_KTX_Eum_engineH_Back, cargo_subtype) {
+    0: set_KTX_Eum_MD_engineH_Rev;
+    1: set_KTX_Eum_W_engineH_Rev;
+    2: set_KTX_Eum_BK_engineH_Rev;
+    3: set_KTX_Eum_SM1_engineH_Rev;
+    4: set_KTX_Eum_SM2_engineH_Rev;
+    5: set_KTX_Eum_SM3_engineH_Rev;
 }
 
-switch(FEAT_TRAINS, SELF, sw_V_KTX_Eum_wagon_M1_r, cargo_subtype) {
-    0: set_KTX_Eum_MD_wagon_M1_r;
-    1: set_KTX_Eum_W_wagon_M1_r;
-    2: set_KTX_Eum_BK_wagon_M1_r;
-    3: set_KTX_Eum_SM1_wagon_M1_r;
-    4: set_KTX_Eum_SM2_wagon_M1_r;
-    5: set_KTX_Eum_SM3_wagon_M1_r;
+switch(FEAT_TRAINS, SELF, sw_KTX_Eum_wagon_M1_Back, cargo_subtype) {
+    0: set_KTX_Eum_MD_wagon_M1_Rev;
+    1: set_KTX_Eum_W_wagon_M1_Rev;
+    2: set_KTX_Eum_BK_wagon_M1_Rev;
+    3: set_KTX_Eum_SM1_wagon_M1_Rev;
+    4: set_KTX_Eum_SM2_wagon_M1_Rev;
+    5: set_KTX_Eum_SM3_wagon_M1_Rev;
 }
 
-switch(FEAT_TRAINS, SELF, sw_KTX_Eum_wagon_M2_r, cargo_subtype) {
-    0: set_KTX_Eum_MD_wagon_M2_r;
-    1: set_KTX_Eum_W_wagon_M2_r;
-    2: set_KTX_Eum_BK_wagon_M2_r;
-    3: set_KTX_Eum_SM1_wagon_M2_r;
-    4: set_KTX_Eum_SM2_wagon_M2_r;
-    5: set_KTX_Eum_SM3_wagon_M2_r;
+switch(FEAT_TRAINS, SELF, sw_KTX_Eum_wagon_M3_Back, cargo_subtype) {
+    0: set_KTX_Eum_MD_wagon_M3_Rev;
+    1: set_KTX_Eum_W_wagon_M3_Rev;
+    2: set_KTX_Eum_BK_wagon_M3_Rev;
+    3: set_KTX_Eum_SM1_wagon_M3_Rev;
+    4: set_KTX_Eum_SM2_wagon_M3_Rev;
+    5: set_KTX_Eum_SM3_wagon_M3_Rev;
 }
 
-switch(FEAT_TRAINS, SELF, sw_KTX_Eum_wagon_M3_r, cargo_subtype) {
-    0: set_KTX_Eum_MD_wagon_M3_r;
-    1: set_KTX_Eum_W_wagon_M3_r;
-    2: set_KTX_Eum_BK_wagon_M3_r;
-    3: set_KTX_Eum_SM1_wagon_M3_r;
-    4: set_KTX_Eum_SM2_wagon_M3_r;
-    5: set_KTX_Eum_SM3_wagon_M3_r;
+switch(FEAT_TRAINS, SELF, sw_KTX_Eum_engineT_Back, cargo_subtype) {
+    0: set_KTX_Eum_MD_engineT_Rev;
+    1: set_KTX_Eum_W_engineT_Rev;
+    2: set_KTX_Eum_BK_engineT_Rev;
+    3: set_KTX_Eum_SM1_engineT_Rev;
+    4: set_KTX_Eum_SM2_engineT_Rev;
+    5: set_KTX_Eum_SM3_engineT_Rev;
 }
 
-switch(FEAT_TRAINS, SELF, sw_KTX_Eum_engineT_r, cargo_subtype) {
-    0: set_KTX_Eum_MD_engineT_r;
-    1: set_KTX_Eum_W_engineT_r;
-    2: set_KTX_Eum_BK_engineT_r;
-    3: set_KTX_Eum_SM1_engineT_r;
-    4: set_KTX_Eum_SM2_engineT_r;
-    5: set_KTX_Eum_SM3_engineT_r;
+// 전후진 통합 코드
+switch(FEAT_TRAINS, SELF, sw_KTX_Eum_engineH, train_is_driving_backwards) {
+    0: sw_KTX_Eum_engineH_Front;
+    1: sw_KTX_Eum_engineH_Back;
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_Eum_wagon_M1, train_is_driving_backwards) {
+    0: sw_KTX_Eum_wagon_M1_Front;
+    1: sw_KTX_Eum_wagon_M1_Back;
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_Eum_wagon_M3, train_is_driving_backwards) {
+    0: sw_KTX_Eum_wagon_M3_Front;
+    1: sw_KTX_Eum_wagon_M3_Back;
+}
+
+switch(FEAT_TRAINS, SELF, sw_KTX_Eum_engineT, train_is_driving_backwards) {
+    0: sw_KTX_Eum_engineT_Front;
+    1: sw_KTX_Eum_engineT_Back;
 }
 
 // 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_KTX_Eum_6car, position_in_vehid_chain % 6) {
-    1:sw_KTX_Eum_wagon_M1;
-    2..3:sw_KTX_Eum_wagon_M2;
-    4:sw_KTX_Eum_wagon_M3;
-    5:sw_KTX_Eum_engineT;
-    sw_KTX_Eum_engineH; //default
+    0: sw_KTX_Eum_engineH; //default
+    1: sw_KTX_Eum_wagon_M1;
+    2..3: sw_KTX_Eum_wagon_M2;
+    4: sw_KTX_Eum_wagon_M3;
+    5: sw_KTX_Eum_engineT;
     }
-
-switch (FEAT_TRAINS, SELF, sw_KTX_Eum_6car_r, position_in_vehid_chain % 6) {
-    1:sw_KTX_Eum_wagon_M3_r;
-    2..3:sw_KTX_Eum_wagon_M2_r;
-    4:sw_V_KTX_Eum_wagon_M1_r;
-    5:sw_V_KTX_Eum_engineH_r;
-    sw_KTX_Eum_engineT_r; //default
-    }
-
-switch(FEAT_TRAINS, SELF, sw_KTX_Eum_6car_flipped, vehicle_is_flipped){
-    0: sw_KTX_Eum_6car_r;
-    sw_KTX_Eum_6car;
-}
-
-switch(FEAT_TRAINS, PARENT, sw_KTX_Eum_6car_reversed, vehicle_is_reversed){
-    0: sw_KTX_Eum_6car;
-    sw_KTX_Eum_6car_flipped;
-}
 
 // 편성량
 switch (FEAT_TRAINS, SELF, sw_articulated_KTX_Eum_6car, extra_callback_info1) {
