@@ -16,21 +16,21 @@ STR_Group_Nuriro_Logo_NAME                             :누리로
 STR_Group_DTX_Logo_NAME                                :DTX
 STR_DFX_10Car_NAME                                     :[10량] DFX
 STR_DPX_14Car_NAME                                     :[14량] DPX
-STR_Group_DTS_CityLink_120_NAME                        :DTS_CityLink_120
-STR_DTS_CityLink_120_Pass_engine_NAME                  :[승객] DTS_CityLink_120
-STR_DTS_CityLink_120_Post_NAME                         :[우편] DTS_CityLink_120
-STR_Group_DTS_CityLink_150_NAME                        :DTS_CityLink_150
-STR_Group_DTS_CityLink_150_1st_NAME                    :DTS_CityLink_150 1세대
-STR_DTS_CityLink_150_1st_4Car_NAME                     :[4량] DTS_CityLink_150 1세대
-STR_DTS_CityLink_150_1st_6Car_NAME                     :[6량] DTS_CityLink_150 1세대
-STR_DTS_CityLink_150_1st_8Car_NAME                     :[8량] DTS_CityLink_150 1세대
-STR_DTS_CityLink_150_1st_10Car_NAME                    :[10량] DTS_CityLink_150 1세대
-STR_Group_DTS_CityLink_150_2nd_NAME                    :DTS_CityLink_150 2세대
-STR_DTS_CityLink_150_2nd_4Car_NAME                     :[4량] DTS_CityLink_150 2세대
-STR_DTS_CityLink_150_2nd_6Car_NAME                     :[6량] DTS_CityLink_150 2세대
-STR_DTS_CityLink_150_2nd_8Car_NAME                     :[8량] DTS_CityLink_150 2세대
-STR_DTS_CityLink_150_2nd_10Car_NAME                    :[10량] DTS_CityLink_150 2세대
-STR_DTS_CityLink_150_Premium_10Car_NAME                :[10량] DTS_CityLink_150 Premium
+STR_Group_DTS_CityLink_120_engine_NAME                 :DTS-CityLink 120
+STR_DTS_CityLink_120_Pass_engine_NAME                  :[승객] DTS-CityLink 120
+STR_DTS_CityLink_120_Post_engine_NAME                  :[우편] DTS-CityLink 120
+STR_Group_DTS_CityLink_150_NAME                        :DTS-CityLink 150
+STR_Group_DTS_CityLink_150_1st_NAME                    :DTS-CityLink 150 1세대
+STR_DTS_CityLink_150_1st_4Car_NAME                     :[4량] DTS-CityLink 150 1세대
+STR_DTS_CityLink_150_1st_6Car_NAME                     :[6량] DTS-CityLink 150 1세대
+STR_DTS_CityLink_150_1st_8Car_NAME                     :[8량] DTS-CityLink 150 1세대
+STR_DTS_CityLink_150_1st_10Car_NAME                    :[10량] DTS-CityLink 150 1세대
+STR_Group_DTS_CityLink_150_2nd_NAME                    :DTS-CityLink 150 2세대
+STR_DTS_CityLink_150_2nd_4Car_NAME                     :[4량] DTS-CityLink 150 2세대
+STR_DTS_CityLink_150_2nd_6Car_NAME                     :[6량] DTS-CityLink 150 2세대
+STR_DTS_CityLink_150_2nd_8Car_NAME                     :[8량] DTS-CityLink 150 2세대
+STR_DTS_CityLink_150_2nd_10Car_NAME                    :[10량] DTS-CityLink 150 2세대
+STR_DTS_CityLink_150_Premium_10Car_NAME                :[10량] DTS-CityLink 150 Premium
 STR_Group_DTS_L150_NAME                                :DTX-Metro L150
 STR_DTS_L150_4Car_NAME                                 :[4량] DTX-Metro L150
 STR_DTS_L150_6Car_NAME                                 :[6량] DTX-Metro L150
@@ -67,6 +67,7 @@ STR_DTX_Taebaek_10Car_NAME                             :[10량] DTX-태백
 
 # locomotive's name
 STR_CTX_P_10Car_NAME                                   :[10량] CTX
+STR_DEL7600_NAME                                       :DEL7600
 STR_Group_Glory_430_NAME                               :Glory 430
 STR_Glory_430_10Car_NAME                               :[10량] Glory 430
 STR_Glory_430_16Car_NAME                               :[16량] Glory 430
@@ -191,7 +192,9 @@ STR_Nextrain_3Car_NAME                                 :[3량] 넥스트레인 1
 STR_Nextrain_4Car_NAME                                 :[4량] 넥스트레인 1000호대
 
 # wagon's name
-STR_DTS_CityLink_120_Pass_wagon_NAME                   :[승객] DTS_CityLink_120
+STR_Group_DTS_CityLinK_120_wagon_NAME                  :DTS-CityLink 120
+STR_DTS_CityLink_120_Pass_wagon_NAME                   :[승객] DTS-CityLink 120
+STR_DTS_CityLink_120_Post_wagon_NAME                   :[우편] DTS-CityLink 120
 STR_Group_PEX_NAME                                     :PEX (Premium EXpress)
 STR_PEX_N_NAME                                         :PEX 1층 차량
 STR_PEX_SN_NAME                                        :PEX 특실 차량
@@ -227,9 +230,18 @@ STR_PARAM_High_SPEED_Train_430_DESC                    :가상 초고속 열차�
 STR_PARAM_High_SPEED_Train_Test_NAME                   :가상 검측차 고속열차 속도변수
 STR_PARAM_High_SPEED_Train_Test_DESC                   :가상 검측차 고속열차의 속도를 조정합니다.{}- 기본:600km/h
 
+# Refit (Additional text)
+STR_TRAIN_DESC:{}{BLACK}{STRING}{}{BLACK}{STRING}{}{BLACK}{STRING}{}{BLACK}{STRING}{}{BLACK}{STRING}{}{BLACK}{STRING}{}{STRING}
+STR_Train_Informagion:{BLACK}{STRING}
+STR_Train_Formation:열차편성: {GREEN}{STRING}
+STR_Connent:열차연결: {GREEN}{STRING}
+
+STR_REFIT_additional_text_Trian_informagion            :정보
+
+STR_REFIT_additional_text_DTS_CityLinK_120             :자유편성
+STR_REFIT_additional_text_DTS_CityLinK_120_connection  :DTS CityLinK 120 (권장)
+
 # Liveries locomotive
-STR_REFIT_LIVERY_DTS_CityLink_120_engine_A             : 2량용 A타입
-STR_REFIT_LIVERY_DTS_CityLink_120_engine_B             : B타입
 STR_REFIT_LIVERY_DTS_CityLink_150_speed                : 150km/h
 STR_REFIT_LIVERY_DTS_CityLink_180_speed                : 180km/h
 STR_REFIT_LIVERY_DTS_CityLink_150_2nd_A_150            : 크로스시트 150km/h

@@ -1,4 +1,5 @@
 #include "locomotive/CTX/CTX.pnml"
+#include "locomotive/DEL7600/DEL7600.pnml"
 #include "locomotive/DTX/DTX.pnml"
 #include "locomotive/Glory/Glory.pnml"
 #include "locomotive/H2_WJ/H2_WJ.pnml"

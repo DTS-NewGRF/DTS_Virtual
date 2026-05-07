@@ -14,8 +14,9 @@ sort(FEAT_TRAINS, [
     DTS_R001_6Car,                           //1023
     DTS_R001_8Car,                           //1024
     DTS_R001_10Car,                          //1025
-    DTS_CityLink_120,                        //1185
+    DTS_CityLink_120_engine,                 //1185
     DTS_CityLink_120_Pass_engine,            //1186
+    DTS_CityLink_120_Post_engine,            //1187
     DTS_CityLink_150,                        //1029
     DTS_CityLink_150_1st,                    //1030
     DTS_CityLink_150_1st_4Car,               //1031
@@ -60,6 +61,7 @@ sort(FEAT_TRAINS, [
     Nextrain_4Car,                           //1028
 
     //일반열차
+    DEL7600,                                 //1191
     H2_WJ,                                   //1075
     H2_WJ_6Car,                              //1076
     H2_WJ_8Car,                              //1077
@@ -189,7 +191,9 @@ sort(FEAT_TRAINS, [
     VHST_600X_16Car,                         //1184
     
     //객차
-    DTS_CityLink_120_Pass_wagon,             //1187
+    DTS_CityLinK_120_wagon,                  //1188
+    DTS_CityLink_120_Pass_wagon,             //1189
+    DTS_CityLink_120_Post_wagon,             //1190
     VTS_SPASS,                               //1001
     PEX,                                     //1002
     PEX_N,                                   //1003

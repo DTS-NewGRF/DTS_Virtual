@@ -16,21 +16,21 @@ STR_Group_Nuriro_Logo_NAME                             :Nuriro
 STR_Group_DTX_Logo_NAME                                :DTX
 STR_DFX_10Car_NAME                                     :[10Car] DFX
 STR_DPX_14Car_NAME                                     :[14Car] DPX
-STR_Group_DTS_CityLink_120_NAME                        :DTS_CityLink_120
-STR_DTS_CityLink_120_Pass_engine_NAME                  :[Passenger] DTS_CityLink_120
-STR_DTS_CityLink_120_Post_NAME                         :[Post] DTS_CityLink_120
-STR_Group_DTS_CityLink_150_NAME                        :DTS_CityLink_150
-STR_Group_DTS_CityLink_150_1st_NAME                    :DTS_CityLink_150 1st
-STR_DTS_CityLink_150_1st_4Car_NAME                     :[4Car] DTS_CityLink_150 1st
-STR_DTS_CityLink_150_1st_6Car_NAME                     :[6Car] DTS_CityLink_150 1st
-STR_DTS_CityLink_150_1st_8Car_NAME                     :[8Car] DTS_CityLink_150 1st
-STR_DTS_CityLink_150_1st_10Car_NAME                    :[10Car] DTS_CityLink_150 1st
-STR_Group_DTS_CityLink_150_2nd_NAME                    :DTS_CityLink_150 2nd
-STR_DTS_CityLink_150_2nd_4Car_NAME                     :[4Car] DTS_CityLink_150 2nd
-STR_DTS_CityLink_150_2nd_6Car_NAME                     :[6Car] DTS_CityLink_150 2nd
-STR_DTS_CityLink_150_2nd_8Car_NAME                     :[8Car] DTS_CityLink_150 2nd
-STR_DTS_CityLink_150_2nd_10Car_NAME                    :[10Car] DTS_CityLink_150 2nd
-STR_DTS_CityLink_150_Premium_10Car_NAME                :[10Car] DTS_CityLink_150 Premium
+STR_Group_DTS_CityLink_120_engine_NAME                 :DTS-CityLink 120
+STR_DTS_CityLink_120_Pass_engine_NAME                  :[Passenger] DTS-CityLink 120
+STR_DTS_CityLink_120_Post_engine_NAME                  :[Post] DTS-CityLink 120
+STR_Group_DTS_CityLink_150_NAME                        :DTS-CityLink 150
+STR_Group_DTS_CityLink_150_1st_NAME                    :DTS-CityLink 150 1st
+STR_DTS_CityLink_150_1st_4Car_NAME                     :[4Car] DTS-CityLink 150 1st
+STR_DTS_CityLink_150_1st_6Car_NAME                     :[6Car] DTS-CityLink 150 1st
+STR_DTS_CityLink_150_1st_8Car_NAME                     :[8Car] DTS-CityLink 150 1st
+STR_DTS_CityLink_150_1st_10Car_NAME                    :[10Car] DTS-CityLink 150 1st
+STR_Group_DTS_CityLink_150_2nd_NAME                    :DTS-CityLink 150 2nd
+STR_DTS_CityLink_150_2nd_4Car_NAME                     :[4Car] DTS-CityLink 150 2nd
+STR_DTS_CityLink_150_2nd_6Car_NAME                     :[6Car] DTS-CityLink 150 2nd
+STR_DTS_CityLink_150_2nd_8Car_NAME                     :[8Car] DTS-CityLink 150 2nd
+STR_DTS_CityLink_150_2nd_10Car_NAME                    :[10Car] DTS-CityLink 150 2nd
+STR_DTS_CityLink_150_Premium_10Car_NAME                :[10Car] DTS-CityLink 150 Premium
 STR_Group_DTS_L150_NAME                                :DTX-Metro L150
 STR_DTS_L150_4Car_NAME                                 :[4Car] DTX-Metro L150
 STR_DTS_L150_6Car_NAME                                 :[6Car] DTX-Metro L150
@@ -67,6 +67,7 @@ STR_DTX_Taebaek_10Car_NAME                             :[10Car] DTX-Taebaek
 
 # locomotive's name
 STR_CTX_P_10Car_NAME                                   :[10Car] CTX
+STR_DEL7600_NAME                                       :DEL7600
 STR_Group_Glory_430_NAME                               :Glory 430
 STR_Glory_430_10Car_NAME                               :[10Car] Glory 430
 STR_Glory_430_16Car_NAME                               :[16Car] Glory 430
@@ -191,7 +192,9 @@ STR_Nextrain_3Car_NAME                                 :[3Car] Nextrain
 STR_Nextrain_4Car_NAME                                 :[4Car] Nextrain
 
 # wagon's name
-STR_DTS_CityLink_120_Pass_wagon_NAME                   :[Passenger] DTS_CityLink_120
+STR_Group_DTS_CityLinK_120_wagon_NAME                  :DTS-CityLink 120
+STR_DTS_CityLink_120_Pass_wagon_NAME                   :[Passenger] DTS-CityLink 120
+STR_DTS_CityLink_120_Post_wagon_NAME                   :[Post] DTS-CityLink 120
 STR_Group_PEX_NAME                                     :PEX (Premium EXpress)
 STR_PEX_N_NAME                                         :PEX 1F Car
 STR_PEX_SN_NAME                                        :PEX Special Car
@@ -227,9 +230,18 @@ STR_PARAM_High_SPEED_Train_430_DESC                    :Adjust the Virtual speed
 STR_PARAM_High_SPEED_Train_Test_NAME                   :Test High Virtual speed Train
 STR_PARAM_High_SPEED_Train_Test_DESC                   :Adjust the Virtual speed of the Test high-speed train{}- Default:600km/h
 
+# Refit (Additional text)
+STR_TRAIN_DESC:{}{BLACK}{STRING}{}{BLACK}{STRING}{}{BLACK}{STRING}{}{BLACK}{STRING}{}{BLACK}{STRING}{}{BLACK}{STRING}{}{STRING}
+STR_Train_Informagion:{BLACK}{STRING}
+STR_Train_Formation:Train Formation: {GREEN}{STRING}
+STR_Connent:Train connenting: {GREEN}{STRING}
+
+STR_REFIT_additional_text_Trian_informagion            :Information
+
+STR_REFIT_additional_text_DTS_CityLinK_120             :Free Connenting
+STR_REFIT_additional_text_DTS_CityLinK_120_connection  :DTS CityLinK 120
+
 # Liveries locomotive
-STR_REFIT_LIVERY_DTS_CityLink_120_engine_A             : A Type 2Car
-STR_REFIT_LIVERY_DTS_CityLink_120_engine_B             : B Type
 STR_REFIT_LIVERY_DTS_CityLink_150_speed                : 150km/h
 STR_REFIT_LIVERY_DTS_CityLink_180_speed                : 180km/h
 STR_REFIT_LIVERY_DTS_CityLink_150_2nd_A_150            : A Type 150km/h

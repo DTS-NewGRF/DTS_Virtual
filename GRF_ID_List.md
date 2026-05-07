@@ -186,9 +186,13 @@
 |1182|VHST_600X_8Car|
 |1183|VHST_600X_10Car|
 |1184|VHST_600X_16Car|
-|1185|[그룹명] DTS_CityLink_120|
+|1185|[그룹명] DTS_CityLink_120_engine|
 |1186|DTS_CityLink_120_Pass_engine|
-|1187|DTS_CityLink_120_Pass_wagon|
+|1187|DTS_CityLink_120_Post_engine|
+|1188|[그룹명] DTS_CityLinK_120_wagon|
+|1189|DTS_CityLink_120_Pass_wagon|
+|1190|DTS_CityLink_120_Post_wagon|
+|1191|DEL7600|
 
 |2220|[사용불가]|
 |2221|[사용불가]|
