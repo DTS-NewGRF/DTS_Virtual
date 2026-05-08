@@ -41,7 +41,7 @@ item(FEAT_TRAINS, DTS_CityLink_120_Pass_engine, 1186){
         
         //spec
         speed:                          150km/h;
-        power:                          1001 kW;
+        power:                          500 kW;
         weight:                         35 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
@@ -103,7 +103,7 @@ item(FEAT_TRAINS, DTS_CityLink_120_Post_engine, 1187){
         
         //spec
         speed:                          150km/h;
-        power:                          1001 kW;
+        power:                          500 kW;
         weight:                         35 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
