@@ -84,6 +84,7 @@ item(FEAT_TRAINS, DTS_CityLink_120_Pass_engine, 1186){
     
     livery_override(DTS_CityLink_120_Pass_wagon) {
         default:                        sw_DTS_CityLink_120_wagon_Pass;
+        loading_speed:                  25;
         power:                          671;
         }
         }
@@ -146,6 +147,7 @@ item(FEAT_TRAINS, DTS_CityLink_120_Post_engine, 1187){
     
     livery_override(DTS_CityLink_120_Post_wagon) {
         default:                        set_DTS_CityLink_120_wagon_Post;
+        loading_speed:                  25;
         power:                          671;
         }
         }
