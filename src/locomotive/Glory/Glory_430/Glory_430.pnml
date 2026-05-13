@@ -24,8 +24,7 @@ item(FEAT_TRAINS, Glory_430_engine, 1202){
         speed:                          430km/h;
         power:                          10000 kW;
         weight:                         42 ton;
-        tractive_effort_coefficient:    0.3;
-        air_drag_coefficient:           0.01;
+        tractive_effort_coefficient:    0.9;
         
         //Model
         model_life:                     VEHICLE_NEVER_EXPIRES;
@@ -75,8 +74,6 @@ item(FEAT_TRAINS, Glory_430_wagon, 1203){
         
         //spec
         weight:                         42 ton;
-        tractive_effort_coefficient:    0.3;
-        air_drag_coefficient:           0.01;
         
         //Model
         model_life:                     VEHICLE_NEVER_EXPIRES;
