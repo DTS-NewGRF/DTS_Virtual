@@ -3,21 +3,18 @@
 --------------------------------------------------------------------*/
 // 편성그래픽
 switch (FEAT_TRAINS, SELF, sw_H2_WJ_6car, position_in_vehid_chain % 6) {
-    0: set_H2_WJ_engineH; //default
-    1..4: set_H2_WJ_wagon;
-    5: set_H2_WJ_engineT;
+    0: set_Deleted_A; //default
+    1..5: set_Deleted_B;
     }
 
 switch (FEAT_TRAINS, SELF, sw_H2_WJ_8car, position_in_vehid_chain % 8) {
-    0: set_H2_WJ_engineH; //default
-    1..6: set_H2_WJ_wagon;
-    7: set_H2_WJ_engineT;
+    0: set_Deleted_A; //default
+    1..7: set_Deleted_B;
     }
 
 switch (FEAT_TRAINS, SELF, sw_H2_WJ_10car, position_in_vehid_chain % 10) {
-    0: set_H2_WJ_engineH; //default
-    1..8: set_H2_WJ_wagon;
-    9: set_H2_WJ_engineT;
+    0: set_Deleted_A; //default
+    1..9: set_Deleted_B;
     }
 
 // 편성수

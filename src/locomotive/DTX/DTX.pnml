@@ -7,14 +7,28 @@ DTX
 /*--------------------------------------------------------------------
 열차정보 그룹
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, DTX_Logo, 1042){
+item(FEAT_TRAINS, DTX_Logo_engine, 1042){
     property {
-        name:                           string(STR_Group_DTX_Logo_NAME);
+        name:                           string(STR_Group_DTX_Logo_engine_NAME);
         climates_available:             NO_CLIMATE;
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         power:                          40000 kW;
+        }
+
+    graphics {
+        purchase:                       set_DTX_purchase;
+        }
+        }
+
+item(FEAT_TRAINS, DTX_Logo_wagon, 1193){
+    property {
+        name:                           string(STR_Group_DTX_Logo_wagon_NAME);
+        climates_available:             NO_CLIMATE;
+        track_type:                     ELRL;
+        engine_class:                   ENGINE_CLASS_ELECTRIC;
+        sprite_id:                      SPRITE_ID_NEW_TRAIN;
         }
 
     graphics {

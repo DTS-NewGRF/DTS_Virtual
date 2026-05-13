@@ -1,19 +1,35 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-// 편성그래픽
+// 전후진 통합 코드
+switch(FEAT_TRAINS, SELF, sw_DTX_Sejong_engineH, train_is_driving_backwards) {
+    0: set_DTX_Sejong_engineH;
+    1: set_DTX_Sejong_engineH_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DTX_Sejong_engineT, train_is_driving_backwards) {
+    0: set_DTX_Sejong_engineT;
+    1: set_DTX_Sejong_engineT_Rev;
+}
+
+// 기관차
+switch(FEAT_TRAINS, SELF, sw_DTX_Sejong_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1) {
+    1: sw_DTX_Sejong_engineT;
+    sw_DTX_Sejong_engineH;
+}
+
+// 1.03 삭제예정
+// 고정편성 그래픽
 // 10량
 switch (FEAT_TRAINS, SELF, sw_DTX_Sejong_10car, position_in_vehid_chain % 10) {
-    0: set_DTX_Sejong_engineH; //default
-    1..8: set_DTX_Sejong_wagon;
-    9: set_DTX_Sejong_engineT;
+    0: set_Deleted_A; //default
+    1..9: set_Deleted_B;
     }
 
 // 20량
 switch (FEAT_TRAINS, SELF, sw_DTX_Sejong_20car, position_in_vehid_chain % 20) {
-     0: set_DTX_Sejong_engineH; //default
-     1..18: set_DTX_Sejong_wagon;
-    19: set_DTX_Sejong_engineT;
+    0: set_Deleted_A; //default
+    1..19: set_Deleted_B;
     }
 
 // 편성수

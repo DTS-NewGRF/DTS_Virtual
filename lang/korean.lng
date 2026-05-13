@@ -7,14 +7,14 @@ STR_GRF_DESC                                           :가상 다양성 열차 
 STR_GRF_URL                                            :https://github.com/DTS-NewGRF/DTS_Virtual/releases
 
 # Deleted / locomotive's name
-STR_To_Be_Deleted_202403_NAME                          :[2024.3] {RED}삭제예정
+STR_To_Be_Deleted_NAME                                 :{RED}삭제예정
 
 # locomotive's name / Logo
 STR_Group_Nuriro_Logo_NAME                             :누리로
 
 # DTS
-STR_Group_DTX_Logo_NAME                                :DTX
-STR_DFX_10Car_NAME                                     :[10량] DFX
+STR_Group_DTX_Logo_engine_NAME                         :DTX
+STR_DFX_engine_NAME                                    :DFX 기관차
 STR_DPX_14Car_NAME                                     :[14량] DPX
 STR_Group_DTS_CityLink_120_engine_NAME                 :DTS-CityLink 120
 STR_DTS_CityLink_120_Pass_engine_NAME                  :[승객] DTS-CityLink 120
@@ -42,6 +42,7 @@ STR_DTS_R001_6Car_NAME                                 :[6량] DTX-Metro R001
 STR_DTS_R001_8Car_NAME                                 :[8량] DTX-Metro R001
 STR_DTS_R001_10Car_NAME                                :[10량] DTX-Metro R001
 STR_DTX_Glory_20Car_NAME                               :[20량] DTX-영광
+STR_DTX_Sejong_engine_NAME                             :DTX-세종 기관차
 STR_Group_DTX_Sejong_NAME                              :DTX-세종
 STR_DTX_Sejong_10Car_NAME                              :[10량] DTX-세종
 STR_DTX_Sejong_20Car_NAME                              :[20량] DTX-세종
@@ -55,11 +56,13 @@ STR_DTX_Sundeok_8Car_NAME                              :[8량] DTX-선덕
 STR_DTX_Sundeok_10Car_NAME                             :[10량] DTX-선덕
 STR_DTX_Sundeok_16Car_NAME                             :[16량] DTX-선덕
 STR_DTX_Sundeok_20Car_NAME                             :[20량] DTX-선덕
+STR_DTX_Sobaek_engine_NAME                             :DTX-소백 기관차
 STR_Group_DTX_Sobaek_NAME                              :DTX-소백
 STR_DTX_Sobaek_4Car_NAME                               :[4량] DTX-소백
 STR_DTX_Sobaek_6Car_NAME                               :[6량] DTX-소백
 STR_DTX_Sobaek_8Car_NAME                               :[8량] DTX-소백
 STR_DTX_Sobaek_10Car_NAME                              :[10량] DTX-소백
+STR_DTX_Taebaek_engine_NAME                            :DTX-태백 기관차
 STR_Group_DTX_Taebaek_NAME                             :DTX-태백
 STR_DTX_Taebaek_6Car_NAME                              :[6량] DTX-태백
 STR_DTX_Taebaek_8Car_NAME                              :[8량] DTX-태백
@@ -68,9 +71,11 @@ STR_DTX_Taebaek_10Car_NAME                             :[10량] DTX-태백
 # locomotive's name
 STR_CTX_P_10Car_NAME                                   :[10량] CTX
 STR_DEL7600_NAME                                       :DEL7600
+STR_Glory_430_engine_NAME                              :Glory 430 기관차
 STR_Group_Glory_430_NAME                               :Glory 430
 STR_Glory_430_10Car_NAME                               :[10량] Glory 430
 STR_Glory_430_16Car_NAME                               :[16량] Glory 430
+STR_Glory_600_engine_NAME                              :Glory 600 기관차
 STR_Group_Glory_600_NAME                               :Glory 600
 STR_Glory_600_8Car_NAME                                :[8량] Glory 600
 STR_Glory_600_10Car_NAME                               :[10량] Glory 600
@@ -192,9 +197,17 @@ STR_Nextrain_3Car_NAME                                 :[3량] 넥스트레인 1
 STR_Nextrain_4Car_NAME                                 :[4량] 넥스트레인 1000호대
 
 # wagon's name
+STR_Group_DTX_Logo_wagon_NAME                          :DTX
+STR_DFX_wagon_NAME                                     :DFX 객차
 STR_Group_DTS_CityLinK_120_wagon_NAME                  :DTS-CityLink 120
 STR_DTS_CityLink_120_Pass_wagon_NAME                   :[승객] DTS-CityLink 120
 STR_DTS_CityLink_120_Post_wagon_NAME                   :[우편] DTS-CityLink 120
+STR_DTX_Sejong_wagon_NAME                              :DTX-세종 객차
+STR_DTX_Sobaek_wagon_NAME                              :DTX-소백 객차
+STR_DTX_Taebaek_wagon_NAME                             :DTX-태백 객차
+STR_Glory_430_wagon_NAME                               :Glory-430 객차
+STR_Glory_600_wagon_NAME                               :Glory-600 객차
+STR_H2_WJ_wagon_NAME                                   :우진산전 수소연료전지동차 객차
 STR_Group_PEX_NAME                                     :PEX (Premium EXpress)
 STR_PEX_N_NAME                                         :PEX 1층 차량
 STR_PEX_SN_NAME                                        :PEX 특실 차량
@@ -259,8 +272,6 @@ STR_REFIT_LIVERY_DTS_CityLink_150_Premium_180_2cc      : Premium 2cc 180km/h
 STR_REFIT_LIVERY_DTX_Glory_1Year                       : 1주년 도색
 STR_REFIT_LIVERY_DTX_Glory_2Year                       : 2주년 도색
 STR_REFIT_LIVERY_DTX_Glory_APEC_2025                   : APEC 2025
-STR_REFIT_LIVERY_DTX_Sobaek_150                        : 151km/h
-STR_REFIT_LIVERY_DTX_Sobaek_260                        : 260km/h
 STR_REFIT_LIVERY_HYEL_100                              : 수소열차
 STR_REFIT_LIVERY_HYEL_100_CI                           : 한국철도공사 CI
 STR_REFIT_LIVERY_HYEL_100_original                     : 오리지널

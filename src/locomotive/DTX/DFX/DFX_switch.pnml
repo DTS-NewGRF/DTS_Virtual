@@ -1,11 +1,28 @@
 /*--------------------------------------------------------------------
 스위치
 --------------------------------------------------------------------*/
-// 편성그래픽
+// 전후진 통합 코드
+switch(FEAT_TRAINS, SELF, sw_DFX_engineH, train_is_driving_backwards) {
+    0: set_DFX_engineH;
+    1: set_DFX_engineH_Rev;
+}
+
+switch(FEAT_TRAINS, SELF, sw_DFX_engineT, train_is_driving_backwards) {
+    0: set_DFX_engineT;
+    1: set_DFX_engineT_Rev;
+}
+
+// 기관차
+switch(FEAT_TRAINS, SELF, sw_DFX_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1) {
+    1: sw_DFX_engineT;
+    sw_DFX_engineH;
+}
+
+// 1.03 삭제예정
+// 고정편성 그래픽
 switch (FEAT_TRAINS, SELF, sw_DFX_10car, position_in_vehid_chain % 10) {
-    0: set_DFX_engineH; //default
-    1..8: set_DFX_wagon;
-    9: set_DFX_engineT;
+    0: set_Deleted_A; //default
+    1..9: set_Deleted_B;
     }
 
 // 편성수

@@ -3,7 +3,9 @@
 --------------------------------------------------------------------*/
 sort(FEAT_TRAINS, [
     //DTX 열차 그룹
-    DTX_Logo,                                //1042
+    DTX_Logo_engine,                         //1042
+    DFX_engine,                              //1194
+    DFX_10Car,                               //1043
     DTS_L150,                                //1016
     DTS_L150_4Car,                           //1017
     DTS_L150_6Car,                           //1018
@@ -29,15 +31,9 @@ sort(FEAT_TRAINS, [
     DTS_CityLink_150_2nd_8Car,               //1038
     DTS_CityLink_150_2nd_10Car,              //1039
     DTS_CityLink_150_Premium_10Car,          //1040
-    DTX_Sobaek,                              //1054
-    DTX_Sobaek_4Car,                         //1055
-    DTX_Sobaek_6Car,                         //1056
-    DTX_Sobaek_8Car,                         //1057
-    DTX_Sobaek_10Car,                        //1058
-    DTX_Taebaek,                             //1064
-    DTX_Taebaek_6Car,                        //1065
-    DTX_Taebaek_8Car,                        //1066
-    DTX_Taebaek_10Car,                       //1067
+    DTX_Sobaek_engine,                       //1198
+    DTX_Taebaek_engine,                      //1200
+    DTX_Sejong_engine,                       //1196
     DTX_Sejong,                              //1051
     DTX_Sejong_10Car,                        //1052
     DTX_Sejong_20Car,                        //1053
@@ -52,7 +48,6 @@ sort(FEAT_TRAINS, [
     DTX_Sundeok_16Car,                       //1062
     DTX_Sundeok_20Car,                       //1063
     DTX_Glory_20Car,                         //1045
-    DFX_10Car,                               //1043
     DPX_14Car,                               //1044
 
     //지하철
@@ -62,10 +57,6 @@ sort(FEAT_TRAINS, [
 
     //일반열차
     DEL7600,                                 //1191
-    H2_WJ,                                   //1075
-    H2_WJ_6Car,                              //1076
-    H2_WJ_8Car,                              //1077
-    H2_WJ_10Car,                             //1078
     HYEL_Logo,                               //1079
     HYEL_15,                                 //1080
     HYEL_100,                                //1081
@@ -176,24 +167,27 @@ sort(FEAT_TRAINS, [
     CTX_P_10Car,                             //1041
     
     //고속열차 430
-    Glory_430,                               //1068
-    Glory_430_10Car,                         //1069
-    Glory_430_16Car,                         //2368
-
+    Glory_430_engine,                        //1202
+    
     //고속열차 600
-    Glory_600,                               //1071
-    Glory_600_8Car,                          //1072
-    Glory_600_10Car,                         //1073
-    Glory_600_16Car,                         //1074
+    Glory_600_engine,                        //1204
     VHST_600X,                               //1181
     VHST_600X_8Car,                          //1182
     VHST_600X_10Car,                         //1183
     VHST_600X_16Car,                         //1184
     
     //객차
+    DTX_Logo_wagon,                          //1193
+    DFX_wagon,                               //1195
     DTS_CityLinK_120_wagon,                  //1188
     DTS_CityLink_120_Pass_wagon,             //1189
     DTS_CityLink_120_Post_wagon,             //1190
+    DTX_Sobaek_wagon,                        //1199
+    DTX_Sejong_wagon,                        //1197
+    DTX_Taebaek_wagon,                       //1201
+    Glory_430_wagon,                         //1203
+    Glory_600_wagon,                         //1205
+    H2_WJ_wagon,                             //1192
     VTS_SPASS,                               //1001
     PEX,                                     //1002
     PEX_N,                                   //1003

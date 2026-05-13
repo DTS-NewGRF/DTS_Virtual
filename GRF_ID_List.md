@@ -43,7 +43,7 @@
 |1039|DTS_CityLink_150_2nd_10Car|
 |1040|DTS_CityLink_150_Premium_10Car|
 |1041|CTX_P_10Car|
-|1042|[그룹명] DTX_Logo|
+|1042|[그룹명] DTX_Logo_engine|
 |1043|DFX_10Car|
 |1044|DPX_14Car|
 |1045|DTX_Glory_20Car|
@@ -55,31 +55,31 @@
 |1051|DTX_Sejong|
 |1052|DTX_Sejong_10Car|
 |1053|DTX_Sejong_20Car|
-|1054|[그룹명] DTX_Sobaek|
-|1055|DTX_Sobaek_4Car|
-|1056|DTX_Sobaek_6Car|
-|1057|DTX_Sobaek_8Car|
-|1058|DTX_Sobaek_10Car|
+|1054|[1.03 삭제예정]|
+|1055|[1.03 삭제예정]|
+|1056|[1.03 삭제예정]|
+|1057|[1.03 삭제예정]|
+|1058|[1.03 삭제예정]|
 |1059|DTX_Sundeok|
 |1060|DTX_Sundeok_8Car|
 |1061|DTX_Sundeok_10Car|
 |1062|DTX_Sundeok_16Car|
 |1063|DTX_Sundeok_20Car|
-|1064|[그룹명] DTX_Taebaek|
-|1065|DTX_Taebaek_6Car|
-|1066|DTX_Taebaek_8Car|
-|1067|DTX_Taebaek_10Car|
-|1068|[그룹명] Glory_430|
-|1069|Glory_430_10Car|
-|1070|Glory_430_16Car|
-|1071|[그룹명] Glory_600|
-|1072|Glory_600_8Car|
-|1073|Glory_600_8Car|
-|1074|Glory_600_16Car|
-|1075|[그룹명] H2_WJ|
-|1076|H2_WJ_6Car|
-|1077|H2_WJ_8Car|
-|1078|H2_WJ_10Car|
+|1064|[1.03 삭제예정]|
+|1065|[1.03 삭제예정]|
+|1066|[1.03 삭제예정]|
+|1067|[1.03 삭제예정]|
+|1068|[1.03 삭제예정]|
+|1069|[1.03 삭제예정]|
+|1070|[1.03 삭제예정]|
+|1071|[1.03 삭제예정]|
+|1072|[1.03 삭제예정]|
+|1073|[1.03 삭제예정]|
+|1074|[1.03 삭제예정]|
+|1075|[1.03 삭제예정]|
+|1076|[1.03 삭제예정]|
+|1077|[1.03 삭제예정]|
+|1078|[1.03 삭제예정]|
 |1079|[그룹명] HYEL_Logo|
 |1080|HYEL_15|
 |1081|HYEL_100|
@@ -193,6 +193,20 @@
 |1189|DTS_CityLink_120_Pass_wagon|
 |1190|DTS_CityLink_120_Post_wagon|
 |1191|DEL7600|
+|1192|H2_WJ_wagon|
+|1193|[그룹명] DTX_Logo_wagon|
+|1194|DFX_engine|
+|1195|DFX_wagon|
+|1196|DTX_Sejong_engine|
+|1197|DTX_Sejong_wagon|
+|1198|DTX_Sobaek_engine|
+|1199|DTX_Sobaek_wagon|
+|1200|DTX_Taebaek_engine|
+|1201|DTX_Taebaek_wagon|
+|1202|Glory_430_engine|
+|1203|Glory_430_wagon|
+|1204|Glory_600_engine|
+|1205|Glory_600_wagon|
 
 |2220|[사용불가]|
 |2221|[사용불가]|

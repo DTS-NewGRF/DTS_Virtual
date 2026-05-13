@@ -24,3 +24,20 @@
 
 // Sorting
 #include "sort.pnml"
+
+// 삭제예정
+spriteset(set_Deleted_A, "Deleted_Train_Image.png"){
+    DTS_temp(80, 0)
+}
+
+spriteset(set_Deleted_B, "Deleted_Train_Image.png"){
+    DTS_temp(80, 27)
+}
+// 1.03 삭제처리
+// 우진산전 수소연료전지동차 4,6,8,10량
+// DFX 10량
+// DTS 세종 10량, 20량
+// DTS-소백 4,6,8,10량
+// DTS-태백 6,8,10량
+// Glory-430 10, 16량
+// Glory-600 8, 10, 16량

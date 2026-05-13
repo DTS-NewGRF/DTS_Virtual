@@ -18,7 +18,7 @@ item(FEAT_TRAINS, DTS_CityLink_120_engine, 1185){
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         power:                          1680 kW;
-        variant_group:                  DTX_Logo;
+        variant_group:                  DTX_Logo_engine;
         }
 
     graphics {
@@ -162,6 +162,7 @@ item(FEAT_TRAINS, DTS_CityLinK_120_wagon, 1188){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
+        variant_group:                  DTX_Logo_wagon;
         }
 
     graphics {
